@@ -1,11 +1,10 @@
-import java.util.ArrayList;
-import java.util.Objects;
+import java.util.*;
 
-public class Polaczenie {
+public class Polaczenie extends Miejsce{
     private Stacja stacja1, stacja2;
     private double odleglosc;
     private Sklad skladPrzejezdzajacy;
-
+    private Stack<Sklad> skladyCzekajace = new Stack<>();
 
     public Polaczenie(Stacja stacja1, Stacja stacja2, double odleglosc) {
         this.stacja1 = stacja1;
@@ -84,11 +83,36 @@ public class Polaczenie {
         return stacja2;
     }
 
+    public Sklad getSkladPrzejezdzajacy() {
+        return skladPrzejezdzajacy;
+    }
+
+    public void setSkladPrzejezdzajacy(Sklad skladPrzejezdzajacy) {
+        this.skladPrzejezdzajacy = skladPrzejezdzajacy;
+    }
+
+    public Stack<Sklad> getSkladyCzekajace() {
+        return skladyCzekajace;
+    }
+
+    public double getOdleglosc() {
+        return odleglosc;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Polaczenie that = (Polaczenie) o;
         return (stacja1.equals(that.stacja1) && stacja2.equals(that.stacja2)) || (stacja1.equals(that.stacja2) && stacja2.equals(that.stacja1));
+    }
+
+    @Override
+    public String toString() {
+        return "Polaczenie: " +
+                "stacja1=" + stacja1 +
+                ", stacja2=" + stacja2 +
+                ", odleglosc=" + odleglosc +
+                ", skladPrzejezdzajacy=" + skladPrzejezdzajacy;
     }
 }

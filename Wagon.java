@@ -4,7 +4,7 @@ import java.util.Scanner;
 public abstract class Wagon {
     private static int nrIdentyfikacyjny = 0;
     private boolean wymagaElektr;
-    private double dlugoscWagonu, wagaWagonuITowaru, maxUdzwig, wagaTowaru, wagaWagonu;
+    private double dlugoscWagonu, wysokoscWagonu, wagaWagonuITowaru, maxUdzwig, wagaTowaru, wagaWagonu;
     private int nrIdentyfikacyjnyWagonu;
     private Sklad skladPrzylaczony;
     private ArrayList<Towar> listaTowarow = new ArrayList<>();
@@ -13,23 +13,41 @@ public abstract class Wagon {
 
     //delete default constructor later I think
     public Wagon() {
+
         this.nrIdentyfikacyjnyWagonu = nrIdentyfikacyjny++;
     }
 
-    public Wagon(double dlugoscWagonu, double maxUdzwig, double wagaWagonu) {
+    public Wagon(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr) {
         this.dlugoscWagonu = dlugoscWagonu;
-        this.wagaWagonuITowaru = wagaWagonu;
+        this.wysokoscWagonu = wysokoscWagonu;
         this.maxUdzwig = maxUdzwig;
+        this.wagaWagonuITowaru = wagaWagonu;
         this.skladPrzylaczony = null;
         this.wagaWagonu = wagaWagonu;
         this.wagaTowaru = 0;
+        this.wymagaElektr = wymagaElektr;
         this.nrIdentyfikacyjnyWagonu = nrIdentyfikacyjny++;
         Wagon.wagony.add(this);
         Wagon.wagonyWolnostojace.add(this);
     }
-    public static void stworzWagon(){
 
+    public static double[] stworzWagon(){
+
+        System.out.println("Podaj dlugosc wagonu w metrach: ");
+        double dlugoscWagonu = Funkcje.sprawdzCzyPoprawnyDouble(0, 30, "Zla dlugosc.");
+
+        System.out.println("Podaj wysokosc wagonu w metrach: ");
+        double wysokoscWagonu = Funkcje.sprawdzCzyPoprawnyDouble(0, 20, "Zla wysokosc.");
+
+        System.out.println("Podaj maksymalny udzwig wagonu w kilogramach: ");
+        double maxUdzwig = Funkcje.sprawdzCzyPoprawnyDouble(0, 250000, "Zla waga.");
+
+        System.out.println("Podaj wage wagonu w kilogramach: ");
+        double wagaWagonu = Funkcje.sprawdzCzyPoprawnyDouble(0, 250000, "Zla waga.");
+
+        return new double[]{dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu};
     }
+
     public static void usunWagon(){
         System.out.println("Podaj numer identyfikacyjny wagonu ktory chcialbys usunac: ");
         Wagon wagon = Funkcje.zwrocIstniejacyWagon();

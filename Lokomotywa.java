@@ -128,8 +128,20 @@ public
         return stacjaZrodlowa;
     }
 
+    public Stacja getStacjaMacierzysta() {
+        return stacjaMacierzysta;
+    }
+
     public Stacja getStacjaDocelowa() {
         return stacjaDocelowa;
+    }
+
+    public void setStacjaZrodlowa(Stacja stacjaZrodlowa) {
+        this.stacjaZrodlowa = stacjaZrodlowa;
+    }
+
+    public void setStacjaDocelowa(Stacja stacjaDocelowa) {
+        this.stacjaDocelowa = stacjaDocelowa;
     }
 
     public Sklad getNalezyDoSkladu() {

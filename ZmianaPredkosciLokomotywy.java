@@ -1,5 +1,5 @@
 public class ZmianaPredkosciLokomotywy implements Runnable{
-    Lokomotywa lokomotywa;
+    private Lokomotywa lokomotywa;
 
     public ZmianaPredkosciLokomotywy(Lokomotywa lokomotywa) {
         this.lokomotywa = lokomotywa;
@@ -14,6 +14,9 @@ public class ZmianaPredkosciLokomotywy implements Runnable{
     public void run() {
 
         while(true){
+            if (Thread.currentThread().isInterrupted())
+                break;
+            else{
                 if (Math.random() < 0.5) {
                     this.lokomotywa.setPredkosc(this.lokomotywa.getPredkosc() * 103 / 100);
                     /*this.lokomotywa.setPredkosc(this.lokomotywa.getPredkosc() + 10);
@@ -38,6 +41,8 @@ public class ZmianaPredkosciLokomotywy implements Runnable{
                 } catch (InterruptedException e) {
                     break;
                 }
+            }
+
         }
 
     }

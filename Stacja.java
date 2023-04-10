@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import java.util.Objects;
 import java.util.Scanner;
 
-public class Stacja {
+public class Stacja extends Miejsce{
     private static int nrIdentyfikacyjny = 0;
     private String nazwaStacji;
     public static ArrayList<Stacja> stacje = new ArrayList<>();

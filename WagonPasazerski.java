@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class WagonPasazerski extends Wagon{
     private static final int wagaCzlowieka = 80;
     enum Ogrzewanie{GAZOWE, POWIETRZNE, WODNE, PAROWE, ELEKTRYCZNE};
@@ -5,14 +7,47 @@ public class WagonPasazerski extends Wagon{
     private boolean isToaleta;
     private int liczbaMiejscSiedz, wolneMiejsca;
 
-    public WagonPasazerski(double dlugoscWagonu, double wagaWagonu, double maxUdzwig, Ogrzewanie ogrzewanie, boolean isToaleta, int liczbaMiejscSiedz) {
-        super(dlugoscWagonu, maxUdzwig, wagaWagonu);
-        super.setWymagaElektr(true);
+    public WagonPasazerski(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, Ogrzewanie ogrzewanie, boolean isToaleta, int liczbaMiejscSiedz) {
+        super(dlugoscWagonu, maxUdzwig, wagaWagonu, wysokoscWagonu, true);
         this.ogrzewanie = ogrzewanie;
         this.isToaleta = isToaleta;
         this.liczbaMiejscSiedz = liczbaMiejscSiedz;
         this.wolneMiejsca = liczbaMiejscSiedz;
     }
+
+    public static void stworzWagonPasazerski() {
+        double[] temp = Wagon.stworzWagon();
+        double dlugoscWagonu = temp[0];
+        double wysokoscWagonu = temp[1];
+        double maxUdzwig = temp[2];
+        double wagaWagonu = temp[3];
+
+        System.out.println("Wybierz rodzaj ogrzewania: ");
+
+        System.out.println("1. Gazowe. ");
+        System.out.println("2. Powietrzne. ");
+        System.out.println("3. Wodne. ");
+        System.out.println("4. Parowe. ");
+        System.out.println("5. Elektryczne. ");
+        int wybor = Funkcje.sprawdzCzyPoprawnyInt(1, 5, "Wybierz poprawna opcje. ");
+        Ogrzewanie ogrzewanie = switch (wybor) {
+            case 1 -> Ogrzewanie.GAZOWE;
+            case 2 -> Ogrzewanie.POWIETRZNE;
+            case 3 -> Ogrzewanie.WODNE;
+            case 4 -> Ogrzewanie.PAROWE;
+            case 5 -> Ogrzewanie.ELEKTRYCZNE;
+            default -> Ogrzewanie.ELEKTRYCZNE;
+        };
+
+        System.out.println("Czy wagon ma toalete? ");
+        boolean isToaleta = Funkcje.wyborBoolean();
+        System.out.println("Podaj liczbe miejsc siedzacych: ");
+        int liczbaMiejscSiedz = Funkcje.sprawdzCzyPoprawnyInt(0, 100, "Niepoprawna liczba. (0 - 100) ");
+
+        Wagon wagon = new WagonPasazerski(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, ogrzewanie, isToaleta, liczbaMiejscSiedz);
+        System.out.println("Utworzono wagon o numerze id " + wagon.getNrIdentyfikacyjnyWagonu() + ".");
+    }
+
 
     public static void zaladunekLudzi(){
         System.out.println("Podaj numer identyfikacyjny wagonu do ktorego chcesz zaladowac towar: ");

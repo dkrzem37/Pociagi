@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.Stack;
+import java.util.*;
 
 public class Sklad{
     private static int nrIdentyfikacyjny = 0;
@@ -9,11 +6,13 @@ public class Sklad{
     private Lokomotywa lokomotywa;
     private ArrayList<Wagon> wagony;
     private int nrIdentyfikacyjnySkladu;
-    private Thread zmianaPredkosci;
-
+    private double drogaMiedzyStacjami;
+    private Thread zmianaPredkosci, ruchSkladu;
+    private Miejsce miejsce;
 
     public Sklad(Lokomotywa lokomotywa) {
         this.lokomotywa = lokomotywa;
+        this.miejsce = lokomotywa.getStacjaZrodlowa();
 
         this.wagony = new ArrayList<Wagon>();
         this.nrIdentyfikacyjnySkladu = nrIdentyfikacyjny++;
@@ -22,6 +21,8 @@ public class Sklad{
 
         this.zmianaPredkosci = new Thread(new ZmianaPredkosciLokomotywy(lokomotywa));
         this.zmianaPredkosci.start();
+        this.ruchSkladu = new Thread(new RuchSkladu(this));
+        this.ruchSkladu.start();
     }
     public static void usunSklad(){
         System.out.println("Podaj numer identyfikacyjny skladu ktory chcesz usunac: ");
@@ -32,7 +33,7 @@ public class Sklad{
             w.setSkladPrzylaczony(null);
             Wagon.wagonyWolnostojace.add(w);
         }
-
+        sklad.getRuchSkladu().interrupt();
         sklad.getZmianaPredkosci().interrupt();
     }
 
@@ -113,7 +114,74 @@ public class Sklad{
         }
 
     }
+    /*public static Stack<Stacja> zwrocTrase(Stacja poczatek,Stacja koniec){
+        Set<Stacja> przeszukane = new HashSet<>();
+        Queue<Stacja> kolejka = new LinkedList<>();
+        Stack<Stacja> trasa = new Stack<>();
+
+        istniejeTrasa(poczatek,koniec, przeszukane, kolejka, trasa);
+        return trasa;
+    }
+    public static boolean istniejeTrasa(Stacja poczatek, Stacja koniec, Set<Stacja> przeszukane, Queue<Stacja> kolejka, Stack<Stacja> trasa){
+
+        przeszukane.add(poczatek);
+        trasa.add(poczatek);
+        if(poczatek == koniec){
+            return true;
+        }
+        for (Polaczenie p : poczatek.getPolaczenia()) {
+            if (poczatek == p.getStacja1()) {
+                if (!przeszukane.contains(p.getStacja2()))
+                    kolejka.add(p.getStacja2());
+            }else {
+                if (!przeszukane.contains(p.getStacja1()))
+                    kolejka.add(p.getStacja1());
+            }
+        }
+        while(!kolejka.isEmpty()) {
+            if (istniejeTrasa(kolejka.poll(), koniec, przeszukane, kolejka, trasa))
+                return true;
+        }
+
+        trasa.pop();
+        return false;
+    }*/
+
     public static Stack<Stacja> zwrocTrase(Stacja poczatek,Stacja koniec){
+        Set<Stacja> przeszukane = new HashSet<>();
+        Stack<Stacja> kolejka = new Stack<>();
+        Stack<Stacja> trasa = new Stack<>();
+
+        istniejeTrasa(poczatek,koniec, przeszukane, kolejka, trasa);
+        return trasa;
+    }
+    public static boolean istniejeTrasa(Stacja poczatek, Stacja koniec, Set<Stacja> przeszukane, Stack<Stacja> kolejka, Stack<Stacja> trasa){
+
+        przeszukane.add(poczatek);
+        trasa.add(poczatek);
+        if(poczatek == koniec){
+            return true;
+        }
+        for (Polaczenie p : poczatek.getPolaczenia()) {
+            if (poczatek == p.getStacja1()) {
+                if (!przeszukane.contains(p.getStacja2()))
+                    kolejka.add(p.getStacja2());
+            }else {
+                if (!przeszukane.contains(p.getStacja1()))
+                    kolejka.add(p.getStacja1());
+            }
+            while(!kolejka.isEmpty()) {
+                if (istniejeTrasa(kolejka.pop(), koniec, przeszukane, kolejka, trasa))
+                    return true;
+            }
+        }
+
+
+        trasa.pop();
+        return false;
+    }
+
+   /* public static Stack<Stacja> zwrocTrase(Stacja poczatek,Stacja koniec){
         Set<Stacja> przeszukane = new HashSet<>();
         Stack<Stacja> kolejka = new Stack<>();
         Stack<Stacja> trasa = new Stack<>();
@@ -144,7 +212,7 @@ public class Sklad{
 
         trasa.pop();
         return false;
-    }
+    }*/
 
     public int getNrIdentyfikacyjnySkladu() {
         return nrIdentyfikacyjnySkladu;
@@ -177,5 +245,25 @@ public class Sklad{
 
     public Thread getZmianaPredkosci() {
         return zmianaPredkosci;
+    }
+
+    public double getDrogaMiedzyStacjami() {
+        return drogaMiedzyStacjami;
+    }
+
+    public void setDrogaMiedzyStacjami(double drogaMiedzyStacjami) {
+        this.drogaMiedzyStacjami = drogaMiedzyStacjami;
+    }
+
+    public Miejsce getMiejsce() {
+        return miejsce;
+    }
+
+    public void setMiejsce(Miejsce miejsce) {
+        this.miejsce = miejsce;
+    }
+
+    public Thread getRuchSkladu() {
+        return ruchSkladu;
     }
 }

@@ -7,10 +7,16 @@ import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
+        /*System.out.println("wybierz boolean");
+        boolean aaa = Funkcje.wyborBoolean();
+        System.out.println(aaa);
+        WagonPasazerski.stworzWagonPasazerski();*/
 
         ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
         Thread zapisywanie1 = new Thread(zapis1);
         zapisywanie1.start();
+
+
 
         Stacja stacja0 = new Stacja("sfhvcn");
         Stacja stacja1 = new Stacja("gasa");
@@ -21,22 +27,27 @@ public class Main {
         Stacja stacja6 = new Stacja("asfas");
         Stacja stacja7 = new Stacja("asfas");
 
-        Polaczenie p1 = new Polaczenie(stacja1, stacja0, 14);
-        Polaczenie p2 = new Polaczenie(stacja1, stacja2, 14);
-        Polaczenie p3 = new Polaczenie(stacja2, stacja0, 14);
-        Polaczenie p4 = new Polaczenie(stacja4, stacja0, 14);
-        Polaczenie p5 = new Polaczenie(stacja4, stacja5, 14);
-        Polaczenie p6 = new Polaczenie(stacja5, stacja3, 14);
-        Polaczenie p7 = new Polaczenie(stacja3, stacja6, 14);
 
-        for(Stacja s: Sklad.zwrocTrase(stacja1, stacja4)){
+        Polaczenie p1 = new Polaczenie(stacja1, stacja0, 0.1);
+        Polaczenie p2 = new Polaczenie(stacja1, stacja2, 0.1);
+        Polaczenie p3 = new Polaczenie(stacja2, stacja0, 0.1);
+        Polaczenie p4 = new Polaczenie(stacja4, stacja0, 0.1);
+        Polaczenie p5 = new Polaczenie(stacja4, stacja5, 0.1);
+        Polaczenie p6 = new Polaczenie(stacja5, stacja3, 0.1);
+        Polaczenie p7 = new Polaczenie(stacja3, stacja6, 0.1);
+
+        Lokomotywa lokomotywa0 = new Lokomotywa(133,14444,145, " fafa", stacja0,stacja5,stacja1,150);
+        Sklad sklad = new Sklad(lokomotywa0);
+        //Sklad.usunSklad();
+        System.out.println(sklad.getMiejsce());
+
+        for(Stacja s: Sklad.zwrocTrase(stacja5, stacja1)){
             System.out.print(s.getNrIdentyfikacyjnyStacji() + " - ");
         }
         System.out.println();
 
         stacja0.wyswietlPolaczenia();
-        Lokomotywa lokomotywa0 = new Lokomotywa(133,14444,145, " fafa", stacja0,stacja1,stacja2,150);
-        Sklad sklad = new Sklad(lokomotywa0);
+
         Sklad.usunSklad();
         Lokomotywa lokomotywa1 = new Lokomotywa(133,14444,145, " fafa", stacja0,stacja1,stacja2,150);
         Lokomotywa lokomotywa2 = new Lokomotywa(133,14444,145, " fafa", stacja0,stacja1,stacja2,150);
@@ -63,10 +74,15 @@ public class Main {
         Polaczenie.usunPolaczenie();
 
 
-        WagonPasazerski wagon1 = new WagonPasazerski(12.3, 1056, 14444 ,WagonPasazerski.Ogrzewanie.WODNE, true, 24);
-        WagonPocztowy wagon2 = new WagonPocztowy(14.1,1500, 14555);
+        /*WagonPasazerski wagon1 = new WagonPasazerski(12.3, 4,  1056, 14444 ,WagonPasazerski.Ogrzewanie.WODNE, true, 24);
+        //WagonPocztowy wagon2 = new WagonPocztowy(14.1,1500, 14555);
         WagonMaterialyGazowe wagon3 = new WagonMaterialyGazowe();
         WagonTowarowyCiezki wagon4 = new WagonTowarowyCiezki();
+        for(Wagon w: Wagon.wagonyWolnostojace){
+            System.out.println(w.getNrIdentyfikacyjnyWagonu());
+            if(w instanceof WagonPasazerski)
+                System.out.println("true");;
+        }
         Wagon.zaladunekTowaru();
         Wagon.wyladunekTowaru();
         try{
@@ -79,7 +95,7 @@ public class Main {
         Wagon[] wagony = new Wagon[10];
 
         wagony[0] = wagon1;
-        wagony[1] = wagon2;
+        //wagony[1] = wagon2;
         wagony[3] = wagon3;
         wagony[4] = wagon4;
 
@@ -111,7 +127,7 @@ public class Main {
                 System.out.println(w.isWymagaElektr());
                 System.out.println(w.getNrIdentyfikacyjnyWagonu());
             }
-        }
+        }*/
         //////////////////////////////////////////////////
         //PROPER PROGRAM
         /////////////////////////////////////////////////

@@ -3,6 +3,17 @@ import java.util.Scanner;
 
 
 public abstract class Funkcje {
+    public static boolean wyborBoolean(){
+        System.out.println("0. Tak.");
+        System.out.println("1. Nie. ");
+        int wybor = Funkcje.sprawdzCzyPoprawnyInt(0, 1, "Wybierz poprawna opcje. ");
+        boolean ret = switch (wybor){
+            case 0 -> true;
+            case 1 -> false;
+            default -> false;
+        };
+        return ret;
+    }
 
     //Usuwa ze stacjiZawierajacejliste polaczenia ktore maja w sobie s
     public static void usunPolaczeniaZawierajaceStacje(Stacja stacjaZawierajacaListe, Stacja s){

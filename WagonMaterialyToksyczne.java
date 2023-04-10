@@ -1,7 +1,11 @@
 public class WagonMaterialyToksyczne extends WagonTowarowyCiezki{
-    private enum materialObudowy{PC, PP, LPDE, HDPE};
+    enum MaterialObudowy{PC, PP, LPDE, HDPE};
+    private MaterialObudowy material;
+    private int iloscPojemnikow;
 
-    public WagonMaterialyToksyczne() {
-        setWymagaElektr(false);
+    public WagonMaterialyToksyczne(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr, double pojemnosc, boolean przykryty, MaterialObudowy material, int iloscPojemnikow) {
+        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, wymagaElektr, pojemnosc, przykryty);
+        this.material = material;
+        this.iloscPojemnikow = iloscPojemnikow;
     }
 }
