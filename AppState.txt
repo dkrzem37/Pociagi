@@ -1,1738 +1,224 @@
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
-readable?
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Corona oraz Buffalo, droga pozostala do stacji : 0.9370846904163721.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Deltona oraz Atlantic City, droga pozostala do stacji : 0.9090604919566311.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Charlotte oraz Abilene, droga pozostala do stacji : 0.7992979252346168.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Eugene oraz Boise City, droga pozostala do stacji : 0.7888823113412702.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Erie oraz Allentown, droga pozostala do stacji : 0.7766739147694663.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Baltimore oraz Aurora, droga pozostala do stacji : 0.7496989704674468.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chula Vista oraz Boulder, droga pozostala do stacji : 0.7180275433206805.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Des Moines oraz Cedar Rapids, droga pozostala do stacji : 0.7008360318431041.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Bel Air, droga pozostala do stacji : 0.619359880931628.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Cathedral City oraz El Monte, droga pozostala do stacji : 0.5961387018768816.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy agd oraz Asheville, droga pozostala do stacji : 0.468789429625593.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cape Coral oraz Clarksville, droga pozostala do stacji : 0.41760631392366476.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Downey oraz Arvada, droga pozostala do stacji : 0.39058211642910323.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy agd oraz Burbank, droga pozostala do stacji : 0.32404147876869527.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Chula Vista oraz Abilene, droga pozostala do stacji : 0.3041541253523312.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Detroit oraz Dayton, droga pozostala do stacji : 0.2336633439749679.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Canton oraz Charlotte, droga pozostala do stacji : 0.21768310415474035.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Duluth oraz Burbank, droga pozostala do stacji : 0.18054330356836057.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Atlanta oraz Arvada, droga pozostala do stacji : 0.12404533147065444.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Anchorage oraz Bloomington, droga pozostala do stacji : 0.0932981477319138.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Cathedral City oraz Anchorage, droga pozostala do stacji : 0.08986371856580289.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Austin, droga pozostala do stacji : 0.05240698333584082.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Danbury oraz Bloomington, droga pozostala do stacji : 0.01109228783071603.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Canton, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Davidson County oraz Austin, droga pozostala do stacji : 0.8386872908047801.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy agd oraz Anchorage, droga pozostala do stacji : 0.7999772828127862.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Corona oraz Buffalo, droga pozostala do stacji : 0.7508246315045567.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Deltona oraz Atlantic City, droga pozostala do stacji : 0.7476322627380668.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Charlotte oraz Abilene, droga pozostala do stacji : 0.6364012464939975.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Erie oraz Allentown, droga pozostala do stacji : 0.6204953766117914.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Eugene oraz Boise City, droga pozostala do stacji : 0.5738197005861196.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Baltimore oraz Aurora, droga pozostala do stacji : 0.5607707467900012.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Des Moines oraz Cedar Rapids, droga pozostala do stacji : 0.5449890545643956.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chula Vista oraz Boulder, droga pozostala do stacji : 0.5439832807504406.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Bel Air, droga pozostala do stacji : 0.46648285596298.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Boise oraz Danbury, droga pozostala do stacji : 0.42080561512196946.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Cathedral City oraz El Monte, droga pozostala do stacji : 0.40863556075437685.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy agd oraz Asheville, droga pozostala do stacji : 0.3132348751068122.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Downey oraz Arvada, droga pozostala do stacji : 0.24657290526472594.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cape Coral oraz Clarksville, droga pozostala do stacji : 0.23118042871071742.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy agd oraz Burbank, droga pozostala do stacji : 0.1410346978679809.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Chula Vista oraz Abilene, droga pozostala do stacji : 0.13295072940393454.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Canton oraz Charlotte, droga pozostala do stacji : 0.03656065299732833.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Detroit oraz Dayton, droga pozostala do stacji : 0.027454591329901766.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Duluth oraz Burbank, droga pozostala do stacji : 0.01402006333407857.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Danbury oraz Bloomington, droga pozostala do stacji : 0.01109228783071603.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Arvada, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Canton, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Davidson County oraz Austin, droga pozostala do stacji : 0.6367184656042658.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy agd oraz Anchorage, droga pozostala do stacji : 0.6079186664050404.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Deltona oraz Atlantic City, droga pozostala do stacji : 0.5826561764967916.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Corona oraz Buffalo, droga pozostala do stacji : 0.5681899531324262.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Charlotte oraz Abilene, droga pozostala do stacji : 0.4778890243353347.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Erie oraz Allentown, droga pozostala do stacji : 0.47107758112612547.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Detroit oraz Berkeley, droga pozostala do stacji : 0.45212512930354876.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Des Moines oraz Cedar Rapids, droga pozostala do stacji : 0.3959751660946047.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Baltimore oraz Aurora, droga pozostala do stacji : 0.38117537010141544.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chula Vista oraz Boulder, droga pozostala do stacji : 0.37245477898459334.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Eugene oraz Boise City, droga pozostala do stacji : 0.341826445651616.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Bel Air, droga pozostala do stacji : 0.31936796993081784.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy agd oraz Burbank, droga pozostala do stacji : 0.29429288248032426.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Charlotte oraz Akron, droga pozostala do stacji : 0.272677147545247.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Boise oraz Danbury, droga pozostala do stacji : 0.2480992192437531.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Cathedral City oraz El Monte, droga pozostala do stacji : 0.2427313384153161.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy agd oraz Asheville, droga pozostala do stacji : 0.14928922764801278.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Downey oraz Arvada, droga pozostala do stacji : 0.10185770921246125.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy sda oraz sda, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Canton oraz Charlotte, droga pozostala do stacji : 0.06429595794557486.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cape Coral oraz Clarksville, droga pozostala do stacji : 0.04073131034889401.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : Danbury, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Arvada, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : Burbank, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : Abilene, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Boston oraz Cleveland, droga pozostala do stacji : 0.9756068656077301.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Bloomington oraz El Paso, droga pozostala do stacji : 0.9567044285179581.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Billings oraz Boulder, droga pozostala do stacji : 0.8836419868274629.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Brownsville oraz Anchorage, droga pozostala do stacji : 0.8293655325286022.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Arvada oraz Carrollton, droga pozostala do stacji : 0.8209886789317303.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Appleton oraz Detroit, droga pozostala do stacji : 0.8162610171011421.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Bakersfield oraz Buffalo, droga pozostala do stacji : 0.6210645089416148.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Canton oraz Clarksville, droga pozostala do stacji : 0.6074234972686182.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Baltimore oraz Akron, droga pozostala do stacji : 0.5500293967294243.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Amarillo oraz Austin, droga pozostala do stacji : 0.5375409025723141.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Boise City oraz Cary, droga pozostala do stacji : 0.5025440205592356.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Appleton oraz Erie, droga pozostala do stacji : 0.48692653766297633.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Atlanta oraz Cedar Rapids, droga pozostala do stacji : 0.3833244492101354.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Bellevue oraz Danbury, droga pozostala do stacji : 0.3660944680565963.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Charleston oraz Aurora, droga pozostala do stacji : 0.28538683328603665.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Clearwater oraz Columbia, droga pozostala do stacji : 0.26335622510937173.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Chandler oraz Davenport, droga pozostala do stacji : 0.2479190832518927.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Arvada oraz Apple Valley, droga pozostala do stacji : 0.24526361861192747.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Chesapeake oraz sda, droga pozostala do stacji : 0.18982269590466638.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Anaheim oraz sda, droga pozostala do stacji : 0.18765627989542777.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Escondido oraz Concord, droga pozostala do stacji : 0.10779869023831035.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Baltimore oraz Bonita Springs, droga pozostala do stacji : 0.02901611420008754.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : Appleton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Charleston, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Boston oraz Cleveland, droga pozostala do stacji : 0.7988050183020987.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Bloomington oraz El Paso, droga pozostala do stacji : 0.7587238277976665.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Billings oraz Boulder, droga pozostala do stacji : 0.6810977966950365.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Arvada oraz Carrollton, droga pozostala do stacji : 0.6684678359839575.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Appleton oraz Detroit, droga pozostala do stacji : 0.6319859381110715.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 13.0
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Brownsville oraz Anchorage, droga pozostala do stacji : 0.630263382931082.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Denton oraz Baltimore, droga pozostala do stacji : 0.5014637589877319.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Bakersfield oraz Buffalo, droga pozostala do stacji : 0.46115741981354164.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Canton oraz Clarksville, droga pozostala do stacji : 0.45319924012619467.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Baltimore oraz Akron, droga pozostala do stacji : 0.3808222093673113.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Boise City oraz Cary, droga pozostala do stacji : 0.35163783273484295.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Amarillo oraz Austin, droga pozostala do stacji : 0.35124348012914536.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Appleton oraz Erie, droga pozostala do stacji : 0.34262730067120567.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Atlanta oraz Cedar Rapids, droga pozostala do stacji : 0.24915037520421923.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Bellevue oraz Danbury, droga pozostala do stacji : 0.22159414115376708.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Clearwater oraz Columbia, droga pozostala do stacji : 0.11319973365634002.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Chandler oraz Davenport, droga pozostala do stacji : 0.09973919684137306.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Arvada oraz Apple Valley, droga pozostala do stacji : 0.07852332047340566.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Charleston oraz Aurora, droga pozostala do stacji : 0.06833400054328992.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : Appleton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Concord, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Charleston, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy sda oraz Corpus Christi, droga pozostala do stacji : 0.9495966476187506.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Bel Air oraz Downey, droga pozostala do stacji : 0.9217663515505142.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Chesapeake oraz Clearwater, droga pozostala do stacji : 0.9177362153489738.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bryan oraz Boulder, droga pozostala do stacji : 0.82923637793006.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Bremerton oraz Cary, droga pozostala do stacji : 0.7565714833968282.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Dallas, droga pozostala do stacji : 0.7036695169369535.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Cathedral City oraz El Monte, droga pozostala do stacji : 0.681380284813329.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Albany oraz Cincinnati, droga pozostala do stacji : 0.6429071821207498.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Columbus oraz Downey, droga pozostala do stacji : 0.6266393692433078.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Davidson County oraz El Paso, droga pozostala do stacji : 0.6104783433639528.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Escondido oraz Bonita Springs, droga pozostala do stacji : 0.6073678611296829.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Bethlehem oraz Costa Mesa, droga pozostala do stacji : 0.5938106652261821.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Abilene oraz Akron, droga pozostala do stacji : 0.5879546425416016.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Anaheim oraz Daly City, droga pozostala do stacji : 0.41322114181680825.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Buffalo oraz Chesapeake, droga pozostala do stacji : 0.39168958585011004.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Coral Springs, droga pozostala do stacji : 0.347166445113236.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Clearwater, droga pozostala do stacji : 0.33501743808777096.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Cambridge, droga pozostala do stacji : 0.31169701723646737.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Corona oraz Cedar Rapids, droga pozostala do stacji : 0.2208207072342141.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Duluth oraz Boulder, droga pozostala do stacji : 0.19205690759973593.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy El Paso oraz Appleton, droga pozostala do stacji : 0.17896507474278556.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Cleveland oraz agd, droga pozostala do stacji : 0.16755771110550532.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy agd oraz Corona, droga pozostala do stacji : 0.15392214803935989.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy sda oraz sda, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy sda oraz Corpus Christi, droga pozostala do stacji : 0.7887753074091918.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Bel Air oraz Downey, droga pozostala do stacji : 0.7478506155976852.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Chesapeake oraz Clearwater, droga pozostala do stacji : 0.718109903526864.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bryan oraz Boulder, droga pozostala do stacji : 0.6549186239720424.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Dallas, droga pozostala do stacji : 0.5630810991123819.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Bremerton oraz Cary, droga pozostala do stacji : 0.5573328941232787.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Columbus oraz Downey, droga pozostala do stacji : 0.47750406278794016.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Cathedral City oraz El Monte, droga pozostala do stacji : 0.47577486834480825.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Albany oraz Cincinnati, droga pozostala do stacji : 0.45030514190733684.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Bethlehem oraz Costa Mesa, droga pozostala do stacji : 0.42731385727963167.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Davidson County oraz El Paso, droga pozostala do stacji : 0.4109600016710597.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Escondido oraz Bonita Springs, droga pozostala do stacji : 0.41071264746031494.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Abilene oraz Akron, droga pozostala do stacji : 0.38814486815763405.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Anaheim oraz Daly City, droga pozostala do stacji : 0.22831318462033087.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Buffalo oraz Chesapeake, droga pozostala do stacji : 0.19131771452518037.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Clearwater, droga pozostala do stacji : 0.1661879814796105.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Cambridge, droga pozostala do stacji : 0.1402677380958462.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Coral Springs, droga pozostala do stacji : 0.11686057370334449.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy sda oraz sda, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Corona oraz Cedar Rapids, droga pozostala do stacji : 0.06260279233319682.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Duluth oraz Boulder, droga pozostala do stacji : 0.05132748408023498.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : Appleton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Cleveland, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Corona, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

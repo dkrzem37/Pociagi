@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public abstract class Wagon {
+public abstract class Wagon implements Comparable<Wagon>{
     private static int nrIdentyfikacyjny = 0;
     private boolean wymagaElektr;
     private double dlugoscWagonu, wysokoscWagonu, wagaWagonuITowaru, maxUdzwig, wagaTowaru, wagaWagonu;
@@ -161,5 +161,43 @@ public abstract class Wagon {
 
     public ArrayList<Towar> getListaTowarow() {
         return listaTowarow;
+    }
+
+    public double getDlugoscWagonu() {
+        return dlugoscWagonu;
+    }
+
+    public double getWysokoscWagonu() {
+        return wysokoscWagonu;
+    }
+
+    public double getWagaWagonu() {
+        return wagaWagonu;
+    }
+
+    @Override
+    public int compareTo(Wagon o) {
+        if(this.wagaWagonu > o.wagaWagonu){
+            return 1;
+        }else if(this.wagaWagonu < o.wagaWagonu){
+            return -1;
+        }else
+            return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Wagon{" +
+                "wymagaElektr=" + wymagaElektr +
+                ", dlugoscWagonu=" + dlugoscWagonu +
+                ", wysokoscWagonu=" + wysokoscWagonu +
+                ", wagaWagonuITowaru=" + wagaWagonuITowaru +
+                ", maxUdzwig=" + maxUdzwig +
+                ", wagaTowaru=" + wagaTowaru +
+                ", wagaWagonu=" + wagaWagonu +
+                ", nrIdentyfikacyjnyWagonu=" + nrIdentyfikacyjnyWagonu +
+                ", skladPrzylaczony=" + skladPrzylaczony +
+                ", listaTowarow=" + listaTowarow +
+                '}';
     }
 }
