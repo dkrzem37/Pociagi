@@ -103,6 +103,12 @@ public class Polaczenie extends Miejsce{
     public double getOdleglosc() {
         return odleglosc;
     }
+
+    @Override
+    public int zwrocDystansMiedzyStacjami() {
+        return (int) (((odleglosc - skladPrzejezdzajacy.getDrogaMiedzyStacjami()) * 100) / odleglosc);
+    }
+
     @Override
     public String getNazwa(){
         return "polaczenie miedzy " + this.stacja1.getNazwa() + " oraz " + this.stacja2.getNazwa();

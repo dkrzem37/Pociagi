@@ -8,4 +8,12 @@ public class WagonMaterialyToksyczne extends WagonTowarowyCiezki{
         this.material = material;
         this.iloscPojemnikow = iloscPojemnikow;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Wagon na Materialy Toksyczne: " +
+                "material: " + material +
+                ", ilosc pojemnikow: " + iloscPojemnikow +
+                '.';
+    }
 }

@@ -66,6 +66,12 @@ public class Stacja extends Miejsce{
     public String getNazwaStacji() {
         return nazwaStacji;
     }
+
+    @Override
+    public int zwrocDystansMiedzyStacjami() {
+        return 0;
+    }
+
     @Override
     public String getNazwa(){
         return nazwaStacji;

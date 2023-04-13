@@ -187,17 +187,17 @@ public abstract class Wagon implements Comparable<Wagon>{
 
     @Override
     public String toString() {
-        return "Wagon{" +
-                "wymagaElektr=" + wymagaElektr +
-                ", dlugoscWagonu=" + dlugoscWagonu +
-                ", wysokoscWagonu=" + wysokoscWagonu +
-                ", wagaWagonuITowaru=" + wagaWagonuITowaru +
-                ", maxUdzwig=" + maxUdzwig +
-                ", wagaTowaru=" + wagaTowaru +
-                ", wagaWagonu=" + wagaWagonu +
-                ", nrIdentyfikacyjnyWagonu=" + nrIdentyfikacyjnyWagonu +
-                ", skladPrzylaczony=" + skladPrzylaczony +
-                ", listaTowarow=" + listaTowarow +
-                '}';
+        return
+                "wymaga elektrycznosci: " + (wymagaElektr ? "tak" : "nie") +
+                ", dlugosc wagonu: " + dlugoscWagonu +
+                ", wysokosc wagonu: " + wysokoscWagonu +
+                ", waga wagonu i towaru lacznie: " + wagaWagonuITowaru +
+                ", maksymalny udzwig: " + maxUdzwig +
+                ", waga towaru: " + wagaTowaru +
+                ", waga wagonu: " + wagaWagonu +
+                ", numer identyfikacyjny: " + nrIdentyfikacyjnyWagonu +
+                ", przylaczony do skladu: " + skladPrzylaczony.getNrIdentyfikacyjnySkladu() +
+                ", "
+                ;
     }
 }

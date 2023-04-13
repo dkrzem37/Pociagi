@@ -104,7 +104,7 @@ public class WagonPasazerski extends Wagon{
     }
 
 
-    private String info() {
+    /*private String info() {
         return "WagonPasazerski:" +
                 "numer identyfikacyjny: " + getNrIdentyfikacyjnyWagonu() +
                 ",ogrzewanie: " + ogrzewanie +
@@ -119,18 +119,15 @@ public class WagonPasazerski extends Wagon{
                 ", wagaTowaru=" + getWagaTowaru() +
                 ", wagaWagonu=" + getWagaWagonu() +
                 '}';
-    }
+    }*/
 
     @Override
     public String toString() {
-        return "WagonPasazerski:" +
-                "numer identyfikacyjny: " + getNrIdentyfikacyjnyWagonu() +
-                ",ogrzewanie: " + ogrzewanie +
-                ", Toaleta: " + (isToaleta ? "tak" : "nie") +
-                ", liczbaMiejscSiedz=" + liczbaMiejscSiedz +
+        return "Wagon Pasazerski:" + super.toString() +
+                "ogrzewanie: " + ogrzewanie +
+                ", czy jest toaleta: " + (isToaleta ? "tak" : "nie") +
+                ", liczba miejsc siedzacych: " + liczbaMiejscSiedz +
                 ", wolne miejsca: " + wolneMiejsca +
-                "waga wagonu: " + getWagaWagonu()
-               ;
+                '.';
     }
-
 }

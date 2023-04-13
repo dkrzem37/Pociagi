@@ -222,3 +222,1091 @@ Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Coro
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Erie, droga pozostala do stacji : 0.8973389570714043.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Coral Springs oraz Daly City, droga pozostala do stacji : 0.8668385316754551.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Concord oraz Arlington, droga pozostala do stacji : 0.832033277643896.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Escondido oraz El Paso, droga pozostala do stacji : 0.7850511826594105.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Alexandria oraz Barnstable, droga pozostala do stacji : 0.7796801012497094.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Champaign oraz Chula Vista, droga pozostala do stacji : 0.7130592071810804.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Canton oraz Clarke County, droga pozostala do stacji : 0.7049400943769469.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Des Moines oraz Albany, droga pozostala do stacji : 0.5950218022818236.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Billings oraz Allentown, droga pozostala do stacji : 0.4906112765153885.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Albany oraz Asheville, droga pozostala do stacji : 0.47983048088868896.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Asheville oraz Bellevue, droga pozostala do stacji : 0.419777560933126.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Brighton oraz Asheville, droga pozostala do stacji : 0.28980127674678335.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Bryan oraz Augusta, droga pozostala do stacji : 0.28643607807900706.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Allentown oraz Elk Grove, droga pozostala do stacji : 0.2764784443231695.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy agd oraz Denver, droga pozostala do stacji : 0.2595106986580008.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Asheville, droga pozostala do stacji : 0.2525516508930047.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Dayton oraz Antioch, droga pozostala do stacji : 0.21237777402521785.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Cleveland oraz Bellevue, droga pozostala do stacji : 0.17723090509894057.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Chicago oraz Columbia, droga pozostala do stacji : 0.17666586353782798.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Durham oraz Escondido, droga pozostala do stacji : 0.11361991981268826.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Carrollton, droga pozostala do stacji : 0.05611351056375091.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Daly City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : Albany, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Canton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Erie, droga pozostala do stacji : 0.7239469863991385.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Coral Springs oraz Daly City, droga pozostala do stacji : 0.6897683870906002.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Brownsville oraz Daytona Beach, droga pozostala do stacji : 0.6645407182549081.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Escondido oraz El Paso, droga pozostala do stacji : 0.644457473736025.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Concord oraz Arlington, droga pozostala do stacji : 0.6347889391576632.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Alexandria oraz Barnstable, droga pozostala do stacji : 0.6236000010502936.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Champaign oraz Chula Vista, droga pozostala do stacji : 0.5454848207116052.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Canton oraz Clarke County, droga pozostala do stacji : 0.5114000935048584.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Des Moines oraz Albany, droga pozostala do stacji : 0.38272552060179627.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Albany oraz Asheville, droga pozostala do stacji : 0.31932014153584465.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Billings oraz Allentown, droga pozostala do stacji : 0.29855311068980417.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Asheville oraz Bellevue, droga pozostala do stacji : 0.26454818806573216.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Bryan oraz Augusta, droga pozostala do stacji : 0.1397623816930503.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Asheville, droga pozostala do stacji : 0.11503101322389195.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Allentown oraz Elk Grove, droga pozostala do stacji : 0.105412104812415.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Brighton oraz Asheville, droga pozostala do stacji : 0.10140209908189834.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy agd oraz Denver, droga pozostala do stacji : 0.09885471622805736.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Dayton oraz Antioch, droga pozostala do stacji : 0.031063182653851835.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Chicago oraz Columbia, droga pozostala do stacji : 0.013121543961669542.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Daly City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : Bellevue, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Durham, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : Albany, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Canton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cape Coral oraz Brighton, droga pozostala do stacji : 0.8838426604909563.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Dayton oraz agd, droga pozostala do stacji : 0.7035162831158508.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy El Paso oraz Columbia, droga pozostala do stacji : 0.6113069593441972.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Erie, droga pozostala do stacji : 0.5380639913346226.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Brownsville oraz Daytona Beach, droga pozostala do stacji : 0.5148442464684204.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Coral Springs oraz Daly City, droga pozostala do stacji : 0.5109367814901874.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Escondido oraz El Paso, droga pozostala do stacji : 0.49538559802404614.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Alexandria oraz Barnstable, droga pozostala do stacji : 0.47342385785229446.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Concord oraz Arlington, droga pozostala do stacji : 0.4368697667205967.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Champaign oraz Chula Vista, droga pozostala do stacji : 0.35361919334036584.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Canton oraz Clarke County, droga pozostala do stacji : 0.3317674797025384.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Des Moines oraz Albany, droga pozostala do stacji : 0.16705074011787405.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Albany oraz Asheville, droga pozostala do stacji : 0.1552792133692216.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Billings oraz Durham, droga pozostala do stacji : 0.12177638085044568.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Billings oraz Allentown, droga pozostala do stacji : 0.11800630919600821.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Asheville oraz Bellevue, droga pozostala do stacji : 0.11769308346464759.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy agd oraz sda, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Daly City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : Bellevue, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Augusta, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : Albany, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Canton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Daytona Beach, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cape Coral oraz Brighton, droga pozostala do stacji : 0.7106750548690064.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Dayton oraz agd, droga pozostala do stacji : 0.5330394451345494.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Albany oraz Asheville, droga pozostala do stacji : 0.47983048088868896.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Billings oraz Allentown, droga pozostala do stacji : 0.4581611027206089.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy El Paso oraz Columbia, droga pozostala do stacji : 0.4478534598745065.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Asheville oraz Bellevue, droga pozostala do stacji : 0.419777560933126.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Brownsville oraz Daytona Beach, droga pozostala do stacji : 0.36458953622607454.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Erie, droga pozostala do stacji : 0.35711479088384357.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Coral Springs oraz Daly City, droga pozostala do stacji : 0.34087283255407996.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Escondido oraz El Paso, droga pozostala do stacji : 0.33568415332087176.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Alexandria oraz Barnstable, droga pozostala do stacji : 0.3208082193621656.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Concord oraz Arlington, droga pozostala do stacji : 0.2497779512066459.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Champaign oraz Chula Vista, droga pozostala do stacji : 0.17009761020799327.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Canton oraz Clarke County, droga pozostala do stacji : 0.15993299164153552.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Augusta, droga pozostala do stacji : 0.1054456986163692.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Daly City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : Asheville, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : Asheville, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : Des Moines, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Billings, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Canton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Daytona Beach, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Asheville oraz Cedar Rapids, droga pozostala do stacji : 0.8085699370346742.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Canton oraz Clarke County, droga pozostala do stacji : 0.7049400943769469.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Des Moines oraz Bethlehem, droga pozostala do stacji : 0.7006541501823237.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cape Coral oraz Brighton, droga pozostala do stacji : 0.5368159692235935.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Dayton oraz agd, droga pozostala do stacji : 0.35129879099648803.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Billings oraz Allentown, droga pozostala do stacji : 0.28083610057932906.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy El Paso oraz Columbia, droga pozostala do stacji : 0.27363201522681435.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Albany oraz Asheville, droga pozostala do stacji : 0.25703326502304313.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Asheville oraz Bellevue, droga pozostala do stacji : 0.22044569696445176.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Brownsville oraz Daytona Beach, droga pozostala do stacji : 0.21007847632993346.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Brighton oraz Asheville, droga pozostala do stacji : 0.18709517253260854.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Erie, droga pozostala do stacji : 0.1870763839237351.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Escondido oraz El Paso, droga pozostala do stacji : 0.18195174759037228.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy sda oraz Chandler, droga pozostala do stacji : 0.1732774128435769.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Coral Springs oraz Daly City, droga pozostala do stacji : 0.16920541904962538.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Alexandria oraz Barnstable, droga pozostala do stacji : 0.1491321575786415.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Allentown oraz Elk Grove, droga pozostala do stacji : 0.12020641593563024.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Concord oraz Arlington, droga pozostala do stacji : 0.07914688915924137.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Champaign oraz Chula Vista, droga pozostala do stacji : 0.0154505053820395.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : Clarke County, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Daly City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Baton Rouge, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Billings, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Daytona Beach, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Abilene oraz Champaign, droga pozostala do stacji : 0.7776846190414363.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Asheville oraz Cedar Rapids, droga pozostala do stacji : 0.6872351283715372.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Clarke County oraz Charlotte, droga pozostala do stacji : 0.6041267831815418.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Canton oraz Clarke County, droga pozostala do stacji : 0.5853423771546791.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Des Moines oraz Bethlehem, droga pozostala do stacji : 0.5399113293557415.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cape Coral oraz Brighton, droga pozostala do stacji : 0.40768850383042804.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Boise, droga pozostala do stacji : 0.24226955321873028.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Dayton oraz agd, droga pozostala do stacji : 0.19332144355833492.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy El Paso oraz Columbia, droga pozostala do stacji : 0.13904504949157184.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Billings oraz Allentown, droga pozostala do stacji : 0.12359536501407667.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Brownsville oraz Daytona Beach, droga pozostala do stacji : 0.09146623613564002.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Albany oraz Asheville, droga pozostala do stacji : 0.06313988946782473.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Escondido oraz El Paso, droga pozostala do stacji : 0.06209713754267515.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Asheville oraz Bellevue, droga pozostala do stacji : 0.06054101594465735.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Brighton oraz Asheville, droga pozostala do stacji : 0.0576064421200021.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Erie, droga pozostala do stacji : 0.050489693242279046.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy sda oraz Chandler, droga pozostala do stacji : 0.03586488686491742.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Coral Springs oraz Daly City, droga pozostala do stacji : 0.03480208909914944.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Alexandria oraz Barnstable, droga pozostala do stacji : 0.015310598558598128.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Daly City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : Elk Grove, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Billings, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Daytona Beach, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : Concord, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Atlanta oraz Elk Grove, droga pozostala do stacji : 0.8220167012215307.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Coral Springs oraz Cary, droga pozostala do stacji : 0.7906655727672421.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Coral Springs oraz Daly City, droga pozostala do stacji : 0.7682657231708817.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Escondido oraz El Paso, droga pozostala do stacji : 0.7213863640576598.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Brighton oraz Bonita Springs, droga pozostala do stacji : 0.6897507776131301.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Abilene oraz Champaign, droga pozostala do stacji : 0.6426795937521377.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Brownsville oraz Daytona Beach, droga pozostala do stacji : 0.6367683305005418.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Canton oraz Brownsville, droga pozostala do stacji : 0.6084992008530031.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Concord, droga pozostala do stacji : 0.5673538329172281.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Asheville oraz Cedar Rapids, droga pozostala do stacji : 0.5507846246392128.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Billings oraz Allentown, droga pozostala do stacji : 0.46330382583220736.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Albany oraz Asheville, droga pozostala do stacji : 0.4406551671716047.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Canton oraz Clarke County, droga pozostala do stacji : 0.43204571865108304.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Clarke County oraz Charlotte, droga pozostala do stacji : 0.3976501220286461.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Asheville oraz Bellevue, droga pozostala do stacji : 0.379790972621668.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Des Moines oraz Bethlehem, droga pozostala do stacji : 0.35656439453091643.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cape Coral oraz Brighton, droga pozostala do stacji : 0.23349616588862257.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Chandler oraz Clearwater, droga pozostala do stacji : 0.13169572349398756.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Alexandria oraz Bonita Springs, droga pozostala do stacji : 0.1238837170224116.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Durham oraz Escondido, droga pozostala do stacji : 0.11361991981268826.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Boise, droga pozostala do stacji : 0.09121751571453648.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : Billings, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Erie, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clarksville oraz Cedar Rapids, droga pozostala do stacji : 0.9503897824409825.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Augusta oraz Aurora, droga pozostala do stacji : 0.8732732212585737.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cary oraz Elizabeth, droga pozostala do stacji : 0.8706876745576055.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Boise oraz Anchorage, droga pozostala do stacji : 0.8381580274377901.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Daly City oraz Cathedral City, droga pozostala do stacji : 0.8366154272903327.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Corona oraz Burlington, droga pozostala do stacji : 0.7312850868768561.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Boise City oraz Bridgeport, droga pozostala do stacji : 0.7155836034284823.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Denton oraz Arlington, droga pozostala do stacji : 0.7049151244320736.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Athens oraz Corona, droga pozostala do stacji : 0.6563654159277342.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Champaign oraz Elkhart, droga pozostala do stacji : 0.5333099041629179.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Chesapeake oraz Chicago, droga pozostala do stacji : 0.5181230773624754.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Baltimore, droga pozostala do stacji : 0.44607730211923324.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Cary oraz Bonita Springs, droga pozostala do stacji : 0.39492351372010626.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Cathedral City oraz Atlantic City, droga pozostala do stacji : 0.3909675487696068.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Austin oraz Denver, droga pozostala do stacji : 0.3732178547366115.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Aurora oraz Charlotte, droga pozostala do stacji : 0.33079912907622655.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Boulder oraz Albany, droga pozostala do stacji : 0.25074991377663935.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Erie oraz Colorado Springs, droga pozostala do stacji : 0.17382657550857328.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Augusta oraz Dayton, droga pozostala do stacji : 0.1320544193969484.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy sda oraz sda, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy sda oraz sda, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy El Monte oraz Denton, droga pozostala do stacji : 0.07282021678871098.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Eugene oraz Bellevue, droga pozostala do stacji : 0.06476786134552015.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Cedar Rapids, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy El Monte oraz Canton, droga pozostala do stacji : 0.9061546023481344.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy sda oraz Canton, droga pozostala do stacji : 0.8641916171494839.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clarksville oraz Cedar Rapids, droga pozostala do stacji : 0.7760677676847841.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Augusta oraz Aurora, droga pozostala do stacji : 0.7133031584417594.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Daly City oraz Cathedral City, droga pozostala do stacji : 0.6991404364554064.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Boise oraz Anchorage, droga pozostala do stacji : 0.6868777653795719.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cary oraz Elizabeth, droga pozostala do stacji : 0.6642399393313958.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Boise City oraz Bridgeport, droga pozostala do stacji : 0.5849408607455793.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Corona oraz Burlington, droga pozostala do stacji : 0.5433807156960515.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Denton oraz Arlington, droga pozostala do stacji : 0.5009172775222027.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Athens oraz Corona, droga pozostala do stacji : 0.4914971959376168.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Champaign oraz Elkhart, droga pozostala do stacji : 0.39221340628436285.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Chesapeake oraz Chicago, droga pozostala do stacji : 0.30112934028849453.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Baltimore, droga pozostala do stacji : 0.2903659752618351.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Bellevue oraz Corpus Christi, droga pozostala do stacji : 0.27635003944557784.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Cary oraz Bonita Springs, droga pozostala do stacji : 0.24424110052639803.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Cathedral City oraz Atlantic City, droga pozostala do stacji : 0.19997579539161564.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Austin oraz Denver, droga pozostala do stacji : 0.1698792621653073.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Aurora oraz Charlotte, droga pozostala do stacji : 0.11532840141257823.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Boulder oraz Albany, droga pozostala do stacji : 0.07964801862401827.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Erie oraz Colorado Springs, droga pozostala do stacji : 0.009650178704935425.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : Dayton, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Cedar Rapids, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Charlotte oraz Bremerton, droga pozostala do stacji : 0.9871623498022695.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy sda oraz Cathedral City, droga pozostala do stacji : 0.7821569951783046.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy El Monte oraz Canton, droga pozostala do stacji : 0.6974691562705224.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy sda oraz Canton, droga pozostala do stacji : 0.6740754957334779.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clarksville oraz Cedar Rapids, droga pozostala do stacji : 0.5891041959352412.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Austin, droga pozostala do stacji : 0.574655465438529.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Daly City oraz Cathedral City, droga pozostala do stacji : 0.5645131986445224.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Augusta oraz Aurora, droga pozostala do stacji : 0.5593612378556863.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Boise oraz Anchorage, droga pozostala do stacji : 0.5421490460464743.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Boise City oraz Bridgeport, droga pozostala do stacji : 0.46298954591242336.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cary oraz Elizabeth, droga pozostala do stacji : 0.4532031847662423.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Corona oraz Burlington, droga pozostala do stacji : 0.3455417824125193.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Athens oraz Corona, droga pozostala do stacji : 0.31573762365843155.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Denton oraz Arlington, droga pozostala do stacji : 0.30229088310324453.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Champaign oraz Elkhart, droga pozostala do stacji : 0.2547232222908178.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Dayton oraz Albany, droga pozostala do stacji : 0.1755786957906779.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Boulder oraz Billings, droga pozostala do stacji : 0.1325712381609584.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Baltimore, droga pozostala do stacji : 0.12840078613944994.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Cary oraz Bonita Springs, droga pozostala do stacji : 0.0983452673903692.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Chesapeake oraz Chicago, droga pozostala do stacji : 0.08062433479581216.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Bellevue oraz Corpus Christi, droga pozostala do stacji : 0.06754654662695797.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : Denver, droga pozostala do stacji : 0.0.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : Atlantic City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Cedar Rapids, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Davenport oraz Beaumont, droga pozostala do stacji : 47.8543290969966.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 40.69017832762232.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Durham oraz Apple Valley, droga pozostala do stacji : 38.262608254185544.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Bridgeport oraz Colorado Springs, droga pozostala do stacji : 37.505185556370016.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Chattanooga oraz Clarke County, droga pozostala do stacji : 33.75241142382855.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Cape Coral oraz Detroit, droga pozostala do stacji : 32.78553573838895.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Downey oraz Corona, droga pozostala do stacji : 32.309621871351.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy agd oraz Boulder, droga pozostala do stacji : 31.8595201422381.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Amarillo oraz Allentown, droga pozostala do stacji : 30.271583772201982.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Atlantic City oraz Bonita Springs, droga pozostala do stacji : 28.855327053068752.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Ann Arbor oraz Appleton, droga pozostala do stacji : 27.71619223851576.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Cincinnati oraz sda, droga pozostala do stacji : 27.414341010581666.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Antioch oraz Downey, droga pozostala do stacji : 27.183344661288732.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Elk Grove, droga pozostala do stacji : 27.015027960724368.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Billings oraz Bonita Springs, droga pozostala do stacji : 23.521614926427098.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Daly City oraz Brighton, droga pozostala do stacji : 22.52995513840516.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Alexandria oraz agd, droga pozostala do stacji : 16.474948764877357.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Birmingham oraz Brownsville, droga pozostala do stacji : 15.9828772094603.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Danbury oraz Elkhart, droga pozostala do stacji : 15.14709469317414.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Des Moines oraz Erie, droga pozostala do stacji : 14.621923893971333.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Davidson County oraz Detroit, droga pozostala do stacji : 11.931826136832596.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Bonita Springs oraz Charlotte, droga pozostala do stacji : 5.642890180520038.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Anaheim, droga pozostala do stacji : 3.0244248189263856.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Akron oraz Duluth, droga pozostala do stacji : 1.486149006691545.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Davenport oraz Beaumont, droga pozostala do stacji : 47.68468409443531.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 40.50062651599024.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Durham oraz Apple Valley, droga pozostala do stacji : 38.11655883409097.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Bridgeport oraz Colorado Springs, droga pozostala do stacji : 37.30762536733414.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Chattanooga oraz Clarke County, droga pozostala do stacji : 33.54731294884286.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Cape Coral oraz Detroit, droga pozostala do stacji : 32.57403543641345.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Downey oraz Corona, droga pozostala do stacji : 32.10389903525979.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy agd oraz Boulder, droga pozostala do stacji : 31.692091013361424.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Amarillo oraz Allentown, droga pozostala do stacji : 30.09620084264691.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Atlantic City oraz Bonita Springs, droga pozostala do stacji : 28.6389755488124.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Ann Arbor oraz Appleton, droga pozostala do stacji : 27.53922124575612.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Cincinnati oraz sda, droga pozostala do stacji : 27.20380340196733.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Antioch oraz Downey, droga pozostala do stacji : 27.007044393474924.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Deltona oraz Elk Grove, droga pozostala do stacji : 26.831520264624512.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Billings oraz Bonita Springs, droga pozostala do stacji : 23.363426472316885.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Daly City oraz Brighton, droga pozostala do stacji : 22.397470746243656.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Alexandria oraz agd, droga pozostala do stacji : 16.285609371220254.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Birmingham oraz Brownsville, droga pozostala do stacji : 15.821439612993695.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Danbury oraz Elkhart, droga pozostala do stacji : 14.96103417271792.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Des Moines oraz Erie, droga pozostala do stacji : 14.404166689486278.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Davidson County oraz Detroit, droga pozostala do stacji : 11.756438548501114.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Bonita Springs oraz Charlotte, droga pozostala do stacji : 5.5049738189090665.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Anaheim, droga pozostala do stacji : 2.8625452726430356.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Akron oraz Duluth, droga pozostala do stacji : 1.25533732481954.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Cedar Rapids oraz Bethlehem, droga pozostala do stacji : 0.96416773337999.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chula Vista oraz Bloomington, droga pozostala do stacji : 0.9221251852409913.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy agd oraz Charleston, droga pozostala do stacji : 0.8946082192184013.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Chesapeake oraz Buffalo, droga pozostala do stacji : 0.8344224562590314.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy sda oraz Elizabeth, droga pozostala do stacji : 0.8185586904763315.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Birmingham oraz Chesapeake, droga pozostala do stacji : 0.6915474465499625.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Bellevue oraz Boise, droga pozostala do stacji : 0.6135927517465716.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Buffalo oraz Baltimore, droga pozostala do stacji : 0.5470800289716037.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Austin oraz Daly City, droga pozostala do stacji : 0.5277963316492612.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Chicago oraz Costa Mesa, droga pozostala do stacji : 0.5095350416599378.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Arlington oraz Bremerton, droga pozostala do stacji : 0.4511523851643693.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cathedral City oraz Elk Grove, droga pozostala do stacji : 0.4419274126764351.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Detroit oraz Amarillo, droga pozostala do stacji : 0.4257074579825151.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clearwater oraz Canton, droga pozostala do stacji : 0.39438173092735995.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy El Paso oraz Eugene, droga pozostala do stacji : 0.36482039810999145.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Eugene oraz Boise City, droga pozostala do stacji : 0.3328381929298869.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cincinnati oraz Cleveland, droga pozostala do stacji : 0.3030759921427265.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Clarksville oraz Apple Valley, droga pozostala do stacji : 0.18477087043258755.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Escondido oraz agd, droga pozostala do stacji : 0.15068190420698968.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Denver oraz Austin, droga pozostala do stacji : 0.09861075092869132.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Deltona oraz Concord, droga pozostala do stacji : 0.0886355669335197.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Cedar Rapids oraz Boise, droga pozostala do stacji : 0.0571862543760544.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Abilene oraz Albany, droga pozostala do stacji : 0.033147632552108064.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Des Moines oraz Coral Springs, droga pozostala do stacji : 0.007986666241689977.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Coral Springs oraz Atlantic City, droga pozostala do stacji : 0.8846496613559314.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Cedar Rapids oraz Bethlehem, droga pozostala do stacji : 0.7914082804328715.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy agd oraz Charleston, droga pozostala do stacji : 0.75087402214716.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chula Vista oraz Bloomington, droga pozostala do stacji : 0.7342708491482446.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy sda oraz Elizabeth, droga pozostala do stacji : 0.6497247637720847.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Chesapeake oraz Buffalo, droga pozostala do stacji : 0.6326011725970954.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Birmingham oraz Chesapeake, droga pozostala do stacji : 0.5326409413917663.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Abilene, droga pozostala do stacji : 0.44396623563135756.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Bellevue oraz Boise, droga pozostala do stacji : 0.43685999806695663.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Buffalo oraz Baltimore, droga pozostala do stacji : 0.3843654048712476.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Austin oraz Daly City, droga pozostala do stacji : 0.36871473666946203.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Chicago oraz Costa Mesa, droga pozostala do stacji : 0.3347689082872171.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Arlington oraz Bremerton, droga pozostala do stacji : 0.30257497737706307.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Detroit oraz Amarillo, droga pozostala do stacji : 0.267809952320432.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cathedral City oraz Elk Grove, droga pozostala do stacji : 0.235542310305951.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clearwater oraz Canton, droga pozostala do stacji : 0.2066923551864581.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy El Paso oraz Eugene, droga pozostala do stacji : 0.18785815542591688.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Cincinnati oraz Cleveland, droga pozostala do stacji : 0.135860176803636.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Eugene oraz Boise City, droga pozostala do stacji : 0.12213300220640136.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : Boise, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : Austin, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Apple Valley, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : Concord, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Elk Grove, droga pozostala do stacji : 0.9869350939673255.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Cary oraz Bloomington, droga pozostala do stacji : 0.9480644903384245.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Asheville oraz Bridgeport, droga pozostala do stacji : 0.9468712195648656.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Corona oraz Denton, droga pozostala do stacji : 0.9243189151341146.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Anchorage oraz Champaign, droga pozostala do stacji : 0.9090588779093025.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Bethlehem, droga pozostala do stacji : 0.857263171067342.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Davidson County, droga pozostala do stacji : 0.8127039188870542.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Chicago oraz Elkhart, droga pozostala do stacji : 0.7579280000683762.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Elkhart, droga pozostala do stacji : 0.7494431322232871.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Carrollton oraz Clearwater, droga pozostala do stacji : 0.6819490288111993.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Danbury oraz Escondido, droga pozostala do stacji : 0.6750966309061709.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Clarksville oraz Columbus, droga pozostala do stacji : 0.6290308576979479.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Arvada oraz Carrollton, droga pozostala do stacji : 0.5793606226881773.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Anchorage oraz Chattanooga, droga pozostala do stacji : 0.5695820803804138.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Clarksville oraz Alexandria, droga pozostala do stacji : 0.5485918921810191.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Corona oraz Bradenton, droga pozostala do stacji : 0.4978639639313309.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Charleston oraz Champaign, droga pozostala do stacji : 0.49064916368996436.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Albany oraz Chandler, droga pozostala do stacji : 0.42965317215905985.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Bryan oraz Davenport, droga pozostala do stacji : 0.42206996923593265.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Appleton oraz Denton, droga pozostala do stacji : 0.38376361181570806.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Akron oraz Barnstable, droga pozostala do stacji : 0.2852027947257688.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Clarke County oraz Dallas, droga pozostala do stacji : 0.20769455976456885.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Columbia oraz Escondido, droga pozostala do stacji : 0.17725895378911416.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Clarke County oraz Carrollton, droga pozostala do stacji : 0.0644536011934721.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Bethlehem, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Elk Grove, droga pozostala do stacji : 0.8084296027488618.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Cary oraz Bloomington, droga pozostala do stacji : 0.7836084556380041.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Corona oraz Denton, droga pozostala do stacji : 0.7619889401869823.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Anchorage oraz Champaign, droga pozostala do stacji : 0.7470593691779164.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Appleton oraz Carrollton, droga pozostala do stacji : 0.7452014749865384.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Asheville oraz Bridgeport, droga pozostala do stacji : 0.7378997282459246.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Bethlehem, droga pozostala do stacji : 0.6851994921813819.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Davidson County, droga pozostala do stacji : 0.649429614564498.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Chicago oraz Elkhart, droga pozostala do stacji : 0.5655116705924781.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Elkhart, droga pozostala do stacji : 0.5348316502832374.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Danbury oraz Escondido, droga pozostala do stacji : 0.49532004113020345.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Carrollton oraz Clearwater, droga pozostala do stacji : 0.4877457262340711.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Clarksville oraz Columbus, droga pozostala do stacji : 0.4507161182276461.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Clarksville oraz Alexandria, droga pozostala do stacji : 0.40961593664174445.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Anchorage oraz Chattanooga, droga pozostala do stacji : 0.4044953577766406.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Arvada oraz Carrollton, droga pozostala do stacji : 0.39374881537910156.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Corona oraz Bradenton, droga pozostala do stacji : 0.3215462999826372.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Charleston oraz Champaign, droga pozostala do stacji : 0.30072636831136773.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Bryan oraz Davenport, droga pozostala do stacji : 0.2731384099620579.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Albany oraz Chandler, droga pozostala do stacji : 0.24888216142157632.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Appleton oraz Denton, droga pozostala do stacji : 0.21227355743117401.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Akron oraz Barnstable, droga pozostala do stacji : 0.11663453937201607.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Columbia oraz Escondido, droga pozostala do stacji : 0.009961451460398757.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Clarke County oraz Dallas, droga pozostala do stacji : 0.004023833982509814.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Bethlehem, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Elk Grove, droga pozostala do stacji : 0.6613654280795838.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Cary oraz Bloomington, droga pozostala do stacji : 0.6429460294502346.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Corona oraz Denton, droga pozostala do stacji : 0.6343553734034534.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Anchorage oraz Champaign, droga pozostala do stacji : 0.6222998511984882.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Dallas oraz Barnstable, droga pozostala do stacji : 0.5945303602546418.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Appleton oraz Carrollton, droga pozostala do stacji : 0.5634847342518357.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Asheville oraz Bridgeport, droga pozostala do stacji : 0.5602684473746187.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Bethlehem, droga pozostala do stacji : 0.5568653172112925.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Davidson County, droga pozostala do stacji : 0.522673989846448.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Chicago oraz Elkhart, droga pozostala do stacji : 0.4155390217057172.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Danbury oraz Escondido, droga pozostala do stacji : 0.3593646124807587.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Elkhart, droga pozostala do stacji : 0.35716377463683047.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Carrollton oraz Clearwater, droga pozostala do stacji : 0.3390581993894396.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Clarksville oraz Columbus, droga pozostala do stacji : 0.3051611610871372.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Clarksville oraz Alexandria, droga pozostala do stacji : 0.2999717695567776.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Anchorage oraz Chattanooga, droga pozostala do stacji : 0.2756185015998153.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Arvada oraz Carrollton, droga pozostala do stacji : 0.2359060335718086.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Corona oraz Bradenton, droga pozostala do stacji : 0.1766951426206384.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Bryan oraz Davenport, droga pozostala do stacji : 0.15846488893151747.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Charleston oraz Champaign, droga pozostala do stacji : 0.13696197817570405.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Albany oraz Chandler, droga pozostala do stacji : 0.10500208021247033.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Appleton oraz Denton, droga pozostala do stacji : 0.07719835022321006.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy agd oraz Columbia, droga pozostala do stacji : 0.0367628525662757.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Akron, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Bethlehem, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Abilene oraz sda, droga pozostala do stacji : 0.9616114960572247.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Clarksville oraz Allentown, droga pozostala do stacji : 0.869553143794581.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Deltona oraz Baton Rouge, droga pozostala do stacji : 0.8540862844766828.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Duluth oraz Elk Grove, droga pozostala do stacji : 0.8492071819296022.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Charleston oraz Bethlehem, droga pozostala do stacji : 0.8419907244330805.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy agd oraz Akron, droga pozostala do stacji : 0.8419584203419255.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Escondido oraz Bremerton, droga pozostala do stacji : 0.757137697653263.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Asheville oraz Aurora, droga pozostala do stacji : 0.7538495047632919.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Boston, droga pozostala do stacji : 0.7491228775524794.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Bethlehem oraz Bel Air, droga pozostala do stacji : 0.7308959225147375.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Columbus oraz College Station, droga pozostala do stacji : 0.6729042776449592.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy sda oraz Champaign, droga pozostala do stacji : 0.6571192008013061.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Durham oraz Bryan, droga pozostala do stacji : 0.6156230607343364.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Deltona oraz Allentown, droga pozostala do stacji : 0.42609220628880307.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Atlanta oraz Downey, droga pozostala do stacji : 0.38504609290697334.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Bloomington oraz Escondido, droga pozostala do stacji : 0.2970229947296451.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Detroit, droga pozostala do stacji : 0.13891172512844374.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Concord oraz Asheville, droga pozostala do stacji : 0.13570897956208794.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Austin oraz El Paso, droga pozostala do stacji : 0.1224067768309135.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Clarksville oraz Atlanta, droga pozostala do stacji : 0.006424580250488532.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Abilene oraz Bel Air, droga pozostala do stacji : 0.004665122618543349.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Columbus, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Abilene oraz sda, droga pozostala do stacji : 0.776914459880954.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Atlanta oraz Burlington, droga pozostala do stacji : 0.7548674459764846.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Clarksville oraz Allentown, droga pozostala do stacji : 0.7343545500275755.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Duluth oraz Elk Grove, droga pozostala do stacji : 0.6899369963122334.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Deltona oraz Baton Rouge, droga pozostala do stacji : 0.6763658753612671.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy agd oraz Akron, droga pozostala do stacji : 0.6693605207793105.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Charleston oraz Bethlehem, droga pozostala do stacji : 0.6215841945407306.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Boston, droga pozostala do stacji : 0.601617658901837.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Asheville oraz Aurora, droga pozostala do stacji : 0.5953906503557975.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Escondido oraz Bremerton, droga pozostala do stacji : 0.5567668582592104.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Bethlehem oraz Bel Air, droga pozostala do stacji : 0.5423547771590733.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Columbus oraz College Station, droga pozostala do stacji : 0.5257317265733655.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy sda oraz Champaign, droga pozostala do stacji : 0.4867536758790838.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Durham oraz Bryan, droga pozostala do stacji : 0.42011654809467097.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Atlanta oraz Downey, droga pozostala do stacji : 0.23691435705705186.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Deltona oraz Allentown, droga pozostala do stacji : 0.23460169447556195.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Bloomington oraz Escondido, droga pozostala do stacji : 0.1534566274094157.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.06772889526656754.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : Austin, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Columbus, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : Detroit, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : Bel Air, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : Asheville, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Abilene oraz sda, droga pozostala do stacji : 0.6258779745802221.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Clarksville oraz Allentown, droga pozostala do stacji : 0.6026794658721154.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Atlanta oraz Burlington, droga pozostala do stacji : 0.6015381016190492.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Duluth oraz Elk Grove, droga pozostala do stacji : 0.5720104119513455.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy agd oraz Akron, droga pozostala do stacji : 0.5313086479336188.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Deltona oraz Baton Rouge, droga pozostala do stacji : 0.48568032906513375.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Boulder oraz Austin, droga pozostala do stacji : 0.4668894147309616.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Boston, droga pozostala do stacji : 0.4553359874944906.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Charleston oraz Bethlehem, droga pozostala do stacji : 0.4429747588832671.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Asheville oraz Aurora, droga pozostala do stacji : 0.42437862512244834.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Escondido oraz Bremerton, droga pozostala do stacji : 0.39213287286530757.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Columbus oraz College Station, droga pozostala do stacji : 0.37441671000487775.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Bethlehem oraz Bel Air, droga pozostala do stacji : 0.37252389986341444.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy sda oraz Champaign, droga pozostala do stacji : 0.3401882713448332.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Durham oraz Bryan, droga pozostala do stacji : 0.2342415900929972.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Atlanta oraz Downey, droga pozostala do stacji : 0.11727350610065906.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Detroit oraz Austin, droga pozostala do stacji : 0.10534360711525033.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Daytona Beach oraz agd, droga pozostala do stacji : 0.07629840956323303.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Deltona oraz Allentown, droga pozostala do stacji : 0.04460928140800387.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Daly City oraz Asheville, droga pozostala do stacji : 0.02111459510502485.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Bloomington oraz Escondido, droga pozostala do stacji : 0.011905052940999944.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Columbus, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : Bel Air, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Downey oraz Athens, droga pozostala do stacji : 0.9406211008310035.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Atlanta oraz Eugene, droga pozostala do stacji : 0.9393737175085068.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Asheville oraz Albany, droga pozostala do stacji : 0.9222952868102777.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Boise oraz Chicago, droga pozostala do stacji : 0.8549151908208017.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Canton oraz Bonita Springs, droga pozostala do stacji : 0.7895531975344757.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Cary oraz Deltona, droga pozostala do stacji : 0.7858480053446076.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Berkeley oraz Elk Grove, droga pozostala do stacji : 0.779709507628773.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Boise City oraz Des Moines, droga pozostala do stacji : 0.7453927545126487.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bremerton oraz Elizabeth, droga pozostala do stacji : 0.6786935894435963.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Columbus oraz Augusta, droga pozostala do stacji : 0.6584286911460517.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Bridgeport oraz Davenport, droga pozostala do stacji : 0.5337462128569878.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bellevue oraz Davidson County, droga pozostala do stacji : 0.3474657233891236.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Alexandria oraz Anchorage, droga pozostala do stacji : 0.33988950986756716.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Chicago oraz Boston, droga pozostala do stacji : 0.2507943134460474.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy agd oraz Corpus Christi, droga pozostala do stacji : 0.14686595089078203.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cedar Rapids oraz Cincinnati, droga pozostala do stacji : 0.13195578988992396.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Atlantic City oraz Bloomington, droga pozostala do stacji : 0.1312359342784556.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Albuquerque oraz Danbury, droga pozostala do stacji : 0.06557758244995271.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Denton oraz Billings, droga pozostala do stacji : 0.0531356601429539.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : Clearwater, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Albany, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Atlanta oraz Eugene, droga pozostala do stacji : 0.7661459612040705.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Asheville oraz Albany, droga pozostala do stacji : 0.740504876119815.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Downey oraz Athens, droga pozostala do stacji : 0.7375306569640748.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Boise oraz Chicago, droga pozostala do stacji : 0.6545557818167393.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Canton oraz Bonita Springs, droga pozostala do stacji : 0.6278835727997409.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Cary oraz Deltona, droga pozostala do stacji : 0.6264805792029136.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Berkeley oraz Elk Grove, droga pozostala do stacji : 0.608170548365231.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Boise City oraz Des Moines, droga pozostala do stacji : 0.5555698378959137.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clearwater oraz sda, droga pozostala do stacji : 0.5039209977007502.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Danbury, droga pozostala do stacji : 0.48966631005292854.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bremerton oraz Elizabeth, droga pozostala do stacji : 0.4633668875616821.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Columbus oraz Augusta, droga pozostala do stacji : 0.442529707717874.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Bridgeport oraz Davenport, droga pozostala do stacji : 0.37978194020495704.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Detroit oraz agd, droga pozostala do stacji : 0.3556279354999331.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Alexandria oraz Anchorage, droga pozostala do stacji : 0.20947601444725242.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bellevue oraz Davidson County, droga pozostala do stacji : 0.2048308266130784.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Chicago oraz Boston, droga pozostala do stacji : 0.10834641615339691.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Berkeley oraz Denton, droga pozostala do stacji : 0.007895020685734416.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : Bloomington, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Cedar Rapids, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Albany, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Austin oraz Cedar Rapids, droga pozostala do stacji : 0.8516055344031556.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Atlanta oraz Eugene, droga pozostala do stacji : 0.6333190189481286.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Berkeley oraz Concord, droga pozostala do stacji : 0.6067623131256291.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Asheville oraz Albany, droga pozostala do stacji : 0.597731930802471.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Downey oraz Athens, droga pozostala do stacji : 0.5657523171685612.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Canton oraz Bonita Springs, droga pozostala do stacji : 0.5040710342349801.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Boise oraz Chicago, droga pozostala do stacji : 0.5032942572869301.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Cary oraz Deltona, droga pozostala do stacji : 0.49220844530660823.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Berkeley oraz Elk Grove, droga pozostala do stacji : 0.46178438191281446.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Carrollton oraz Bloomington, droga pozostala do stacji : 0.4444276570425554.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy agd oraz Coral Springs, droga pozostala do stacji : 0.4118449806858061.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Boise City oraz Des Moines, droga pozostala do stacji : 0.3974686062796948.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Danbury, droga pozostala do stacji : 0.3683574291804563.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clearwater oraz sda, droga pozostala do stacji : 0.36834604325345965.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bremerton oraz Elizabeth, droga pozostala do stacji : 0.2936469784324176.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Bridgeport oraz Davenport, droga pozostala do stacji : 0.26826473711530546.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Columbus oraz Augusta, droga pozostala do stacji : 0.25057172467358513.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Detroit oraz agd, droga pozostala do stacji : 0.21662881944605428.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Alexandria oraz Anchorage, droga pozostala do stacji : 0.11011311499980694.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bellevue oraz Davidson County, droga pozostala do stacji : 0.09773955832582112.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.016953362390175152.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : Chicago, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Albany, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : sda, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Austin oraz Cedar Rapids, droga pozostala do stacji : 0.6961741732802342.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Atlanta oraz Eugene, droga pozostala do stacji : 0.4533459230675049.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Berkeley oraz Concord, droga pozostala do stacji : 0.44761506684914876.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Asheville oraz Albany, droga pozostala do stacji : 0.42096800876203944.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Canton oraz Bonita Springs, droga pozostala do stacji : 0.33507914346031153.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Downey oraz Athens, droga pozostala do stacji : 0.33347214999586866.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Cary oraz Deltona, droga pozostala do stacji : 0.32371228288569154.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Boise oraz Chicago, droga pozostala do stacji : 0.31200253361762686.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Carrollton oraz Bloomington, droga pozostala do stacji : 0.2665838337502779.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Berkeley oraz Elk Grove, droga pozostala do stacji : 0.264478029897637.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy agd oraz Coral Springs, droga pozostala do stacji : 0.2579415053965685.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Clearwater oraz sda, droga pozostala do stacji : 0.23397603472376277.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Boise City oraz Des Moines, droga pozostala do stacji : 0.22255777396351328.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Baton Rouge oraz Danbury, droga pozostala do stacji : 0.2093091666042153.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Bridgeport oraz Davenport, droga pozostala do stacji : 0.1424851552478589.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bremerton oraz Elizabeth, droga pozostala do stacji : 0.08694577512375055.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy agd oraz sda, droga pozostala do stacji : 0.04120347128032979.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Detroit oraz agd, droga pozostala do stacji : 0.03389432070757952.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Columbus oraz Augusta, droga pozostala do stacji : 0.022211449320015918.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : Chicago, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : Davidson County, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : Anchorage, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Albany, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Albuquerque oraz Athens, droga pozostala do stacji : 0.9970937092001128.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Denton oraz Bellevue, droga pozostala do stacji : 0.9588852773692862.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Akron, droga pozostala do stacji : 0.9059321272884502.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Anchorage oraz Costa Mesa, droga pozostala do stacji : 0.8716866831752202.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Berkeley oraz Downey, droga pozostala do stacji : 0.7558330124280029.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Anaheim oraz Antioch, droga pozostala do stacji : 0.6970926264240603.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Denver oraz Atlantic City, droga pozostala do stacji : 0.690439968405527.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Athens oraz Boston, droga pozostala do stacji : 0.6331762383561531.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Daly City, droga pozostala do stacji : 0.5979824135073517.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy College Station oraz Anchorage, droga pozostala do stacji : 0.5850980954433719.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy sda oraz Bel Air, droga pozostala do stacji : 0.462987939381883.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Antioch oraz Burbank, droga pozostala do stacji : 0.460545440705297.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Corona oraz Boulder, droga pozostala do stacji : 0.44792428396487327.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bellevue oraz El Monte, droga pozostala do stacji : 0.4415294228887189.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Baltimore oraz Cathedral City, droga pozostala do stacji : 0.39077204415415745.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Ann Arbor oraz Denton, droga pozostala do stacji : 0.3311111427390906.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy El Monte oraz Bradenton, droga pozostala do stacji : 0.2746360091587392.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy sda oraz Cincinnati, droga pozostala do stacji : 0.1857118326969983.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Chattanooga oraz Charleston, droga pozostala do stacji : 0.17580876406089108.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy El Paso oraz Des Moines, droga pozostala do stacji : 0.16559365503156986.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy sda oraz Davidson County, droga pozostala do stacji : 0.10125339253739774.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy sda oraz agd, droga pozostala do stacji : 0.1.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : Ann Arbor, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Anaheim, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Cincinnati, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Boise City oraz Davidson County, droga pozostala do stacji : 0.8334010113724079.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Albuquerque oraz Athens, droga pozostala do stacji : 0.8210211493457659.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Denton oraz Bellevue, droga pozostala do stacji : 0.7576413777566423.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : polaczenie miedzy Cambridge oraz Akron, droga pozostala do stacji : 0.7297833910355689.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Anchorage oraz Costa Mesa, droga pozostala do stacji : 0.7269665633792238.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Berkeley oraz Downey, droga pozostala do stacji : 0.5376573133729963.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Anaheim oraz Antioch, droga pozostala do stacji : 0.5133970774273328.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy Denver oraz Atlantic City, droga pozostala do stacji : 0.5071961101969139.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Athens oraz Boston, droga pozostala do stacji : 0.4639837113549958.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Corpus Christi oraz Daly City, droga pozostala do stacji : 0.3897217047095756.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy College Station oraz Anchorage, droga pozostala do stacji : 0.37863228606931987.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy sda oraz Daytona Beach, droga pozostala do stacji : 0.37648437451631556.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy sda oraz Bel Air, droga pozostala do stacji : 0.2951120243298512.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bellevue oraz El Monte, droga pozostala do stacji : 0.2557388267698436.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Antioch oraz Burbank, droga pozostala do stacji : 0.25226628733349044.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Corona oraz Boulder, droga pozostala do stacji : 0.23731118813933239.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Baltimore oraz Cathedral City, droga pozostala do stacji : 0.2226065781073574.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Ann Arbor oraz Denton, droga pozostala do stacji : 0.1832564154538594.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy El Monte oraz Bradenton, droga pozostala do stacji : 0.12173303097124555.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy sda oraz Cincinnati, droga pozostala do stacji : 0.005721595841103697.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : Ann Arbor, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Anaheim, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : El Paso, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Cincinnati, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : Charleston, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.9787778101821598.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Chesapeake oraz Ann Arbor, droga pozostala do stacji : 0.9707507499840324.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.9131316847141593.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.9091746939950078.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Apple Valley oraz Beaumont, droga pozostala do stacji : 0.8728632321543159.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bakersfield oraz Albany, droga pozostala do stacji : 0.8668438307164082.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Bryan, droga pozostala do stacji : 0.8389176860610127.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.7580013487261655.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Denver oraz Antioch, droga pozostala do stacji : 0.735460553416114.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Elkhart oraz Ann Arbor, droga pozostala do stacji : 0.64622633904992.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Davidson County oraz Antioch, droga pozostala do stacji : 0.6396516893914946.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Appleton oraz Bellevue, droga pozostala do stacji : 0.5992483631481489.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Denton oraz Canton, droga pozostala do stacji : 0.5456737763197391.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Elk Grove oraz Duluth, droga pozostala do stacji : 0.4974554698193101.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Bethlehem oraz Davenport, droga pozostala do stacji : 0.4608316243720333.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chicago oraz Boulder, droga pozostala do stacji : 0.4159719895065507.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Bonita Springs oraz Amarillo, droga pozostala do stacji : 0.3244971080383008.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Bryan oraz Bloomington, droga pozostala do stacji : 0.18506237546263204.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Boise City oraz Anaheim, droga pozostala do stacji : 0.11756308242337954.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Eugene oraz Charlotte, droga pozostala do stacji : 0.06236182255942235.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Arlington oraz Denton, droga pozostala do stacji : 0.017322489944712083.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : Bryan, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.8433546259396129.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Chesapeake oraz Ann Arbor, droga pozostala do stacji : 0.7801027098095714.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.7463920819473003.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Apple Valley oraz Beaumont, droga pozostala do stacji : 0.7161894339333426.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Arlington oraz Des Moines, droga pozostala do stacji : 0.7144082677646043.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.7036953330577197.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bakersfield oraz Albany, droga pozostala do stacji : 0.6997052477127096.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Bryan, droga pozostala do stacji : 0.6950694360225298.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.6237966118773021.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Denver oraz Antioch, droga pozostala do stacji : 0.5806829525365363.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Elkhart oraz Ann Arbor, droga pozostala do stacji : 0.4925063303110011.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Davidson County oraz Antioch, droga pozostala do stacji : 0.4769633452329356.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Appleton oraz Bellevue, droga pozostala do stacji : 0.45257717405202375.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Denton oraz Canton, droga pozostala do stacji : 0.39772371871485146.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Bethlehem oraz Davenport, droga pozostala do stacji : 0.32285645320698914.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Elk Grove oraz Duluth, droga pozostala do stacji : 0.2788765275658837.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chicago oraz Boulder, droga pozostala do stacji : 0.2490524336250868.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bryan oraz Bloomington, droga pozostala do stacji : 0.18506237546263204.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Bonita Springs oraz Amarillo, droga pozostala do stacji : 0.11001652997220654.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Eugene, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : Bloomington, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : Boise City, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.6918206839325654.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Boise City oraz agd, droga pozostala do stacji : 0.6517868620145502.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.5887753464109019.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Chesapeake oraz Ann Arbor, droga pozostala do stacji : 0.588687023662848.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Apple Valley oraz Beaumont, droga pozostala do stacji : 0.5580316670422256.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Bryan, droga pozostala do stacji : 0.5531711162148791.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bakersfield oraz Albany, droga pozostala do stacji : 0.5298712186579319.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Arlington oraz Des Moines, droga pozostala do stacji : 0.521883886715359.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.4923151140493395.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.47227515627883143.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Denver oraz Antioch, droga pozostala do stacji : 0.4126671546784889.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Cambridge oraz Amarillo, droga pozostala do stacji : 0.3544033815767642.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Bloomington oraz Bel Air, droga pozostala do stacji : 0.3354201069907419.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Elkhart oraz Ann Arbor, droga pozostala do stacji : 0.33248858007921434.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Davidson County oraz Antioch, droga pozostala do stacji : 0.3156335975970621.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Appleton oraz Bellevue, droga pozostala do stacji : 0.301777655299826.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Denton oraz Canton, droga pozostala do stacji : 0.2371916142912535.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Bethlehem oraz Davenport, droga pozostala do stacji : 0.1843363438287322.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chicago oraz Boulder, droga pozostala do stacji : 0.08551817811612955.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Elk Grove oraz Duluth, droga pozostala do stacji : 0.06217527683656385.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bryan oraz Bloomington, droga pozostala do stacji : 0.036761994179421144.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Eugene, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.5533922942377486.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Elk Grove, droga pozostala do stacji : 0.520845887698685.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Boise City oraz agd, droga pozostala do stacji : 0.4823690535155877.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Bryan, droga pozostala do stacji : 0.4422261360193472.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Chesapeake oraz Ann Arbor, droga pozostala do stacji : 0.4233313053691613.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.4226832087606526.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Apple Valley oraz Beaumont, droga pozostala do stacji : 0.4002781537366271.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bakersfield oraz Albany, droga pozostala do stacji : 0.39185054645275585.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.3603469751903113.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Arlington oraz Des Moines, droga pozostala do stacji : 0.3534944564902402.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.24419545602770648.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Denver oraz Antioch, droga pozostala do stacji : 0.2431271870510725.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Elkhart oraz Ann Arbor, droga pozostala do stacji : 0.1680799633818962.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Davidson County oraz Antioch, droga pozostala do stacji : 0.17028569839942848.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Cambridge oraz Amarillo, droga pozostala do stacji : 0.1685165240626063.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Appleton oraz Bellevue, droga pozostala do stacji : 0.14102704940899735.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Bloomington oraz Bel Air, droga pozostala do stacji : 0.12650885221811534.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Denton oraz Canton, droga pozostala do stacji : 0.06304464707191972.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Bethlehem oraz Davenport, droga pozostala do stacji : 0.04861965387306612.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Eugene, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Chicago, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : Davenport, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : Bloomington, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Bethlehem oraz Downey, droga pozostala do stacji : 0.4666793904500294.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bloomington oraz Bel Air, droga pozostala do stacji : 0.4538539633932719.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Bethlehem oraz Davenport, droga pozostala do stacji : 0.39296487595672913.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.37815956098367964.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Elk Grove, droga pozostala do stacji : 0.35793508515308214.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Boise City oraz agd, droga pozostala do stacji : 0.34168671096913333.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Bryan, droga pozostala do stacji : 0.301808419960391.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Chesapeake oraz Ann Arbor, droga pozostala do stacji : 0.2899536210857483.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.27771419868987324.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Apple Valley oraz Beaumont, droga pozostala do stacji : 0.2695298018614789.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.2596306497522799.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bakersfield oraz Albany, droga pozostala do stacji : 0.22770916238967392.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Arlington oraz Des Moines, droga pozostala do stacji : 0.1462584105066767.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Denver oraz Antioch, droga pozostala do stacji : 0.09718238082774114.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.06451372728154911.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Davidson County oraz Antioch, droga pozostala do stacji : 0.052319151836745154.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Elkhart oraz Ann Arbor, droga pozostala do stacji : 0.03878394010618857.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Cambridge oraz Amarillo, droga pozostala do stacji : 0.02729651431633124.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Arlington oraz Denton, droga pozostala do stacji : 0.017322489944712083.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Appleton oraz Bellevue, droga pozostala do stacji : 0.010917702369641208.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : Eugene, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : Bel Air, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Chicago, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Dallas, droga pozostala do stacji : 0.9393148438749352.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.8060125291008645.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Arlington oraz Des Moines, droga pozostala do stacji : 0.7541020407212169.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Bremerton oraz Davidson County, droga pozostala do stacji : 0.4321872057582069.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Ann Arbor oraz Erie, droga pozostala do stacji : 0.40070699526523507.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bloomington oraz Antioch, droga pozostala do stacji : 0.3588189304396473.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Bethlehem oraz Downey, droga pozostala do stacji : 0.3210229240756535.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bloomington oraz Bel Air, droga pozostala do stacji : 0.31587989731684724.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Bellevue oraz Athens, droga pozostala do stacji : 0.30054223268743996.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Bethlehem oraz Davenport, droga pozostala do stacji : 0.21247004073154202.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : polaczenie miedzy Coral Springs oraz Cambridge, droga pozostala do stacji : 0.1951597802927226.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.1913781458629257.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Bryan, droga pozostala do stacji : 0.16740711426461635.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : polaczenie miedzy Boise City oraz agd, droga pozostala do stacji : 0.15705869163362507.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Elk Grove, droga pozostala do stacji : 0.15382200621060987.
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.14235343793761485.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Apple Valley oraz Beaumont, droga pozostala do stacji : 0.12154923462072134.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Chesapeake oraz Ann Arbor, droga pozostala do stacji : 0.10972417619382595.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.08331167556941185.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Bakersfield oraz Albany, droga pozostala do stacji : 0.052754516874454725.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Bel Air oraz Boston, droga pozostala do stacji : 0.003209204605137385.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : Des Moines, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Chicago, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.9787778101821598.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.8784207432216357.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Dallas, droga pozostala do stacji : 0.7445670950162898.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.6366578746224425.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Arlington oraz Des Moines, droga pozostala do stacji : 0.6035568829741281.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Des Moines oraz Austin, droga pozostala do stacji : 0.5767380393769385.
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Bremerton oraz Davidson County, droga pozostala do stacji : 0.2646494935899212.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Brighton oraz El Monte, droga pozostala do stacji : 0.2594256903245087.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Ann Arbor oraz Erie, droga pozostala do stacji : 0.24430079213811948.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bloomington oraz Antioch, droga pozostala do stacji : 0.20873659484654536.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bloomington oraz Bel Air, droga pozostala do stacji : 0.16964126147485487.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : polaczenie miedzy Bethlehem oraz Downey, droga pozostala do stacji : 0.1601507128304898.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : polaczenie miedzy Boston oraz Clarksville, droga pozostala do stacji : 0.1562218268562813.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Bellevue oraz Athens, droga pozostala do stacji : 0.15395277349772893.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy sda oraz Bryan, droga pozostala do stacji : 0.041901367091048726.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.031466885477498346.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Bethlehem oraz Davenport, droga pozostala do stacji : 0.007036283757058295.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : Chicago, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : Apple Valley, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : Chesapeake, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : Coral Springs, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : Colorado Springs, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Sklad o numerze identyfikacyjnym 2: lokomotywa : Kourtney, aktualne miejsce : polaczenie miedzy Apple Valley oraz Beaumont, droga pozostala do stacji : 0.845535606192255.
+Sklad o numerze identyfikacyjnym 5: lokomotywa : Crouch, aktualne miejsce : polaczenie miedzy agd oraz Appleton, droga pozostala do stacji : 0.7780230465812218.
+Sklad o numerze identyfikacyjnym 3: lokomotywa : Irvine, aktualne miejsce : polaczenie miedzy Albany oraz Brighton, droga pozostala do stacji : 0.737132215177092.
+Sklad o numerze identyfikacyjnym 4: lokomotywa : Danielle, aktualne miejsce : polaczenie miedzy Boise City oraz agd, droga pozostala do stacji : 0.6989482892291449.
+Sklad o numerze identyfikacyjnym 14: lokomotywa : Brayan, aktualne miejsce : polaczenie miedzy Abilene oraz Apple Valley, droga pozostala do stacji : 0.6745026233979025.
+Sklad o numerze identyfikacyjnym 13: lokomotywa : Lake, aktualne miejsce : polaczenie miedzy Chicago oraz Beaumont, droga pozostala do stacji : 0.651828816678508.
+Sklad o numerze identyfikacyjnym 8: lokomotywa : Jericho, aktualne miejsce : polaczenie miedzy Allentown oraz Dallas, droga pozostala do stacji : 0.5560057553215231.
+Sklad o numerze identyfikacyjnym 7: lokomotywa : Little, aktualne miejsce : polaczenie miedzy Allentown oraz Eugene, droga pozostala do stacji : 0.4911453754396675.
+Sklad o numerze identyfikacyjnym 9: lokomotywa : Pyle, aktualne miejsce : polaczenie miedzy Arlington oraz Des Moines, droga pozostala do stacji : 0.4487743556172647.
+Sklad o numerze identyfikacyjnym 1: lokomotywa : Rollins, aktualne miejsce : polaczenie miedzy Des Moines oraz Austin, droga pozostala do stacji : 0.40207361077039605.
+Sklad o numerze identyfikacyjnym 19: lokomotywa : Monkey, aktualne miejsce : polaczenie miedzy Bethlehem oraz Chesapeake, droga pozostala do stacji : 0.2273943231428767.
+Sklad o numerze identyfikacyjnym 21: lokomotywa : Polo, aktualne miejsce : polaczenie miedzy Colorado Springs oraz Daly City, droga pozostala do stacji : 0.15950282429009388.
+Sklad o numerze identyfikacyjnym 0: lokomotywa : Jeniffer, aktualne miejsce : polaczenie miedzy Bryan oraz Bloomington, droga pozostala do stacji : 0.15502645913401242.
+                      WagonPasazerski:numer identyfikacyjny: 0,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 133.0
+                      WagonPasazerski:numer identyfikacyjny: 2,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 1003.0
+                      WagonPasazerski:numer identyfikacyjny: 1,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 5000.0
+                      WagonPasazerski:numer identyfikacyjny: 3,ogrzewanie: POWIETRZNE, Toaleta: tak, liczbaMiejscSiedz=12, wolne miejsca: 12waga wagonu: 25000.0
+Sklad o numerze identyfikacyjnym 10: lokomotywa : Dahlia, aktualne miejsce : polaczenie miedzy Bremerton oraz Davidson County, droga pozostala do stacji : 0.08816821946927336.
+Sklad o numerze identyfikacyjnym 24: lokomotywa : Randyy, aktualne miejsce : polaczenie miedzy Ann Arbor oraz Erie, droga pozostala do stacji : 0.08538457345804486.
+Sklad o numerze identyfikacyjnym 17: lokomotywa : Carlos, aktualne miejsce : polaczenie miedzy Brighton oraz El Monte, droga pozostala do stacji : 0.08129758813272059.
+Sklad o numerze identyfikacyjnym 11: lokomotywa : Regalado, aktualne miejsce : polaczenie miedzy Bloomington oraz Antioch, droga pozostala do stacji : 0.05810008803549255.
+Sklad o numerze identyfikacyjnym 18: lokomotywa : Makena, aktualne miejsce : polaczenie miedzy Daytona Beach oraz Chesapeake, droga pozostala do stacji : 0.028764439195281155.
+Sklad o numerze identyfikacyjnym 23: lokomotywa : Perot, aktualne miejsce : polaczenie miedzy Bloomington oraz Bel Air, droga pozostala do stacji : 0.023763630358074633.
+Sklad o numerze identyfikacyjnym 22: lokomotywa : Panto, aktualne miejsce : polaczenie miedzy Bellevue oraz Athens, droga pozostala do stacji : 0.017032326557658246.
+Sklad o numerze identyfikacyjnym 6: lokomotywa : Obed, aktualne miejsce : Downey, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 12: lokomotywa : Candice, aktualne miejsce : Clarksville, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 15: lokomotywa : Burnett, aktualne miejsce : agd, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 16: lokomotywa : Tonya, aktualne miejsce : Allentown, droga pozostala do stacji : 0.0.
+Sklad o numerze identyfikacyjnym 20: lokomotywa : Barista, aktualne miejsce : Coral Springs, droga pozostala do stacji : 0.0.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

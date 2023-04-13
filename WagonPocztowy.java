@@ -26,4 +26,12 @@ public class WagonPocztowy extends Wagon{
       Wagon wagon = new WagonPocztowy(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, organOdpowiedzialny, przepuszczalnosc);
       System.out.println("Stworzono wagon o numerze identyfikacyjnym " + wagon.getNrIdentyfikacyjnyWagonu() + ".");
    }
+
+   @Override
+   public String toString() {
+      return "Wagon Pocztowy:" + super.toString() +
+              "organ odpowiedzialny za poczte: " + organOdpowiedzialny +
+              ", przepuszczalnosc wilgoci: " + przepuszczalnoscWilgoci +
+              '.';
+   }
 }

@@ -205,11 +205,11 @@ public class Main {
             new Lokomotywa(imionaDlaLokomotyw[i]);
         }
         Sklad[] tablicaSkladow = new Sklad[25];
-        int i = 0;
+        int j = 0;
         //Tworzenie skladow
         for(Lokomotywa l: Lokomotywa.listaLokomotywWolnych){
-            tablicaSkladow[i] = new Sklad(l);
-            i++;
+            tablicaSkladow[j] = new Sklad(l);
+            j++;
         }
         List<Sklad> sortedSklady = new ArrayList<>(Sklad.sklady);
         for(Sklad s: sortedSklady){
@@ -218,6 +218,16 @@ public class Main {
         Collections.sort(sortedSklady);
         for(Sklad s: sortedSklady){
             System.out.println(s.toString());
+        }
+        //Tworzenie wagonow
+        Wagon[] wagony = new Wagon[250];
+        for(int i = 0; i< 250;){
+            wagony[i] = new WagonBagazowoPocztowy(13, 14, 145555, 57000, true, "POCZTA POLSKA");
+            i++;
+            wagony[i] = new WagonChlodniczy(10,4,40000,59000, 1000, 12, -30, WagonChlodniczy.Chlodzenie.CIECZ);
+            i++;
+            wagony[i] = new WagonCiekleMaterialyToksyczne(5, 2, 130000,35000, 1200, true, 134, 13,13);
+            i++;
         }
         WagonPasazerski test1 = new WagonPasazerski(14,13,14444,133, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
         WagonPasazerski test2 = new WagonPasazerski(14,13,14444,5000, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
@@ -231,6 +241,21 @@ public class Main {
         ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
         Thread zapisywanie1 = new Thread(zapis1);
         zapisywanie1.start();
+
+
+        Polaczenie.usunPolaczenie();
+
+        tablicaSkladow[1].wyswietlProcentMiedzyStacjami();
+        tablicaSkladow[2].wyswietlProcentMiedzyStacjami();
+        tablicaSkladow[3].wyswietlProcentMiedzyStacjami();
+        tablicaSkladow[4].wyswietlProcentMiedzyStacjami();
+
+        tablicaSkladow[1].wyswietlProcentTrasy();
+        tablicaSkladow[2].wyswietlProcentTrasy();
+        tablicaSkladow[3].wyswietlProcentTrasy();
+        tablicaSkladow[4].wyswietlProcentTrasy();
+
+
 
         Polaczenie.stworzPolaczenie();
 

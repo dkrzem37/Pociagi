@@ -5,7 +5,7 @@ public class Sklad implements Comparable<Sklad>{
     public static ArrayList<Sklad> sklady = new ArrayList<>();
     private Lokomotywa lokomotywa;
     private ArrayList<Wagon> wagony;
-    private int nrIdentyfikacyjnySkladu;
+    private int nrIdentyfikacyjnySkladu, procentDrogiPokonanej;
     private double drogaMiedzyStacjami;
     private Thread zmianaPredkosci, ruchSkladu;
     private Miejsce miejsce;
@@ -214,6 +214,15 @@ public class Sklad implements Comparable<Sklad>{
         trasa.pop();
         return false;
     }*/
+    public void wyswietlProcentMiedzyStacjami(){
+        if(miejsce instanceof Stacja)
+            System.out.println("Sklad znajduje sie na stacji " + miejsce.getNazwa());
+        if(miejsce instanceof Polaczenie)
+            System.out.println("Sklad pokonal " + miejsce.zwrocDystansMiedzyStacjami() + "% drogi miedzy stacjami na polaczeniu " + ((Polaczenie) miejsce).getStacja1().getNazwaStacji() +" - " + ((Polaczenie) miejsce).getStacja2().getNazwaStacji());
+    }
+    public void wyswietlProcentTrasy(){
+        System.out.println("Pokonano " + this.procentDrogiPokonanej + "% drogi na trasie  " + this.lokomotywa.getStacjaZrodlowa() + " - " + this.lokomotywa.getStacjaDocelowa());
+    }
 
 
     public int getNrIdentyfikacyjnySkladu() {
@@ -271,6 +280,14 @@ public class Sklad implements Comparable<Sklad>{
 
     public Thread getRuchSkladu() {
         return ruchSkladu;
+    }
+
+    public int getProcentDrogiPokonanej() {
+        return procentDrogiPokonanej;
+    }
+
+    public void setProcentDrogiPokonanej(int procentDrogiPokonanej) {
+        this.procentDrogiPokonanej = procentDrogiPokonanej;
     }
 
     @Override

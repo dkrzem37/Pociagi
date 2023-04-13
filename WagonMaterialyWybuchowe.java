@@ -8,4 +8,12 @@ public class WagonMaterialyWybuchowe extends WagonTowarowyCiezki{
         this.obudowaOchronna = obudowaOchronna;
         this.wyczulenieNaDrgania = wyczulenieNaDrgania;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Wagon na Materialy Wybuchowe{" +
+                "obudowaOchronna: " + obudowaOchronna +
+                ", wyczulenie na drgania: " + wyczulenieNaDrgania +
+                '.';
+    }
 }

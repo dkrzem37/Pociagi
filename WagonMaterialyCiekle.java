@@ -7,4 +7,12 @@ public class WagonMaterialyCiekle  extends WagonTowarowyPodstawowy{
         this.parowanieCieczy = parowanieCieczy;
         this.pojemnosc = pojemnosc1;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Wagon na Materialy Ciekle: " +
+                "parowanie cieczy: " + parowanieCieczy +
+                ", pojemnosc: " + pojemnosc +
+                '.';
+    }
 }

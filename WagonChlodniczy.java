@@ -4,12 +4,9 @@ public class WagonChlodniczy extends WagonTowarowyPodstawowy{
     private double minTemp;
     enum Chlodzenie{WIATRAK, ELEKTRYCZNIE, CIECZ}
     private Chlodzenie systemChlodzacy;
-    public WagonChlodniczy() {
-        setWymagaElektr(true);
-    }
 
-    public WagonChlodniczy(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr, double pojemnosc, int coIleSerwis, double minTemp, Chlodzenie systemChlodzacy) {
-        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, wymagaElektr, pojemnosc, coIleSerwis);
+    public WagonChlodniczy(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu,  double pojemnosc, int coIleSerwis, double minTemp, Chlodzenie systemChlodzacy) {
+        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, true, pojemnosc, coIleSerwis);
         this.minTemp = minTemp;
         this.systemChlodzacy = systemChlodzacy;
     }
@@ -41,7 +38,15 @@ public class WagonChlodniczy extends WagonTowarowyPodstawowy{
             case 3 -> Chlodzenie.CIECZ;
             default -> Chlodzenie.WIATRAK;
         };
-        Wagon wagon = new WagonChlodniczy(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, wymagaElektr, pojemnosc, coIleSerwis, minTemp, chlodzenie);
+        Wagon wagon = new WagonChlodniczy(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, pojemnosc, coIleSerwis, minTemp, chlodzenie);
         System.out.println("Stworzono wagon o numerze identyfikacyjnym " + wagon.getNrIdentyfikacyjnyWagonu() + ".");
+    }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Wagon Chlodniczy: " +
+                " minimalna temperatura w wagonie" + minTemp +
+                ", system chlodzacy: " + systemChlodzacy +
+                '.';
     }
 }

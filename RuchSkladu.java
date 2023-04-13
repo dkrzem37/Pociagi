@@ -15,6 +15,8 @@ public class RuchSkladu implements Runnable {
         while (true) {
             //Stack<Stacja> odwrotnaTrasa = Sklad.zwrocTrase(this.sklad.getLokomotywa().getStacjaZrodlowa(), this.sklad.getLokomotywa().getStacjaDocelowa());
             Stack<Stacja> trasa = Sklad.zwrocTrase(this.sklad.getLokomotywa().getStacjaDocelowa(), this.sklad.getLokomotywa().getStacjaZrodlowa());
+            int countStacji = 0;
+            int dlugoscTrasy = trasa.size() - 1;
             /*while (!odwrotnaTrasa.isEmpty()) {
                 trasa.push(odwrotnaTrasa.pop());
             }*/
@@ -106,6 +108,8 @@ public class RuchSkladu implements Runnable {
                     }
                     sklad.setDrogaMiedzyStacjami(0);
                     sklad.setMiejsce(stacja2);
+                    countStacji++;
+                    sklad.setProcentDrogiPokonanej((countStacji * 100) / dlugoscTrasy);
                     sklad.getLokomotywa().setPredkosc(0);
 
                     //polaczenie.notify();

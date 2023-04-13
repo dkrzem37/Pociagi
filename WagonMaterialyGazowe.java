@@ -7,4 +7,12 @@ public class WagonMaterialyGazowe extends WagonTowarowyPodstawowy{
         this.maxCisnieniePa = maxCisnieniePa;
         this.uciekanieGazu = uciekanieGazu;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "Wagon na Materialy Gazowe: " +
+                "maksymalne cisnienie: " + maxCisnieniePa +
+                ", uciekanie gazu: " + uciekanieGazu +
+                '.';
+    }
 }

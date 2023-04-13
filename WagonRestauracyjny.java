@@ -11,4 +11,12 @@ public class WagonRestauracyjny extends Wagon{
         this.rodzaj = rodzaj;
         this.iloscStolikow = iloscStolikow;
     }
+
+    @Override
+    public String toString() {
+        return "WagonRestauracyjny: " + super.toString() +
+                "rodzaj: " + rodzaj +
+                ", iloscStolikow: " + iloscStolikow +
+                '.';
+    }
 }
