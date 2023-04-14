@@ -16,7 +16,7 @@ public class WagonBagazowoPocztowy extends Wagon{
         double wysokoscWagonu = temp[1];
         double maxUdzwig = temp[2];
         double wagaWagonu = temp[3];
-        boolean wymagaElektr = false;
+
         System.out.println("Czy istnieje mozliwosc przewozu zwierzat? ");
         boolean mozliwoscPrzewozuZwierzat = Funkcje.wyborBoolean();
         Scanner scanner = new Scanner(System.in);

@@ -17,4 +17,12 @@ public class Towar {
     public static int getNumerId() {
         return numerId;
     }
+
+    public String getInformacje() {
+        return informacje;
+    }
+
+    public double getWaga() {
+        return waga;
+    }
 }

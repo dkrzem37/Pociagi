@@ -11,20 +11,20 @@ public class WagonChlodniczy extends WagonTowarowyPodstawowy{
         this.systemChlodzacy = systemChlodzacy;
     }
 
-    public static void stworzWagonBagazowoPocztowy() {
+    public static void stworzChlodniczy() {
         double[] temp = Wagon.stworzWagon();
         double dlugoscWagonu = temp[0];
         double wysokoscWagonu = temp[1];
         double maxUdzwig = temp[2];
         double wagaWagonu = temp[3];
-        boolean wymagaElektr = false;
-        System.out.println("Podaj minimalna temperature. ");
-        double pojemnosc = Funkcje.sprawdzCzyPoprawnyDouble(0,1000, "Zla pojemnosc. (0 - 1000)");
 
-        System.out.println("Podaj minimalna temperature. ");
-        int coIleSerwis = Funkcje.sprawdzCzyPoprawnyInt(0,200, "Zly numer (0 - 200)");
+        System.out.println("Podaj pojemnosc: ");
+        double pojemnosc = Funkcje.sprawdzCzyPoprawnyDouble(0,2000, "Zla pojemnosc. (0 - 2000)");
 
-        System.out.println("Podaj minimalna temperature. ");
+        System.out.println("Podaj sugerowany okres miedzy serwisem: ");
+        int coIleSerwis = Funkcje.sprawdzCzyPoprawnyInt(0,200, "Zly czas (0 - 200)");
+
+        System.out.println("Podaj minimalna temperature: ");
         double minTemp = Funkcje.sprawdzCzyPoprawnyDouble(-300,100, "Zla temperatura. (-300 - 100)");
 
         System.out.println("Wybierz chlodzenie: ");

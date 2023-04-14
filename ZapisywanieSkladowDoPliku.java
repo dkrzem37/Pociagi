@@ -36,9 +36,11 @@ public class ZapisywanieSkladowDoPliku implements Runnable{
                     }
                     Collections.sort(sortedWagony);
 
+
                     for(Wagon w: sortedWagony){
-                        printWriter.println("                      " + w.toString());
+                        printWriter.println("          -" + w.toString());
                     }
+                    printWriter.println();
                 }
                 printWriter.println("\n//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n");
 

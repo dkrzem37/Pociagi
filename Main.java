@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Stacja proba0 = new Stacja("sda");
+        /*Stacja proba0 = new Stacja("sda");
         Stacja proba1 = new Stacja("sda");
         Stacja proba2 = new Stacja("agd");
         Stacja proba3 = new Stacja("sda");
@@ -29,7 +29,7 @@ public class Main {
         new Polaczenie(proba3, proba4, 0.1);
         new Polaczenie(proba1, proba8, 0.1);
         new Polaczenie(proba8, proba9, 0.1);
-        new Polaczenie(proba9, proba10, 0.1);
+        new Polaczenie(proba9, proba10, 0.1);*/
         /*Lokomotywa lok = new Lokomotywa(134,1233,12,"fs",proba1, proba1, proba10,150);
         new Sklad(lok);
         Stack<Stacja> temp= Sklad.zwrocTrase(lok.getStacjaDocelowa(), lok.getStacjaZrodlowa());
@@ -211,24 +211,57 @@ public class Main {
             tablicaSkladow[j] = new Sklad(l);
             j++;
         }
-        List<Sklad> sortedSklady = new ArrayList<>(Sklad.sklady);
+        /*List<Sklad> sortedSklady = new ArrayList<>(Sklad.sklady);
         for(Sklad s: sortedSklady){
             System.out.println(s.toString());
         }
         Collections.sort(sortedSklady);
         for(Sklad s: sortedSklady){
             System.out.println(s.toString());
-        }
+        }*/
         //Tworzenie wagonow
-        Wagon[] wagony = new Wagon[250];
+        Wagon[] wagony = new Wagon[252];
         for(int i = 0; i< 250;){
-            wagony[i] = new WagonBagazowoPocztowy(13, 14, 145555, 57000, true, "POCZTA POLSKA");
-            i++;
-            wagony[i] = new WagonChlodniczy(10,4,40000,59000, 1000, 12, -30, WagonChlodniczy.Chlodzenie.CIECZ);
-            i++;
-            wagony[i] = new WagonCiekleMaterialyToksyczne(5, 2, 130000,35000, 1200, true, 134, 13,13);
-            i++;
+            wagony[i++] = new WagonBagazowoPocztowy(13, 14, 145555, 57000, true, "POCZTA POLSKA");
+            wagony[i++] = new WagonChlodniczy(10,4,40000,59000, 1000, 12, -30, WagonChlodniczy.Chlodzenie.CIECZ);
+            wagony[i++] = new WagonCiekleMaterialyToksyczne(5, 2, 130000,35000, 1200, true, 134, 13,13);
+            wagony[i++] = new WagonMaterialyCiekle(11.2, 3.2, 40987, 50000, 500, 12, 88,1444);
+            wagony[i++] = new WagonMaterialyGazowe(11, 2.4, 14000, 23000, 1377, 9, 55,14);
+            wagony[i++] = new WagonMaterialyToksyczne(13,4.5,66000,44566,800,false, WagonMaterialyToksyczne.MaterialObudowy.LPDE,3);
+            wagony[i++] = new WagonMaterialyWybuchowe(20,10, 14000,10000,1780,true, WagonMaterialyWybuchowe.Obudowa.STAL,  3.3);
+            wagony[i++] = new WagonPasazerski(13,12,14444,14555, WagonPasazerski.Ogrzewanie.ELEKTRYCZNE, true, 23);
+            wagony[i++] = new WagonPocztowy(6,2,15666,900, "Plix", 14.5);
+            wagony[i++] = new WagonRestauracyjny(9,2,23653, 56000, WagonRestauracyjny.Rodzaj.RESTAURACJA, 13);
+            wagony[i++] = new WagonTowarowyCiezki(14,5,15000,13000,false, 1000, true);
+            wagony[i++] = new WagonTowarowyPodstawowy(11, 5,100000, 130000,false, 1400,18);
         }
+        //Przypisywanie wagonow do skladow
+        int kk = 0;
+        for(Sklad s: tablicaSkladow){
+            int k = (int)(Math.random()*5 +5);
+            for(int i = 0; i< k; i++) {
+                s.getWagony().add(wagony[kk]);
+                Wagon.wagonyWolnostojace.remove(wagony[kk]);
+                wagony[kk].setSkladPrzylaczony(s);
+                kk++;
+            }
+        }
+        /*for(int i = 0; i< wagony.length; i++){
+            System.out.println(wagony[i]);
+        }*/
+        /*for(Wagon w: Wagon.wagony){
+            System.out.println(w);
+        }*/
+
+       /* ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
+        Thread zapisywanie1 = new Thread(zapis1);
+        zapisywanie1.start();*/
+
+        /*Sklad.raportSkladu();
+        Sklad.raportSkladu();
+        Sklad.raportSkladu();
+        Sklad.usunSklad();
+
         WagonPasazerski test1 = new WagonPasazerski(14,13,14444,133, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
         WagonPasazerski test2 = new WagonPasazerski(14,13,14444,5000, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
         WagonPasazerski test3 = new WagonPasazerski(14,13,14444,1003, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
@@ -238,9 +271,9 @@ public class Main {
         tablicaSkladow[0].getWagony().add(test3);
         tablicaSkladow[0].getWagony().add(test4);
 
-        ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
-        Thread zapisywanie1 = new Thread(zapis1);
-        zapisywanie1.start();
+
+
+
 
 
         Polaczenie.usunPolaczenie();
@@ -257,7 +290,7 @@ public class Main {
 
 
 
-        Polaczenie.stworzPolaczenie();
+        Polaczenie.stworzPolaczenie();*/
 
 
         /*for(Polaczenie p : Polaczenie.wszystkiePolaczenia){
@@ -279,7 +312,7 @@ public class Main {
 
         stacja0.wyswietlPolaczenia();*/
 
-        Sklad.usunSklad();
+        /*Sklad.usunSklad();
 
         for(Lokomotywa l : Lokomotywa.listaLokomotyw){
             System.out.println(l.getNrIdentyfikacyjnyLokomotywy());
@@ -297,10 +330,7 @@ public class Main {
 
         Stacja.usunStacje();
 
-
-
-        Polaczenie.usunPolaczenie();
-
+        Polaczenie.usunPolaczenie();*/
 
         /*WagonPasazerski wagon1 = new WagonPasazerski(12.3, 4,  1056, 14444 ,WagonPasazerski.Ogrzewanie.WODNE, true, 24);
         //WagonPocztowy wagon2 = new WagonPocztowy(14.1,1500, 14555);
@@ -368,7 +398,7 @@ public class Main {
                 "0. Zakoncz dzialanie programu.",
                 "1. Stworz nowy obiekt.",
                 "2. Usun obiekt.",
-                "3. Zaladuj osoby/towar do wagonow.",
+                "3. Zaladuj/wyladuj towar z wagonow.",
                 "4. Zmien sklad.",
                 "5. Wyswietl informacje."));
         //Menu 0_1 TWORZENIE OBIEKTOW
@@ -377,14 +407,34 @@ public class Main {
                 "1. Stworz lokomotywe.",
                 "2. Stworz wagon.",
                 "3. Stworz nowa stacje.",
-                "4. Stworz nowe polaczenie miedzy stacjami."));
-        //Menu 0_2 USUWANIIE OBIEKTOW
+                "4. Stworz nowe polaczenie miedzy stacjami.",
+                "5. Stworz sklad."));
+        //Menu 0_2 USUWANIE OBIEKTOW
         ArrayList<String> menuUsuwanieObiektow = new ArrayList<>(Arrays.asList(
                 "0. Wroc do menu glownego.",
                 "1. Usun lokomotywe.",
                 "2. Usun wagon.",
                 "3. Usun stacje.",
-                "4. Usun polaczenie miedzy stacjami."));
+                "4. Usun polaczenie miedzy stacjami.",
+                "5. Usun sklad."));
+        //Menu 0_3 ZALADUNEK/WYLADUNEK TOWARU
+        ArrayList<String> menuTowaru = new ArrayList<>(Arrays.asList(
+                "0. Wroc do menu glownego.",
+                "1. Zaladuj towar.",
+                "2. Wyladuj towar. "
+        ));
+        //Menu 0_4 ZMIANA SKLADU
+        ArrayList<String> menuZmianaSkladu = new ArrayList<>(Arrays.asList(
+                "0. Wroc do menu glownego.",
+                "1. Przyczep wagon.",
+                "2. Odczep wagon. "
+        ));
+        //Menu 0_5 WYSWIETL INFORMACJE
+        ArrayList<String> menuWyswietlInfo = new ArrayList<>(Arrays.asList(
+                "0. Wroc do menu glownego.",
+                "1. Wyswietl raport skladu.",
+                "2. . "
+        ));
         int userInput;
         do {
             ZapisywanieSkladowDoPliku zapis = new ZapisywanieSkladowDoPliku();
@@ -412,14 +462,14 @@ public class Main {
                 if(userInput < 0 || userInput > 5)
                     System.out.println("Wybierz jedna z opcji.");
             }while((userInput = Menu.wyborPoprawnejOpcji(0, 5, "Wybierz poprawna opcje: ")) == -1);*/
-            userInput = Menu.wyborOpcjiZMenu(menuGlowne, "Wybierz jedna z opcji.");
+            userInput = Funkcje.wyborOpcjiZMenu(menuGlowne, "Wybierz jedna z opcji.");
 
             switch (userInput) {
                 case 0: //0.0 Zakoncz dzialanie programu
                     System.exit(0);
                     break;
                 case 1: //0.1 Stworz nowy obiekt
-                    userInput = Menu.wyborOpcjiZMenu(menuTworzenieObiektow, "Wybierz jedna z opcji.");
+                    userInput = Funkcje.wyborOpcjiZMenu(menuTworzenieObiektow, "Wybierz jedna z opcji.");
                     /*do {
                         System.out.println("0. Wroc do menu glownego.");
                         System.out.println("1. Stworz lokomotywe.");
@@ -430,25 +480,74 @@ public class Main {
                     switch (userInput) {
                         case 0:
                             break;
-                        case 1:
-                            Lokomotywa.stworzLokomotywe();
+                        case 1: Lokomotywa.stworzLokomotywe();
                             break;
                         case 2:
                             break;
-                        case 3:
+                        case 3: Stacja.stworzStacje();
                             break;
-                        case 4:
+                        case 4: Polaczenie.stworzPolaczenie();
+                            break;
+                        case 5: Sklad.stworzSklad();
                             break;
                     }
                     ///////koniec kodu tworzenia
                     break;
                 case 2: // 0.2 Usun obiekt.
+                    userInput = Funkcje.wyborOpcjiZMenu(menuUsuwanieObiektow, "Wybierz jedna z opcji.");
+                    switch (userInput) {
+                        case 0:
+                            break;
+                        case 1: Lokomotywa.usunLokomotywe();
+                            break;
+                        case 2: Wagon.usunWagon();
+                            break;
+                        case 3: Stacja.usunStacje();
+                            break;
+                        case 4: Polaczenie.usunPolaczenie();
+                            break;
+                        case 5: Sklad.usunSklad();
+                            break;
+                    }
                     break;
-                case 3: // 0.3 Zaladuj osoby/towar do wagonow.
+                case 3: // 0.3 Zaladuj/wyladuj towar do wagonow.
+                    userInput = Funkcje.wyborOpcjiZMenu(menuTowaru, "Wybierz jedna z opcji.");
+                    switch (userInput) {
+                        case 0:
+                            break;
+                        case 1: Wagon.zaladunekTowaru();
+                            break;
+                        case 2: Wagon.wyladunekTowaru();
+                            break;
+                    }
                     break;
                 case 4: // 0.4 Zmien Sklad
+                    userInput = Funkcje.wyborOpcjiZMenu(menuZmianaSkladu, "Wybierz jedna z opcji.");
+                    switch (userInput) {
+                        case 0:
+                            break;
+                        case 1:
+                            try {
+                                Sklad.przypisanieWagonu();
+                            }catch(ZbytWieleWagonow| ZbytDuzaWagaWagonow| ZbytWieleWagonowElektrycznych e){
+                                System.out.println(e.getMessage());
+                            }
+                            break;
+                        case 2: Sklad.odczepienieWagonuZeSkladu();
+                            break;
+                    }
                     break;
                 case 5: // 0.5 Wyswietl informacje
+                    userInput = Funkcje.wyborOpcjiZMenu(menuWyswietlInfo, "Wybierz jedna z opcji.");
+                    switch (userInput) {
+                        case 0:
+                            break;
+                        case 1:
+                            Sklad.raportSkladu();
+                            break;
+                        case 2:
+                            break;
+                    }
                     break;
 
             }

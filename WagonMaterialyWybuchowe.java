@@ -3,8 +3,8 @@ public class WagonMaterialyWybuchowe extends WagonTowarowyCiezki{
     private Obudowa obudowaOchronna;
     private double wyczulenieNaDrgania;
 
-    public WagonMaterialyWybuchowe(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr, double pojemnosc, boolean przykryty, Obudowa obudowaOchronna, double wyczulenieNaDrgania) {
-        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, wymagaElektr, pojemnosc, przykryty);
+    public WagonMaterialyWybuchowe(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, double pojemnosc, boolean przykryty, Obudowa obudowaOchronna, double wyczulenieNaDrgania) {
+        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, false, pojemnosc, przykryty);
         this.obudowaOchronna = obudowaOchronna;
         this.wyczulenieNaDrgania = wyczulenieNaDrgania;
     }

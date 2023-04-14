@@ -3,6 +3,31 @@ import java.util.Scanner;
 
 
 public abstract class Funkcje {
+    public static int wyborOpcjiZMenu(ArrayList<String> menu, String errorMessage) {
+        int userInput;
+        Scanner scanner = new Scanner(System.in);
+        do {
+            for(String s: menu){
+                System.out.println(s);
+            }
+
+            if(scanner.hasNextInt())
+                userInput = scanner.nextInt();
+            else {
+                scanner.nextLine();
+                userInput = -1;
+                System.out.println(errorMessage);
+                continue;
+            }
+
+            if(userInput < 0 || userInput > menu.size()) {
+                System.out.println(errorMessage);
+                userInput = -1;
+                scanner.nextLine();
+            }
+        } while (userInput == -1);
+        return userInput;
+    }
     public static boolean czyIstniejePolaczenie(Stacja s1, Stacja s2){
         for(Polaczenie p: Polaczenie.wszystkiePolaczenia){
             if((s1 == p.getStacja1() && s2 == p.getStacja2()) || (s1 == p.getStacja2() && s2 == p.getStacja1()))

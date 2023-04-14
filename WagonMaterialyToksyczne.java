@@ -3,8 +3,8 @@ public class WagonMaterialyToksyczne extends WagonTowarowyCiezki{
     private MaterialObudowy material;
     private int iloscPojemnikow;
 
-    public WagonMaterialyToksyczne(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr, double pojemnosc, boolean przykryty, MaterialObudowy material, int iloscPojemnikow) {
-        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, wymagaElektr, pojemnosc, przykryty);
+    public WagonMaterialyToksyczne(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, double pojemnosc, boolean przykryty, MaterialObudowy material, int iloscPojemnikow) {
+        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, false, pojemnosc, przykryty);
         this.material = material;
         this.iloscPojemnikow = iloscPojemnikow;
     }

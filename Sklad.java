@@ -36,6 +36,7 @@ public class Sklad implements Comparable<Sklad>{
         }
         sklad.getRuchSkladu().interrupt();
         sklad.getZmianaPredkosci().interrupt();
+        System.out.println("Sklad usunieto.");
     }
 
     public void sprawdzaniePredkosci() throws RailroadHazard{
@@ -90,9 +91,9 @@ public class Sklad implements Comparable<Sklad>{
             Sklad sklad;
             System.out.println("Podaj numer identyfikacyjny skladu do ktorego przypisac: ");
             do {
-                numerIdSkladu = Funkcje.sprawdzCzyPoprawnyInt(0, Wagon.getNrIdentyfikacyjny(), "Zly numer.");
+                numerIdSkladu = Funkcje.sprawdzCzyPoprawnyInt(0, Sklad.getNrIdentyfikacyjny(), "Zly numer.");
                 if ((sklad = Funkcje.zwrocSkladONumerze(numerIdSkladu)) == null)
-                    System.out.println("Nie ma takiego wagonu. ");
+                    System.out.println("Nie ma takiego skladu. ");
             } while (sklad == null);
 
             if (sklad.obliczWageWagonow() + wagon.getWagaWagonuITowaru() > sklad.getLokomotywa().getMaxUciag()) {
@@ -218,10 +219,35 @@ public class Sklad implements Comparable<Sklad>{
         if(miejsce instanceof Stacja)
             System.out.println("Sklad znajduje sie na stacji " + miejsce.getNazwa());
         if(miejsce instanceof Polaczenie)
-            System.out.println("Sklad pokonal " + miejsce.zwrocDystansMiedzyStacjami() + "% drogi miedzy stacjami na polaczeniu " + ((Polaczenie) miejsce).getStacja1().getNazwaStacji() +" - " + ((Polaczenie) miejsce).getStacja2().getNazwaStacji());
+            System.out.println("Sklad pokonal " + miejsce.zwrocDystansMiedzyStacjami() + "% drogi miedzy stacjami na polaczeniu [" + ((Polaczenie) miejsce).getStacja1().getNazwaStacji() +"] - [" + ((Polaczenie) miejsce).getStacja2().getNazwaStacji() + "]");
     }
     public void wyswietlProcentTrasy(){
-        System.out.println("Pokonano " + this.procentDrogiPokonanej + "% drogi na trasie  " + this.lokomotywa.getStacjaZrodlowa() + " - " + this.lokomotywa.getStacjaDocelowa());
+        System.out.println("Pokonano " + this.procentDrogiPokonanej + "% drogi na trasie  [" + this.lokomotywa.getStacjaZrodlowa() + "] - [" + this.lokomotywa.getStacjaDocelowa() + "]");
+    }
+
+    public static void raportSkladu(){
+        System.out.println("Podaj numer identyfikacyjny skladu ktorego raport ma zostac wyswietlony: ");
+        int numerIdSkladu;
+        Sklad sklad;
+        do {
+            numerIdSkladu = Funkcje.sprawdzCzyPoprawnyInt(0, Sklad.getNrIdentyfikacyjny(), "Zly numer.");
+            if ((sklad = Funkcje.zwrocSkladONumerze(numerIdSkladu)) == null)
+                System.out.println("Nie ma takiego skladu. ");
+        } while (sklad == null);
+
+        System.out.println(sklad.toString());
+        System.out.print("     -" );
+        sklad.wyswietlProcentTrasy();
+        System.out.print("     -");
+        sklad.wyswietlProcentMiedzyStacjami();
+
+
+        System.out.println();
+        for(Wagon w: sklad.getWagony()){
+            w.ileLudzi();
+            w.wyswietlTowary();
+            System.out.println("     -----");
+        }
     }
 
 
@@ -232,6 +258,7 @@ public class Sklad implements Comparable<Sklad>{
     public static int getNrIdentyfikacyjny() {
         return nrIdentyfikacyjny;
     }
+
 
     public double obliczWageWagonow(){
         double wagaSuma = 0;
@@ -306,6 +333,6 @@ public class Sklad implements Comparable<Sklad>{
                 ": lokomotywa : " + lokomotywa.getNazwa() +
                 ", aktualne miejsce : " + miejsce.getNazwa() +
                 ", droga pozostala do stacji : " + this.drogaMiedzyStacjami +
-                '.';
+                "km.";
     }
 }

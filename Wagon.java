@@ -12,10 +12,6 @@ public abstract class Wagon implements Comparable<Wagon>{
     public static ArrayList<Wagon> wagonyWolnostojace = new ArrayList<>();
 
     //delete default constructor later I think
-    public Wagon() {
-
-        this.nrIdentyfikacyjnyWagonu = nrIdentyfikacyjny++;
-    }
 
     public Wagon(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr) {
         this.dlugoscWagonu = dlugoscWagonu;
@@ -56,6 +52,7 @@ public abstract class Wagon implements Comparable<Wagon>{
 
         Wagon.wagonyWolnostojace.remove(wagon);
         Wagon.wagony.remove(wagon);
+        System.out.println("Wagon z nr id " + wagon.getNrIdentyfikacyjnyWagonu() + " zostal usuniety.");
     }
     public static void wyladunekTowaru() {
         System.out.println("Podaj numer identyfikacyjny wagonu z ktorego chcialbys wyladowac towar: ");
@@ -99,7 +96,20 @@ public abstract class Wagon implements Comparable<Wagon>{
 
             wagon.setWagaTowaru(wagon.getWagaTowaru() + wagaDoDodania);
             wagon.setWagaWagonuITowaru(wagon.getWagaWagonuITowaru() + wagaDoDodania);
+            System.out.println("Zaladowano towar.");
         }
+    }
+    public void wyswietlTowary(){
+        if(listaTowarow.isEmpty()){
+            System.out.println("     Brak towarow w wagonie.");
+        }else {
+            for (Towar t : listaTowarow) {
+                System.out.println("     [Towar nr " + t.getNumerIdTowar() + " , waga: " + t.getWaga() + " ,opis: " + t.getInformacje() + "]");
+            }
+        }
+    }
+    public void ileLudzi(){
+        System.out.println("     W wagonie (nr id " + this.getNrIdentyfikacyjnyWagonu() +") znajduje sie 0 ludzi.");
     }
 
 
@@ -196,7 +206,7 @@ public abstract class Wagon implements Comparable<Wagon>{
                 ", waga towaru: " + wagaTowaru +
                 ", waga wagonu: " + wagaWagonu +
                 ", numer identyfikacyjny: " + nrIdentyfikacyjnyWagonu +
-                ", przylaczony do skladu: " + skladPrzylaczony.getNrIdentyfikacyjnySkladu() +
+                ", przylaczony do skladu: " + (skladPrzylaczony== null ? "brak skladu" : skladPrzylaczony.getNrIdentyfikacyjnySkladu()) +
                 ", "
                 ;
     }

@@ -19,7 +19,7 @@ public class Stacja extends Miejsce{
         System.out.println("Podaj nazwe stacji: ");
         String nazwa = scanner.nextLine();
         Stacja stacja = new Stacja(nazwa);
-        System.out.println("Stacja stworzona.");
+        System.out.println("Stacja stworzona. Numer id: " + stacja.getNrIdentyfikacyjnyStacji() + ".");
     }
     public static void usunStacje(){
         System.out.println("Podaj numer identyfikacyjny stacji do usuniecia: ");

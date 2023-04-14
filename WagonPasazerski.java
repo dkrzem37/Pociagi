@@ -90,6 +90,11 @@ public class WagonPasazerski extends Wagon{
         }
 
     }
+    @Override
+    public void ileLudzi(){
+        System.out.println("     W wagonie (nr id " + this.getNrIdentyfikacyjnyWagonu() + ") znajduje sie " + (liczbaMiejscSiedz - wolneMiejsca)  + " ludzi.");
+    }
+
 
     public int getWolneMiejsca() {
         return wolneMiejsca;

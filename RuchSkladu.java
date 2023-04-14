@@ -104,7 +104,7 @@ public class RuchSkladu implements Runnable {
 
                         polaczenie.setSkladPrzejezdzajacy(null);
                         //usunac
-                        System.out.println("Przejazd skladu " + sklad.getNrIdentyfikacyjnySkladu() + " ze stacji " + stacja1.toString() + stacja2.toString());
+                        //System.out.println("Przejazd skladu " + sklad.getNrIdentyfikacyjnySkladu() + " ze stacji " + stacja1.toString() + stacja2.toString());
                     }
                     sklad.setDrogaMiedzyStacjami(0);
                     sklad.setMiejsce(stacja2);

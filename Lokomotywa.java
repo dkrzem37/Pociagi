@@ -15,7 +15,7 @@ public
     //Konstruktor tylko na potrzeby symulacji
     public Lokomotywa(String s){
         this.maxLiczbaWagonow = 15 + (int)(Math.random() * ((33 - 15) + 1));
-        this.maxUciag = 5 +  (Math.random() * 30);
+        this.maxUciag = (Math.random() * 3000000 + 1000000);
         this.maxWagonowElektrycznych = 14 + (int)(Math.random() * ((26 - 14) + 1));
         this.nazwa = s;
         Stacja stacja1 = Stacja.stacje.get((int) (Math.random()* (Stacja.stacje.size())));
