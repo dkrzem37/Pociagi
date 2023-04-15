@@ -72,7 +72,7 @@ public class WagonPasazerski extends Wagon{
         }
     }
     public static void usuniecieLudzi(){
-        System.out.println("Podaj numer identyfikacyjny wagonu do ktorego chcesz zaladowac towar: ");
+        System.out.println("Podaj numer identyfikacyjny wagonu z ktorego chcesz usunac ludzi: ");
         Wagon wagon = Funkcje.zwrocIstniejacyWagon();
         if(wagon instanceof WagonPasazerski){
             if(((WagonPasazerski) wagon).getLiczbaMiejscSiedz() - ((WagonPasazerski) wagon).getWolneMiejsca() > 0){

@@ -5,46 +5,6 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
 
-
-        /*Stacja proba0 = new Stacja("sda");
-        Stacja proba1 = new Stacja("sda");
-        Stacja proba2 = new Stacja("agd");
-        Stacja proba3 = new Stacja("sda");
-        Stacja proba4 = new Stacja("agd");
-        Stacja proba5 = new Stacja("sda");
-        Stacja proba6 = new Stacja("agd");
-        Stacja proba7 = new Stacja("sda");
-        Stacja proba8 = new Stacja("agd");
-        Stacja proba9 = new Stacja("sda");
-        Stacja proba10 = new Stacja("agd");
-        new Polaczenie(proba1, proba2, 0.1);
-        new Polaczenie(proba1, proba3, 0.1);
-        new Polaczenie(proba1, proba4, 0.1);
-        new Polaczenie(proba1, proba5, 0.1);
-        new Polaczenie(proba1, proba6, 0.1);
-        new Polaczenie(proba3, proba2, 0.1);
-        new Polaczenie(proba5, proba2, 0.1);
-        new Polaczenie(proba6, proba2, 0.1);
-        new Polaczenie(proba7, proba2, 0.1);
-        new Polaczenie(proba3, proba4, 0.1);
-        new Polaczenie(proba1, proba8, 0.1);
-        new Polaczenie(proba8, proba9, 0.1);
-        new Polaczenie(proba9, proba10, 0.1);*/
-        /*Lokomotywa lok = new Lokomotywa(134,1233,12,"fs",proba1, proba1, proba10,150);
-        new Sklad(lok);
-        Stack<Stacja> temp= Sklad.zwrocTrase(lok.getStacjaDocelowa(), lok.getStacjaZrodlowa());
-        for(Stacja s: temp){
-            System.out.print(s.getNrIdentyfikacyjnyStacji() + " + ");
-        }*/
-        /*Polaczenie.usunPolaczenie();
-        Polaczenie.stworzPolaczenie();
-        Polaczenie.usunPolaczenie();*/
-        /*for(int i = 0; i< 20; i++) {
-            System.out.println((Math.random() * (155- 100) ) + 100);
-        }*/
-        /*for(int i = 0; i< 20; i++){
-            System.out.println(15 + (int)(Math.random() * ((33 - 15) + 1)));
-        }*/
         //region imiona dla lokomotyw
         String[] imionaDlaLokomotyw = {"Jeniffer",
                 "Rollins",
@@ -74,13 +34,8 @@ public class Main {
                 "Franco"};
         //endregion
 
-
-        /*System.out.println("wybierz boolean");
-        boolean aaa = Funkcje.wyborBoolean();
-        System.out.println(aaa);
-        WagonPasazerski.stworzWagonPasazerski();*/
-
         //region tablica miast
+        //Lista miast ze strony https://jordonmeyer.com/text-list-of-us-cities/
         String[] miasta = {
                 "Abilene",
                 "Akron",
@@ -186,10 +141,7 @@ public class Main {
         for(String s: miasta){
             new Stacja(s);
         }
-        //System.out.println(Stacja.stacje.size());
-        /*for(Stacja s: Stacja.stacje){
-            System.out.println(s.toString());
-        }*/
+
         //TWORZENIE POLACZEN
         for(int i = 0; i < 1500; i++){
             Stacja stacja1 = Stacja.stacje.get((int) (Math.random()* (Stacja.stacje.size())));
@@ -200,25 +152,20 @@ public class Main {
             }while((stacja1 == stacja2) || Funkcje.czyIstniejePolaczenie(stacja1, stacja2));
             new Polaczenie(stacja1, stacja2, Math.random());
         }
+
         //TWORZENIE 25 LOKOMOTYW
         for(int i = 0; i < 25; i++){
             new Lokomotywa(imionaDlaLokomotyw[i]);
         }
         Sklad[] tablicaSkladow = new Sklad[25];
         int j = 0;
+
         //Tworzenie skladow
         for(Lokomotywa l: Lokomotywa.listaLokomotywWolnych){
             tablicaSkladow[j] = new Sklad(l);
             j++;
         }
-        /*List<Sklad> sortedSklady = new ArrayList<>(Sklad.sklady);
-        for(Sklad s: sortedSklady){
-            System.out.println(s.toString());
-        }
-        Collections.sort(sortedSklady);
-        for(Sklad s: sortedSklady){
-            System.out.println(s.toString());
-        }*/
+
         //Tworzenie wagonow
         Wagon[] wagony = new Wagon[252];
         for(int i = 0; i< 250;){
@@ -246,148 +193,9 @@ public class Main {
                 kk++;
             }
         }
-        /*for(int i = 0; i< wagony.length; i++){
-            System.out.println(wagony[i]);
-        }*/
-        /*for(Wagon w: Wagon.wagony){
-            System.out.println(w);
-        }*/
 
-       /* ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
-        Thread zapisywanie1 = new Thread(zapis1);
-        zapisywanie1.start();*/
-
-        /*Sklad.raportSkladu();
-        Sklad.raportSkladu();
-        Sklad.raportSkladu();
-        Sklad.usunSklad();
-
-        WagonPasazerski test1 = new WagonPasazerski(14,13,14444,133, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
-        WagonPasazerski test2 = new WagonPasazerski(14,13,14444,5000, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
-        WagonPasazerski test3 = new WagonPasazerski(14,13,14444,1003, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
-        WagonPasazerski test4 = new WagonPasazerski(14,13,14444,25000, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
-        tablicaSkladow[0].getWagony().add(test1);
-        tablicaSkladow[0].getWagony().add(test2);
-        tablicaSkladow[0].getWagony().add(test3);
-        tablicaSkladow[0].getWagony().add(test4);
-
-
-
-
-
-
-        Polaczenie.usunPolaczenie();
-
-        tablicaSkladow[1].wyswietlProcentMiedzyStacjami();
-        tablicaSkladow[2].wyswietlProcentMiedzyStacjami();
-        tablicaSkladow[3].wyswietlProcentMiedzyStacjami();
-        tablicaSkladow[4].wyswietlProcentMiedzyStacjami();
-
-        tablicaSkladow[1].wyswietlProcentTrasy();
-        tablicaSkladow[2].wyswietlProcentTrasy();
-        tablicaSkladow[3].wyswietlProcentTrasy();
-        tablicaSkladow[4].wyswietlProcentTrasy();
-
-
-
-        Polaczenie.stworzPolaczenie();*/
-
-
-        /*for(Polaczenie p : Polaczenie.wszystkiePolaczenia){
-            System.out.println(p.toString());
-        }
-        System.out.println(Polaczenie.wszystkiePolaczenia.size());*/
-
-
-
-
-
-        //Sklad.usunSklad();
-        /*System.out.println(sklad0.getMiejsce());
-
-        for(Stacja s: Sklad.zwrocTrase(stacja5, stacja1)){
-            System.out.print(s.getNrIdentyfikacyjnyStacji() + " - ");
-        }
-        System.out.println();
-
-        stacja0.wyswietlPolaczenia();*/
-
-        /*Sklad.usunSklad();
-
-        for(Lokomotywa l : Lokomotywa.listaLokomotyw){
-            System.out.println(l.getNrIdentyfikacyjnyLokomotywy());
-        }
-        System.out.println("above is a list of loco");
-        Lokomotywa.usunLokomotywe();
-
-        for(Lokomotywa l : Lokomotywa.listaLokomotyw){
-            System.out.println(l.getNrIdentyfikacyjnyLokomotywy());
-        }
-        System.out.println("above is a list of loco");
-
-
-        System.out.println(Funkcje.czyStacjaIstnieje(0));
-
-        Stacja.usunStacje();
-
-        Polaczenie.usunPolaczenie();*/
-
-        /*WagonPasazerski wagon1 = new WagonPasazerski(12.3, 4,  1056, 14444 ,WagonPasazerski.Ogrzewanie.WODNE, true, 24);
-        //WagonPocztowy wagon2 = new WagonPocztowy(14.1,1500, 14555);
-        WagonMaterialyGazowe wagon3 = new WagonMaterialyGazowe();
-        WagonTowarowyCiezki wagon4 = new WagonTowarowyCiezki();
-        for(Wagon w: Wagon.wagonyWolnostojace){
-            System.out.println(w.getNrIdentyfikacyjnyWagonu());
-            if(w instanceof WagonPasazerski)
-                System.out.println("true");;
-        }
-        Wagon.zaladunekTowaru();
-        Wagon.wyladunekTowaru();
-        try{
-            Sklad.przypisanieWagonu();
-        }catch(Exception e){
-            e.printStackTrace();
-        }
-        Wagon.zaladunekTowaru();
-
-        Wagon[] wagony = new Wagon[10];
-
-        wagony[0] = wagon1;
-        //wagony[1] = wagon2;
-        wagony[3] = wagon3;
-        wagony[4] = wagon4;
-
-        //Lokomotywa.stworzLokomotywe();
-
-        Sklad.stworzSklad();
-        try{
-            Sklad.przypisanieWagonu();
-        }catch(ZbytWieleWagonowElektrycznych | ZbytDuzaWagaWagonow | ZbytWieleWagonow ex){
-            ex.printStackTrace();
-        }
-        try{
-            Sklad.przypisanieWagonu();
-        }catch(ZbytWieleWagonowElektrycznych | ZbytDuzaWagaWagonow | ZbytWieleWagonow ex){
-            ex.printStackTrace();
-        }
-        try{
-            Sklad.przypisanieWagonu();
-        }catch(ZbytWieleWagonowElektrycznych | ZbytDuzaWagaWagonow | ZbytWieleWagonow ex){
-            ex.printStackTrace();
-        }
-        try{
-            Sklad.przypisanieWagonu();
-        }catch(ZbytWieleWagonowElektrycznych | ZbytDuzaWagaWagonow | ZbytWieleWagonow ex){
-            ex.printStackTrace();
-        }
-        for(Wagon w: wagony){
-            if(w != null) {
-                System.out.println(w.isWymagaElektr());
-                System.out.println(w.getNrIdentyfikacyjnyWagonu());
-            }
-        }*/
         //////////////////////////////////////////////////
-        //PROPER PROGRAM
+        //START OF PROGRAMME
         /////////////////////////////////////////////////
 
         /*ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
@@ -400,7 +208,8 @@ public class Main {
                 "2. Usun obiekt.",
                 "3. Zaladuj/wyladuj towar z wagonow.",
                 "4. Zmien sklad.",
-                "5. Wyswietl informacje."));
+                "5. Wyswietl informacje.",
+                "6. Zaladuj/usun ludzi."));
         //Menu 0_1 TWORZENIE OBIEKTOW
         ArrayList<String> menuTworzenieObiektow = new ArrayList<>(Arrays.asList(
                 "0. Wroc do menu glownego.",
@@ -433,7 +242,36 @@ public class Main {
         ArrayList<String> menuWyswietlInfo = new ArrayList<>(Arrays.asList(
                 "0. Wroc do menu glownego.",
                 "1. Wyswietl raport skladu.",
-                "2. . "
+                "2. Wyswietl wszystkie stacje. ",
+                "3. Wyswietl wszystkie lokomotywy. ",
+                "4. Wyswietl wszystkie polaczenia. ",
+                "5. Wyswietl wszystkie wagony. ",
+                "6. Wyswietl wolnostojace wagony. ",
+                "7. Wyswietl wolnostojace lokomotywy. ",
+                "8. Wyswietl polaczenia stacji. ",
+                "9. Wyswietl wszystkie przewozone towary. "
+        ));
+        //Menu 0_6 ZALADUJ/USUN LUDZI
+        ArrayList<String> menuZaladunekLudzi = new ArrayList<>(Arrays.asList(
+                "0. Wroc do menu glownego.",
+                "1. Zaladuj ludzi do wagonu.",
+                "2. Usun ludzi z wagonu. "
+        ));
+        //Menu 1_2 STWORZ WAGON
+        ArrayList<String> menuStworzWagon = new ArrayList<>(Arrays.asList(
+                "0. Wroc do menu glownego.",
+                "1. Wagon bagazowo-pocztowy.",
+                "2. Wagon chlodniczy. ",
+                "3. Wagon na ciekle materialy toksyczne.",
+                "4. Wagon na materialy ciekle.",
+                "5. Wagon na materialy gazowe.",
+                "6. Wagon na materialy toksyczne.",
+                "7. Wagon na materialy wybuchowe.",
+                "8. Wagon pasazerski.",
+                "9. Wagon pocztowy. ",
+                "10. Wagon restauracyjny.",
+                "11. Wagon towarowy ciezki.",
+                "12. Wagon towarowy podstawowy."
         ));
         int userInput;
         do {
@@ -442,26 +280,7 @@ public class Main {
             zapisywanie.start();
 
             System.out.println("WITAMY W DK RAILROADS.");
-            /*
-            do {
-                System.out.println("0. Zakoncz dzialanie programu.");
-                System.out.println("1. Stworz nowy obiekt.");
-                System.out.println("2. Usun obiekt.");
-                System.out.println("3. Zaladuj osoby/towar do wagonow.");
-                System.out.println("4. Zmien sklad.");
-                System.out.println("5. Wyswietl informacje.");
 
-                try{
-                    userInput = scanner.nextInt();
-                }catch(InputMismatchException e){
-                    System.out.println("Wybierz jedna z opcji.");
-                    userInput = -1;
-                    scanner.nextLine();
-                    continue;
-                }
-                if(userInput < 0 || userInput > 5)
-                    System.out.println("Wybierz jedna z opcji.");
-            }while((userInput = Menu.wyborPoprawnejOpcji(0, 5, "Wybierz poprawna opcje: ")) == -1);*/
             userInput = Funkcje.wyborOpcjiZMenu(menuGlowne, "Wybierz jedna z opcji.");
 
             switch (userInput) {
@@ -482,7 +301,36 @@ public class Main {
                             break;
                         case 1: Lokomotywa.stworzLokomotywe();
                             break;
-                        case 2:
+                        case 2: // 1.2 Tworzenie wagonow
+                            userInput = Funkcje.wyborOpcjiZMenu(menuStworzWagon, "Wybierz jedna z opcji.");
+                            switch (userInput) {
+                                case 0:
+                                    break;
+                                case 1: WagonBagazowoPocztowy.stworzWagonBagazowoPocztowy();
+                                    break;
+                                case 2: WagonChlodniczy.stworzChlodniczy();
+                                    break;
+                                case 3: WagonCiekleMaterialyToksyczne.stworzCiekleMatToksyczne();
+                                    break;
+                                case 4: WagonMaterialyCiekle.stworzMaterialyCiekle();
+                                    break;
+                                case 5: WagonMaterialyGazowe.stworzMaterialyGazowe();
+                                    break;
+                                case 6: WagonMaterialyToksyczne.stworzMaterialyToksyczne();
+                                    break;
+                                case 7: WagonMaterialyWybuchowe.stworzMaterialyWybuchowe();
+                                    break;
+                                case 8: WagonPasazerski.stworzWagonPasazerski();
+                                    break;
+                                case 9: WagonPocztowy.stworzWagonPocztowy();
+                                    break;
+                                case 10: WagonRestauracyjny.stworzRestauracyjny();
+                                    break;
+                                case 11: WagonTowarowyCiezki.stworzWagonTowarowyCiezki();
+                                    break;
+                                case 12: WagonTowarowyPodstawowy.stworzWagonTowarowyPodstawowy();
+                                    break;
+                            }
                             break;
                         case 3: Stacja.stworzStacje();
                             break;
@@ -542,10 +390,33 @@ public class Main {
                     switch (userInput) {
                         case 0:
                             break;
-                        case 1:
-                            Sklad.raportSkladu();
+                        case 1: Sklad.raportSkladu();
                             break;
-                        case 2:
+                        case 2: Stacja.wyswietlWszystkieStacje();
+                            break;
+                        case 3: Lokomotywa.wyswietlWszystkieLokomotywy();
+                            break;
+                        case 4: Polaczenie.wyswietlWszystkiePolaczenia();
+                            break;
+                        case 5: Wagon.wyswietlWszystkieWagony();
+                            break;
+                        case 6: Wagon.wyswietlWszystkieWolneWagony();
+                            break;
+                        case 7: Lokomotywa.wyswietlWszystkieWolneLokomotywy();
+                            break;
+                        case 8: Stacja.wyswietlPolaczenia();
+                            break;
+                        case 9: Towar.wyswietlWszystkieTowary();
+                    }
+                    break;
+                case 6: // 0.6 Zaladuj/usun ludzi
+                    userInput = Funkcje.wyborOpcjiZMenu(menuZaladunekLudzi, "Wybierz jedna z opcji.");
+                    switch (userInput) {
+                        case 0:
+                            break;
+                        case 1: WagonPasazerski.zaladunekLudzi();
+                            break;
+                        case 2: WagonPasazerski.usuniecieLudzi();
                             break;
                     }
                     break;

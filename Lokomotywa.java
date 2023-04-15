@@ -54,6 +54,17 @@ public
         listaLokomotywWolnych.add(this);
     }
 
+    public static void wyswietlWszystkieLokomotywy(){
+        for(Lokomotywa l: listaLokomotyw){
+            System.out.println(l);
+        }
+    }
+    public static void wyswietlWszystkieWolneLokomotywy(){
+        for(Lokomotywa l: listaLokomotywWolnych){
+            System.out.println(l);
+        }
+    }
+
     public static void stworzLokomotywe(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj maksymalna liczbe wagonow: ");

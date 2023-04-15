@@ -12,20 +12,12 @@ public class RuchSkladu implements Runnable {
 
     @Override
     public void run() {
+        outerloop:
         while (true) {
             //Stack<Stacja> odwrotnaTrasa = Sklad.zwrocTrase(this.sklad.getLokomotywa().getStacjaZrodlowa(), this.sklad.getLokomotywa().getStacjaDocelowa());
             Stack<Stacja> trasa = Sklad.zwrocTrase(this.sklad.getLokomotywa().getStacjaDocelowa(), this.sklad.getLokomotywa().getStacjaZrodlowa());
             int countStacji = 0;
             int dlugoscTrasy = trasa.size() - 1;
-            /*while (!odwrotnaTrasa.isEmpty()) {
-                trasa.push(odwrotnaTrasa.pop());
-            }*/
-            //usunac
-
-                /*for (Stacja s : trasa) {
-                    System.out.print(s.getNrIdentyfikacyjnyStacji() + " + ");
-                }
-                System.out.println();*/
 
             Stacja stacja1;
             Stacja stacja2 = null;
@@ -40,16 +32,7 @@ public class RuchSkladu implements Runnable {
                 stacja2 = trasa.pop();
                 Polaczenie polaczenie = null;
 
-                /*for (Polaczenie p : stacja1.getPolaczenia()) {
-                    if ((p.getStacja1() == stacja1 && p.getStacja2() == stacja2) || (p.getStacja1() == stacja2 && p.getStacja2() == stacja1))
-                        polaczenie = p;
-                }*/
-
-                /*for(Polaczenie p : Polaczenie.wszystkiePolaczenia){
-                    if((p.getStacja1() == stacja1 && p.getStacja2() == stacja2) || (p.getStacja1() == stacja2 && p.getStacja2() == stacja1))
-                        polaczenie = p;
-                }*/
-                //W przypadku usuniecia przez nas polaczenia sklad zaczyna kursowac miedzy stacja najdalsza do jakiej dojechal na trasie a stacja zrodlowa
+                //W przypadku usuniecia przez nas polaczenia sklad czeka na stacji na ktorej sie zatrzymal
                 do {
                     int tem = 0;
                     int maxProb = 3;
@@ -69,24 +52,16 @@ public class RuchSkladu implements Runnable {
                     try {
                         Thread.sleep(30000);
                     } catch (InterruptedException e) {
-
+                        break outerloop;
                     }
                 }
 
                 }while(polaczenie == null);
 
-
+                if(Thread.currentThread().isInterrupted()){
+                    break outerloop;
+                }
                     synchronized (polaczenie) {
-                        //System.out.println("now");
-
-                    /*while (!(polaczenie.getSkladPrzejezdzajacy() == null)) {
-                        try {
-                            System.out.println(this.sklad.getNrIdentyfikacyjnySkladu() + " waiting on " + polaczenie.getSkladPrzejezdzajacy());
-                            wait();
-                        } catch (InterruptedException e) {
-
-                        }
-                    }*/
                         sklad.getLokomotywa().setPredkosc(sklad.getLokomotywa().getSredniaPredkosc());
 
                         polaczenie.setSkladPrzejezdzajacy(this.sklad);
@@ -100,8 +75,6 @@ public class RuchSkladu implements Runnable {
                             }
                             sklad.setDrogaMiedzyStacjami(sklad.getDrogaMiedzyStacjami() - this.sklad.getLokomotywa().getPredkosc() / 3600);
                         }
-
-
                         polaczenie.setSkladPrzejezdzajacy(null);
                         //usunac
                         //System.out.println("Przejazd skladu " + sklad.getNrIdentyfikacyjnySkladu() + " ze stacji " + stacja1.toString() + stacja2.toString());
@@ -112,13 +85,11 @@ public class RuchSkladu implements Runnable {
                     sklad.setProcentDrogiPokonanej((countStacji * 100) / dlugoscTrasy);
                     sklad.getLokomotywa().setPredkosc(0);
 
-                    //polaczenie.notify();
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
-
+                        break outerloop;
                     }
-
             }
             if(!trasaEmpty){
                 Stacja temp = sklad.getLokomotywa().getStacjaZrodlowa();
@@ -131,7 +102,6 @@ public class RuchSkladu implements Runnable {
             } catch (InterruptedException e) {
                 break;
             }
-
         }
     }
 }

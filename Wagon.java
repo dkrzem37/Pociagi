@@ -27,6 +27,17 @@ public abstract class Wagon implements Comparable<Wagon>{
         Wagon.wagonyWolnostojace.add(this);
     }
 
+    public static void wyswietlWszystkieWagony(){
+        for(Wagon w: wagony){
+            System.out.println(w);
+        }
+    }
+    public static void wyswietlWszystkieWolneWagony(){
+        for(Wagon w: wagonyWolnostojace){
+            System.out.println(w);
+        }
+    }
+
     public static double[] stworzWagon(){
 
         System.out.println("Podaj dlugosc wagonu w metrach: ");

@@ -4,7 +4,6 @@ public class Polaczenie extends Miejsce{
     private Stacja stacja1, stacja2;
     private double odleglosc;
     private Sklad skladPrzejezdzajacy;
-    //private Stack<Sklad> skladyCzekajace = new Stack<>();
     public static HashSet<Polaczenie> wszystkiePolaczenia = new HashSet<>();
 
     public Polaczenie(Stacja stacja1, Stacja stacja2, double odleglosc) {
@@ -17,26 +16,16 @@ public class Polaczenie extends Miejsce{
         Polaczenie.wszystkiePolaczenia.add(this);
     }
 
+    public static void wyswietlWszystkiePolaczenia(){
+        for(Polaczenie p : wszystkiePolaczenia){
+            System.out.println(p);
+        }
+    }
+
     public static void stworzPolaczenie(){
         System.out.println("Podaj stacje numer 1: ");
         Stacja stacja1 = Funkcje.zwrocIstniejacaStacje();
-        /*null;
-        System.out.println("Podaj numer Identyfikacyjny pierwszej stacji: ");
-        int numerIdentyfikacjiA = Funkcje.sprawdzCzyPoprawnyInt(0, Stacja.getNrIdentyfikacyjny(),"Zly numer.");
-        if(!(Funkcje.czyStacjaIstnieje(numerIdentyfikacjiA))) {
-            System.out.println("Stacja nie istnieje.");
-        }
-        else
-            stacja1 = Funkcje.zwrocStacjeONumerze(numerIdentyfikacjiA);
-        if(stacja1 != null) {
-            Stacja stacja2 = null;
-            System.out.println("Podaj numer Identyfikacyjny drugiej stacji: ");
-            int numerIdentyfikacjiB = Funkcje.sprawdzCzyPoprawnyInt(0, Stacja.getNrIdentyfikacyjny(), "Zly numer.");
-            if (!(Funkcje.czyStacjaIstnieje(numerIdentyfikacjiB)))
-                System.out.println("Stacja nie istnieje.");
-            else
-                stacja2 = Funkcje.zwrocStacjeONumerze(numerIdentyfikacjiB);
-            if (stacja2 != null) {*/
+
         System.out.println("Podaj stacje numer 2: ");
         Stacja stacja2 = Funkcje.zwrocIstniejacaStacje();
         boolean czyIstnieje = false;
@@ -67,9 +56,10 @@ public class Polaczenie extends Miejsce{
         for (Polaczenie p : stacja1.getPolaczenia()) {
             if (((p.getStacja1() == stacja1) && (p.getStacja2() == stacja2)) || ((p.getStacja1() == stacja2) && (p.getStacja2() == stacja1)))
                 polaczenieDoUsuniecia = p;
-
         }
-        if(polaczenieDoUsuniecia != null){
+        if(polaczenieDoUsuniecia != null && polaczenieDoUsuniecia.skladPrzejezdzajacy != null) {
+            System.out.println("Na polaczeniu znajduje sie pociag o numerze id " + polaczenieDoUsuniecia.skladPrzejezdzajacy.getNrIdentyfikacyjnySkladu() + ". Odczekaj az pociag przejedzie.");
+        }else if(polaczenieDoUsuniecia != null){
             stacja1.getPolaczenia().remove(polaczenieDoUsuniecia);
             stacja2.getPolaczenia().remove(polaczenieDoUsuniecia);
             Polaczenie.wszystkiePolaczenia.remove(polaczenieDoUsuniecia);
@@ -125,9 +115,9 @@ public class Polaczenie extends Miejsce{
     @Override
     public String toString() {
         return "Polaczenie: " +
-                "stacja1=" + stacja1 +
-                ", stacja2=" + stacja2 +
-                ", odleglosc=" + odleglosc +
-                ", skladPrzejezdzajacy=" + skladPrzejezdzajacy;
+                "stacja1: " + stacja1 +
+                ", stacja2: " + stacja2 +
+                ", odleglosc: " + odleglosc +
+                ", skladPrzejezdzajacy: " + (skladPrzejezdzajacy == null ? "polaczenie wolne" : skladPrzejezdzajacy);
     }
 }

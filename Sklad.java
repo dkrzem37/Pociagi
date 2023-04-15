@@ -34,6 +34,7 @@ public class Sklad implements Comparable<Sklad>{
             w.setSkladPrzylaczony(null);
             Wagon.wagonyWolnostojace.add(w);
         }
+        sklady.remove(sklad);
         sklad.getRuchSkladu().interrupt();
         sklad.getZmianaPredkosci().interrupt();
         System.out.println("Sklad usunieto.");

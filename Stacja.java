@@ -14,6 +14,12 @@ public class Stacja extends Miejsce{
         Stacja.stacje.add(this);
     }
 
+    public static void wyswietlWszystkieStacje(){
+        for(Stacja s: stacje){
+            System.out.println(s);
+        }
+    }
+
     public static void stworzStacje(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Podaj nazwe stacji: ");
@@ -25,6 +31,7 @@ public class Stacja extends Miejsce{
         System.out.println("Podaj numer identyfikacyjny stacji do usuniecia: ");
         Stacja stacjaDoUsuniecia = Funkcje.zwrocIstniejacaStacje();
         int numerId = stacjaDoUsuniecia.getNrIdentyfikacyjnyStacji();
+        //TODO usuwanie polaczen sprawdza czy na polaczeniach sa sklady, usuwanie stacji sprawdza czy na stacji sa sklady
         for(Stacja s: Stacja.stacje){
             Funkcje.usunPolaczeniaZawierajaceStacje(s, stacjaDoUsuniecia);
         }
@@ -33,9 +40,11 @@ public class Stacja extends Miejsce{
     }
 
 
-    public void wyswietlPolaczenia(){
-        for(Polaczenie p: this.polaczenia){
-            System.out.println(p.getStacja1().getNrIdentyfikacyjnyStacji() + " dochodzi do " + p.getStacja2().getNrIdentyfikacyjnyStacji());
+    public static void wyswietlPolaczenia(){
+        System.out.println("Podaj numer identyfikacyjny stacji ktorej polaczenia chcesz wyswietlic: ");
+        Stacja stacja = Funkcje.zwrocIstniejacaStacje();
+        for(Polaczenie p: stacja.polaczenia){
+            System.out.println("[" + p.getStacja1() + "] - [" + p.getStacja2() + "]");
         }
     }
 
