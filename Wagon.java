@@ -26,6 +26,11 @@ public abstract class Wagon implements Comparable<Wagon>{
         Wagon.wagony.add(this);
         Wagon.wagonyWolnostojace.add(this);
     }
+    public static void wyswietlInfoOWagonie(){
+        System.out.println("Podaj numer identyfikacyjny wagonu o ktorym informacje chcialbys wyswietlic: ");
+        Wagon wagon = Funkcje.zwrocIstniejacyWagon();
+        System.out.println(wagon.toString());
+    }
 
     public static void wyswietlWszystkieWagony(){
         for(Wagon w: wagony){
@@ -83,6 +88,7 @@ public abstract class Wagon implements Comparable<Wagon>{
             }
             if(istnieje) {
                 wagon.getListaTowarow().remove(del);
+                Towar.listaTowarow.remove(del);
                 System.out.println("Usunieto towar z wagonu.");
             }else
                 System.out.println("W tym wagonie nie ma takiego towaru. ");

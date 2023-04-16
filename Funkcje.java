@@ -132,9 +132,6 @@ public abstract class Funkcje {
         }
         return null;
     }
-
-    //Sprawdz czy stacja jest na liscie stacji na podstawie numeru identyfikacyjnego
-    //Moze lepiej to zrobic pobierajac nazwe stacji??
     public static Stacja zwrocStacjeONumerze(int nrIdentyfikacyjny){
         for(Stacja s: Stacja.stacje){
             if(s.getNrIdentyfikacyjnyStacji() == nrIdentyfikacyjny)
@@ -149,29 +146,7 @@ public abstract class Funkcje {
         }
         return false;
     }
-    /*public static int sprawdzCzyPoprawnyInt1(int min, int max, String errorMessage) {
-        int userInput = -1;
-        boolean poprawny;
-        do {
 
-            Scanner scanner = new Scanner(System.in);
-            try {
-                userInput = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                scanner.nextLine();
-                System.out.println(errorMessage);
-                poprawny = false;
-                continue;
-            }
-            if (userInput < min || userInput > max) {
-                System.out.println(errorMessage);
-                poprawny = false;
-            } else
-                poprawny = true;
-
-        } while (!poprawny);
-        return userInput;
-    }*/
     public static int sprawdzCzyPoprawnyInt(int min, int max, String errorMessage){
         int properInt = -1;
         boolean proper;
@@ -216,21 +191,5 @@ public abstract class Funkcje {
         }while(!proper);
         return properDouble;
     }
-
-    /*public static int sprawdzCzyPoprawnyInt1(int min, int max,String errorMessage){
-        ArrayList<Integer> temp = new ArrayList<>();
-        for(Integer i = min; i <= max; i++){
-            temp.add(i);
-        }
-        Integer properInt;
-        Scanner scanner = new Scanner(System.in);
-        do{
-            properInt = scanner.nextInt();
-            scanner.nextLine();
-            if(!(temp.contains(properInt)))
-                System.out.println(errorMessage);
-        }while(!(temp.contains(properInt)));
-        return properInt;
-    }*/
 }
 

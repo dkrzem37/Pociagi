@@ -38,6 +38,23 @@ public
 
     }
 
+    public static void zmianaTrasy(){
+        System.out.println("Podaj numer identyfikacyjny lokomotywy ktorej trase chcialbys zmienic. ");
+        Lokomotywa lokomotywa = Funkcje.zwrocIstniejacaLokomotywe();
+
+        if(Lokomotywa.listaLokomotywWolnych.contains(lokomotywa)){
+            System.out.println("Podaj numer identyfikacyjny stacji zrodlowej: ");
+            Stacja stacjaZrodlowa = Funkcje.zwrocIstniejacaStacje();
+            System.out.println("Podaj numer identyfikacyjny stacji docelowej: ");
+            Stacja stacjaDocelowa = Funkcje.zwrocIstniejacaStacje();
+            lokomotywa.setStacjaZrodlowa(stacjaZrodlowa);
+            lokomotywa.setStacjaDocelowa(stacjaDocelowa);
+            System.out.println("Zmieniono trase lokomotywy. ");
+        }else{
+            System.out.println("Lokomotywa ta znajduje sie w skladzie. Aby zmienic trase lokomotywy najpierw usun sklad o numerze identyfikacyjnym " + lokomotywa.getNalezyDoSkladu().getNrIdentyfikacyjnySkladu() + ".");
+        }
+    }
+
     public Lokomotywa(int maxLiczbaWagonow, double maxUciag, int maxWagonowElektrycznych, String nazwa, Stacja stacjaMacierzysta, Stacja stacjaZrodlowa, Stacja stacjaDocelowa, double sredniaPredkosc) {
         this.maxLiczbaWagonow = maxLiczbaWagonow;
         this.maxUciag = maxUciag;
@@ -52,6 +69,12 @@ public
         this.nrIdentyfikacyjnyLokomotywy = nrIdentyfikacyjny++;
         listaLokomotyw.add(this);
         listaLokomotywWolnych.add(this);
+    }
+
+    public static void wyswietlInfoOLokomotywie(){
+        System.out.println("Podaj numer identyfikacyjny lokomotywy o ktorej informacje chcialbys wyswietlic: ");
+        Lokomotywa lokomotywa = Funkcje.zwrocIstniejacaLokomotywe();
+        System.out.println(lokomotywa.toString());
     }
 
     public static void wyswietlWszystkieLokomotywy(){
@@ -136,18 +159,17 @@ public
     @Override
     public String toString() {
         return "Lokomotywa: " +
-                "nalezyDoSkladu=" + (nalezyDoSkladu == null ? "brak" : nalezyDoSkladu.getNrIdentyfikacyjnySkladu()) +
-                ", maxLiczbaWagonow=" + maxLiczbaWagonow +
-                ", maxWagonowElektrycznych=" + maxWagonowElektrycznych +
-                ", nrIdentyfikacyjnyLokomotywy=" + nrIdentyfikacyjnyLokomotywy +
-                ", maxUciag=" + maxUciag +
-                ", predkosc=" + predkosc +
-                ", sredniaPredkosc=" + sredniaPredkosc +
-                ", nazwa='" + nazwa + '\'' +
-                ", stacjaMacierzysta=" + stacjaMacierzysta.getNazwaStacji() +
-                ", stacjaZrodlowa=" + stacjaZrodlowa.getNazwaStacji() +
-                ", stacjaDocelowa=" + stacjaDocelowa.getNazwaStacji() +
-                '}';
+                "nalezy do skladu: " + (nalezyDoSkladu == null ? "brak" : nalezyDoSkladu.getNrIdentyfikacyjnySkladu()) +
+                ", max liczba wagonow: " + maxLiczbaWagonow +
+                ", max liczba wagonow elektrycznych: " + maxWagonowElektrycznych +
+                ", nr identyfikacyjny lokomotywy: " + nrIdentyfikacyjnyLokomotywy +
+                ", max uciag: " + maxUciag +
+                ", predkosc: " + predkosc +
+                ", nazwa: '" + nazwa + '\'' +
+                ", stacjaMacierzysta: " + stacjaMacierzysta.getNazwaStacji() +
+                ", stacjaZrodlowa: " + stacjaZrodlowa.getNazwaStacji() +
+                ", stacjaDocelowa: " + stacjaDocelowa.getNazwaStacji() +
+                '.';
     }
 
     public int getMaxLiczbaWagonow() {

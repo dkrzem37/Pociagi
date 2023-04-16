@@ -13,6 +13,7 @@ public class Towar {
         this.numerIdTowar = numerId++;
         listaTowarow.add(this);
     }
+
     public static void wyswietlWszystkieTowary(){
         for(Towar t: listaTowarow){
             System.out.println(t);

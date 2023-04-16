@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+        //!!! W PROGRAMIE JEZDZA SKLADY, NIE LOKOMOTYWY
 
         //region imiona dla lokomotyw
         String[] imionaDlaLokomotyw = {"Jeniffer",
@@ -161,7 +162,7 @@ public class Main {
         int j = 0;
 
         //Tworzenie skladow
-        for(Lokomotywa l: Lokomotywa.listaLokomotywWolnych){
+        for(Lokomotywa l: Lokomotywa.listaLokomotyw){
             tablicaSkladow[j] = new Sklad(l);
             j++;
         }
@@ -209,7 +210,8 @@ public class Main {
                 "3. Zaladuj/wyladuj towar z wagonow.",
                 "4. Zmien sklad.",
                 "5. Wyswietl informacje.",
-                "6. Zaladuj/usun ludzi."));
+                "6. Zaladuj/usun ludzi.",
+                "7. Zmien trase lokomotywy. "));
         //Menu 0_1 TWORZENIE OBIEKTOW
         ArrayList<String> menuTworzenieObiektow = new ArrayList<>(Arrays.asList(
                 "0. Wroc do menu glownego.",
@@ -249,7 +251,9 @@ public class Main {
                 "6. Wyswietl wolnostojace wagony. ",
                 "7. Wyswietl wolnostojace lokomotywy. ",
                 "8. Wyswietl polaczenia stacji. ",
-                "9. Wyswietl wszystkie przewozone towary. "
+                "9. Wyswietl wszystkie przewozone towary. ",
+                "10. Wyswietl informacje o wagonie. ",
+                "11. Wyswietl informacje o lokomotywie. "
         ));
         //Menu 0_6 ZALADUJ/USUN LUDZI
         ArrayList<String> menuZaladunekLudzi = new ArrayList<>(Arrays.asList(
@@ -289,13 +293,6 @@ public class Main {
                     break;
                 case 1: //0.1 Stworz nowy obiekt
                     userInput = Funkcje.wyborOpcjiZMenu(menuTworzenieObiektow, "Wybierz jedna z opcji.");
-                    /*do {
-                        System.out.println("0. Wroc do menu glownego.");
-                        System.out.println("1. Stworz lokomotywe.");
-                        System.out.println("2. Stworz wagon.");
-                        System.out.println("3. Stworz nowa stacje.");
-                        System.out.println("4. Stworz nowe polaczenie miedzy stacjami.");
-                    } while ((userInput = Menu.wyborPoprawnejOpcji(0, 4, "Wybierz poprawna opcje: ")) == -1);*/
                     switch (userInput) {
                         case 0:
                             break;
@@ -407,6 +404,11 @@ public class Main {
                         case 8: Stacja.wyswietlPolaczenia();
                             break;
                         case 9: Towar.wyswietlWszystkieTowary();
+                            break;
+                        case 10: Wagon.wyswietlInfoOWagonie();
+                            break;
+                        case 11: Lokomotywa.wyswietlInfoOLokomotywie();
+                            break;
                     }
                     break;
                 case 6: // 0.6 Zaladuj/usun ludzi
@@ -420,7 +422,9 @@ public class Main {
                             break;
                     }
                     break;
-
+                case 7: // 0.7 Zmiana trasy lokomotywy
+                    Lokomotywa.zmianaTrasy();
+                    break;
             }
             //???????????????????
             Scanner scanner = new Scanner(System.in);

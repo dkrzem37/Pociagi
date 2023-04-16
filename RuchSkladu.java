@@ -52,6 +52,7 @@ public class RuchSkladu implements Runnable {
                     try {
                         Thread.sleep(30000);
                     } catch (InterruptedException e) {
+                        stacja1.getSkladyStojace().remove(this.sklad);
                         break outerloop;
                     }
                 }
@@ -59,9 +60,12 @@ public class RuchSkladu implements Runnable {
                 }while(polaczenie == null);
 
                 if(Thread.currentThread().isInterrupted()){
+                    stacja1.getSkladyStojace().remove(this.sklad);
                     break outerloop;
                 }
                     synchronized (polaczenie) {
+                        stacja1.getSkladyStojace().remove(this.sklad);
+
                         sklad.getLokomotywa().setPredkosc(sklad.getLokomotywa().getSredniaPredkosc());
 
                         polaczenie.setSkladPrzejezdzajacy(this.sklad);
@@ -81,6 +85,7 @@ public class RuchSkladu implements Runnable {
                     }
                     sklad.setDrogaMiedzyStacjami(0);
                     sklad.setMiejsce(stacja2);
+                    stacja2.getSkladyStojace().add(this.sklad);
                     countStacji++;
                     sklad.setProcentDrogiPokonanej((countStacji * 100) / dlugoscTrasy);
                     sklad.getLokomotywa().setPredkosc(0);
@@ -88,6 +93,11 @@ public class RuchSkladu implements Runnable {
                     try {
                         Thread.sleep(2000);
                     } catch (InterruptedException e) {
+                        stacja2.getSkladyStojace().remove(this.sklad);
+                        break outerloop;
+                    }
+                    if(Thread.currentThread().isInterrupted()){
+                        stacja2.getSkladyStojace().remove(this.sklad);
                         break outerloop;
                     }
             }

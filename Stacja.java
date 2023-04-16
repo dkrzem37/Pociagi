@@ -7,6 +7,7 @@ public class Stacja extends Miejsce{
     public static ArrayList<Stacja> stacje = new ArrayList<>();
     private ArrayList<Polaczenie> polaczenia = new ArrayList<>();
     private int nrIdentyfikacyjnyStacji;
+    private  ArrayList<Sklad> skladyStojace = new ArrayList<>();
 
     public Stacja(String nazwaStacji) {
         this.nrIdentyfikacyjnyStacji = nrIdentyfikacyjny++;
@@ -31,12 +32,22 @@ public class Stacja extends Miejsce{
         System.out.println("Podaj numer identyfikacyjny stacji do usuniecia: ");
         Stacja stacjaDoUsuniecia = Funkcje.zwrocIstniejacaStacje();
         int numerId = stacjaDoUsuniecia.getNrIdentyfikacyjnyStacji();
-        //TODO usuwanie polaczen sprawdza czy na polaczeniach sa sklady, usuwanie stacji sprawdza czy na stacji sa sklady
-        for(Stacja s: Stacja.stacje){
-            Funkcje.usunPolaczeniaZawierajaceStacje(s, stacjaDoUsuniecia);
+        boolean bezpieczne = true;
+        for(Polaczenie p: stacjaDoUsuniecia.getPolaczenia()){
+            if(p.getSkladPrzejezdzajacy() != null){
+                bezpieczne = false;
+                break;
+            }
         }
-        Stacja.stacje.remove(stacjaDoUsuniecia);
-        System.out.println("Usunieto stacje o numerze identyfikacyjnym " + numerId);
+        if(bezpieczne && stacjaDoUsuniecia.getSkladyStojace().isEmpty()) {
+            for (Stacja s : Stacja.stacje) {
+                Funkcje.usunPolaczeniaZawierajaceStacje(s, stacjaDoUsuniecia);
+            }
+            Stacja.stacje.remove(stacjaDoUsuniecia);
+            System.out.println("Usunieto stacje o numerze identyfikacyjnym " + numerId);
+        }else{
+            System.out.println("Na stacji lub na jednym z polaczen stacji znajduje sie sklad/-y. Niemozliwe usuniecie obiektu. ");
+        }
     }
 
 
@@ -44,7 +55,10 @@ public class Stacja extends Miejsce{
         System.out.println("Podaj numer identyfikacyjny stacji ktorej polaczenia chcesz wyswietlic: ");
         Stacja stacja = Funkcje.zwrocIstniejacaStacje();
         for(Polaczenie p: stacja.polaczenia){
-            System.out.println("[" + p.getStacja1() + "] - [" + p.getStacja2() + "]");
+            if(stacja == p.getStacja1())
+                 System.out.println("[" + p.getStacja1() + "] - [" + p.getStacja2() + "]");
+            else
+                System.out.println("[" + p.getStacja2() + "] - [" + p.getStacja1() + "]");
         }
     }
 
@@ -84,6 +98,10 @@ public class Stacja extends Miejsce{
     @Override
     public String getNazwa(){
         return nazwaStacji;
+    }
+
+    public ArrayList<Sklad> getSkladyStojace() {
+        return skladyStojace;
     }
 
     @Override

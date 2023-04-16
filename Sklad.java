@@ -19,6 +19,7 @@ public class Sklad implements Comparable<Sklad>{
         this.nrIdentyfikacyjnySkladu = nrIdentyfikacyjny++;
         Sklad.sklady.add(this);
         lokomotywa.setNalezyDoSkladu(this);
+        Lokomotywa.listaLokomotywWolnych.remove(lokomotywa);
 
         this.zmianaPredkosci = new Thread(new ZmianaPredkosciLokomotywy(lokomotywa));
         this.zmianaPredkosci.start();
