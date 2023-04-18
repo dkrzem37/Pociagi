@@ -196,7 +196,7 @@ public class Main {
         }
 
         //////////////////////////////////////////////////
-        //START OF PROGRAMME
+        //////START
         /////////////////////////////////////////////////
 
         /*ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
@@ -253,7 +253,8 @@ public class Main {
                 "8. Wyswietl polaczenia stacji. ",
                 "9. Wyswietl wszystkie przewozone towary. ",
                 "10. Wyswietl informacje o wagonie. ",
-                "11. Wyswietl informacje o lokomotywie. "
+                "11. Wyswietl informacje o lokomotywie. ",
+                "12. Wyswietl trase skladu. "
         ));
         //Menu 0_6 ZALADUJ/USUN LUDZI
         ArrayList<String> menuZaladunekLudzi = new ArrayList<>(Arrays.asList(
@@ -278,11 +279,10 @@ public class Main {
                 "12. Wagon towarowy podstawowy."
         ));
         int userInput;
+        ZapisywanieSkladowDoPliku zapis = new ZapisywanieSkladowDoPliku();
+        Thread zapisywanie = new Thread(zapis);
+        zapisywanie.start();
         do {
-            ZapisywanieSkladowDoPliku zapis = new ZapisywanieSkladowDoPliku();
-            Thread zapisywanie = new Thread(zapis);
-            zapisywanie.start();
-
             System.out.println("WITAMY W DK RAILROADS.");
 
             userInput = Funkcje.wyborOpcjiZMenu(menuGlowne, "Wybierz jedna z opcji.");
@@ -408,6 +408,8 @@ public class Main {
                         case 10: Wagon.wyswietlInfoOWagonie();
                             break;
                         case 11: Lokomotywa.wyswietlInfoOLokomotywie();
+                            break;
+                        case 12: Sklad.wyswietlTraseSkladu();
                             break;
                     }
                     break;

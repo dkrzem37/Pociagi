@@ -1,9 +1,10 @@
 import javax.management.monitor.Monitor;
+import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.Stack;
 
 public class RuchSkladu implements Runnable {
-    private static String monitor = new String();
+    //private static String monitor = new String();
     private Sklad sklad;
 
     public RuchSkladu(Sklad sklad) {
@@ -16,6 +17,7 @@ public class RuchSkladu implements Runnable {
         while (true) {
             //Stack<Stacja> odwrotnaTrasa = Sklad.zwrocTrase(this.sklad.getLokomotywa().getStacjaZrodlowa(), this.sklad.getLokomotywa().getStacjaDocelowa());
             Stack<Stacja> trasa = Sklad.zwrocTrase(this.sklad.getLokomotywa().getStacjaDocelowa(), this.sklad.getLokomotywa().getStacjaZrodlowa());
+
             int countStacji = 0;
             int dlugoscTrasy = trasa.size() - 1;
 
@@ -23,6 +25,19 @@ public class RuchSkladu implements Runnable {
             Stacja stacja2 = null;
             boolean trasaEmpty = true;
             if(!trasa.empty()) {
+
+                while(true) {
+                    int tem = 0;
+                    int maxProb = 3;
+                    try {
+                        this.sklad.setTrasa((Stack<Stacja>) trasa.clone());
+                        sklad.setDlugoscTrasy(this.obliczDlugoscTrasy(trasa));
+                        break;
+                    } catch (ConcurrentModificationException e) {
+                        if (++tem == maxProb) throw e;
+                    }
+                }
+
                 trasaEmpty = false;
                 stacja2 = trasa.pop();
             }
@@ -39,8 +54,10 @@ public class RuchSkladu implements Runnable {
                     while(true) {
                         try {
                             for(Polaczenie p : Polaczenie.wszystkiePolaczenia){
-                                if((p.getStacja1() == stacja1 && p.getStacja2() == stacja2) || (p.getStacja1() == stacja2 && p.getStacja2() == stacja1))
+                                if((p.getStacja1() == stacja1 && p.getStacja2() == stacja2) || (p.getStacja1() == stacja2 && p.getStacja2() == stacja1)) {
                                     polaczenie = p;
+                                    break;
+                                }
                             }
                             break;
                         } catch (ConcurrentModificationException e) {
@@ -113,5 +130,35 @@ public class RuchSkladu implements Runnable {
                 break;
             }
         }
+    }
+    private double obliczDlugoscTrasy(Stack<Stacja> trasa){
+        double dlugoscTrasy = 0;
+        Stack<Stacja> kopia = (Stack<Stacja>) trasa.clone();
+        Stacja stacja1;
+        Stacja stacja2 = null;
+        if(!kopia.isEmpty()){
+            stacja2 = kopia.pop();
+        }
+        while(!kopia.isEmpty()){
+            stacja1 = stacja2;
+            stacja2 = kopia.pop();
+            int tem = 0;
+            int maxProb = 3;
+            while(true) {
+                try {
+                    for(Polaczenie p : Polaczenie.wszystkiePolaczenia){
+                        if((p.getStacja1() == stacja1 && p.getStacja2() == stacja2) || (p.getStacja1() == stacja2 && p.getStacja2() == stacja1)) {
+                            dlugoscTrasy += p.getOdleglosc();
+                            break;
+                        }
+                    }
+                    break;
+                } catch (ConcurrentModificationException e) {
+                    if (++tem == maxProb) throw e;
+                }
+            }
+        }
+        return dlugoscTrasy;
+
     }
 }

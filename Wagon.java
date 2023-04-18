@@ -11,7 +11,6 @@ public abstract class Wagon implements Comparable<Wagon>{
     public static ArrayList<Wagon> wagony = new ArrayList<>();
     public static ArrayList<Wagon> wagonyWolnostojace = new ArrayList<>();
 
-    //delete default constructor later I think
 
     public Wagon(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr) {
         this.dlugoscWagonu = dlugoscWagonu;

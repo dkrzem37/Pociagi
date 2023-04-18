@@ -6,14 +6,16 @@ public class Sklad implements Comparable<Sklad>{
     private Lokomotywa lokomotywa;
     private ArrayList<Wagon> wagony;
     private int nrIdentyfikacyjnySkladu, procentDrogiPokonanej;
-    private double drogaMiedzyStacjami;
+    private double drogaMiedzyStacjami, dlugoscTrasy, przebytaOdleglosc;
     private Thread zmianaPredkosci, ruchSkladu;
     private Miejsce miejsce;
+    private  Stack<Stacja> Trasa = new Stack<>();
 
     public Sklad(Lokomotywa lokomotywa) {
         this.lokomotywa = lokomotywa;
         this.miejsce = lokomotywa.getStacjaZrodlowa();
         lokomotywa.setPredkosc(lokomotywa.getSredniaPredkosc());
+        this.dlugoscTrasy = 0;
 
         this.wagony = new ArrayList<Wagon>();
         this.nrIdentyfikacyjnySkladu = nrIdentyfikacyjny++;
@@ -25,6 +27,24 @@ public class Sklad implements Comparable<Sklad>{
         this.zmianaPredkosci.start();
         this.ruchSkladu = new Thread(new RuchSkladu(this));
         this.ruchSkladu.start();
+    }
+
+    public static void wyswietlTraseSkladu(){
+        System.out.println("Podaj numer identyfikacyjny skladu ktorego trase chcesz wyswietlic: ");
+        Sklad sklad = Funkcje.zwrocIstniejacySklad();
+        if(!sklad.getTrasa().isEmpty()){
+            Stack<Stacja> odwroconaTrasa= new Stack<>();
+            while(!sklad.getTrasa().isEmpty()){
+                odwroconaTrasa.push(sklad.getTrasa().pop());
+            }
+            System.out.println("Dlugosc trasy wynosi " + sklad.getDlugoscTrasy() + " km.");
+            for(Stacja s: odwroconaTrasa){
+                System.out.print("[(" + s.getNrIdentyfikacyjnyStacji() + ") " + s.getNazwaStacji() + "]" +" ");
+            }
+            System.out.println();
+        }else{
+            System.out.println("Brak trasy.");
+        }
     }
     public static void usunSklad(){
         System.out.println("Podaj numer identyfikacyjny skladu ktory chcesz usunac: ");
@@ -236,8 +256,17 @@ public class Sklad implements Comparable<Sklad>{
             if ((sklad = Funkcje.zwrocSkladONumerze(numerIdSkladu)) == null)
                 System.out.println("Nie ma takiego skladu. ");
         } while (sklad == null);
+        //Trasa lepiej jako osobna opcja
+        /*Stack<Stacja> odwroconaTrasa= new Stack<>();
+        while(!sklad.getTrasa().isEmpty()){
+            odwroconaTrasa.push(sklad.getTrasa().pop());
+        }*/
 
-        System.out.println(sklad.toString());
+        System.out.println(sklad);
+        /*for(Stacja s: odwroconaTrasa){
+            System.out.print("[(" + s.getNrIdentyfikacyjnyStacji() + ") " + s.getNazwaStacji() + "]" +" ");
+        }*/
+        System.out.println();
         System.out.print("     -" );
         sklad.wyswietlProcentTrasy();
         System.out.print("     -");
@@ -283,6 +312,14 @@ public class Sklad implements Comparable<Sklad>{
         return wagony;
     }
 
+    public double getDlugoscTrasy() {
+        return dlugoscTrasy;
+    }
+
+    public void setDlugoscTrasy(double dlugoscTrasy) {
+        this.dlugoscTrasy = dlugoscTrasy;
+    }
+
     public Lokomotywa getLokomotywa() {
         return lokomotywa;
     }
@@ -317,6 +354,14 @@ public class Sklad implements Comparable<Sklad>{
 
     public void setProcentDrogiPokonanej(int procentDrogiPokonanej) {
         this.procentDrogiPokonanej = procentDrogiPokonanej;
+    }
+
+    public Stack<Stacja> getTrasa() {
+        return Trasa;
+    }
+
+    public void setTrasa(Stack<Stacja> trasa) {
+        Trasa = trasa;
     }
 
     @Override
