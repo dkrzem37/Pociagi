@@ -3,6 +3,38 @@ import java.util.Scanner;
 
 
 public abstract class Funkcje {
+    public static int wyborOpcjiZMenu(ArrayList<String> menu, String errorMessage) {
+        int userInput;
+        Scanner scanner = new Scanner(System.in);
+        do {
+            for(String s: menu){
+                System.out.println(s);
+            }
+
+            if(scanner.hasNextInt())
+                userInput = scanner.nextInt();
+            else {
+                scanner.nextLine();
+                userInput = -1;
+                System.out.println(errorMessage);
+                continue;
+            }
+
+            if(userInput < 0 || userInput > menu.size()) {
+                System.out.println(errorMessage);
+                userInput = -1;
+                scanner.nextLine();
+            }
+        } while (userInput == -1);
+        return userInput;
+    }
+    public static boolean czyIstniejePolaczenie(Stacja s1, Stacja s2){
+        for(Polaczenie p: Polaczenie.wszystkiePolaczenia){
+            if((s1 == p.getStacja1() && s2 == p.getStacja2()) || (s1 == p.getStacja2() && s2 == p.getStacja1()))
+                return true;
+        }
+        return false;
+    }
     public static boolean wyborBoolean(){
         System.out.println("0. Tak.");
         System.out.println("1. Nie. ");
@@ -33,9 +65,9 @@ public abstract class Funkcje {
         int numerIdSkladu;
         Sklad sklad;
         do {
-            numerIdSkladu = Funkcje.sprawdzCzyPoprawnyInt(0, Wagon.getNrIdentyfikacyjny(), "Zly numer.");
+            numerIdSkladu = Funkcje.sprawdzCzyPoprawnyInt(0, Sklad.getNrIdentyfikacyjny(), "Zly numer.");
             if ((sklad = Funkcje.zwrocSkladONumerze(numerIdSkladu)) == null)
-                System.out.println("Nie ma takiego wagonu. ");
+                System.out.println("Nie ma takiego skladu. ");
         } while (sklad == null);
         return sklad;
     }
@@ -100,9 +132,6 @@ public abstract class Funkcje {
         }
         return null;
     }
-
-    //Sprawdz czy stacja jest na liscie stacji na podstawie numeru identyfikacyjnego
-    //Moze lepiej to zrobic pobierajac nazwe stacji??
     public static Stacja zwrocStacjeONumerze(int nrIdentyfikacyjny){
         for(Stacja s: Stacja.stacje){
             if(s.getNrIdentyfikacyjnyStacji() == nrIdentyfikacyjny)
@@ -117,29 +146,7 @@ public abstract class Funkcje {
         }
         return false;
     }
-    /*public static int sprawdzCzyPoprawnyInt1(int min, int max, String errorMessage) {
-        int userInput = -1;
-        boolean poprawny;
-        do {
 
-            Scanner scanner = new Scanner(System.in);
-            try {
-                userInput = scanner.nextInt();
-            } catch (InputMismatchException e) {
-                scanner.nextLine();
-                System.out.println(errorMessage);
-                poprawny = false;
-                continue;
-            }
-            if (userInput < min || userInput > max) {
-                System.out.println(errorMessage);
-                poprawny = false;
-            } else
-                poprawny = true;
-
-        } while (!poprawny);
-        return userInput;
-    }*/
     public static int sprawdzCzyPoprawnyInt(int min, int max, String errorMessage){
         int properInt = -1;
         boolean proper;
@@ -184,21 +191,5 @@ public abstract class Funkcje {
         }while(!proper);
         return properDouble;
     }
-
-    /*public static int sprawdzCzyPoprawnyInt1(int min, int max,String errorMessage){
-        ArrayList<Integer> temp = new ArrayList<>();
-        for(Integer i = min; i <= max; i++){
-            temp.add(i);
-        }
-        Integer properInt;
-        Scanner scanner = new Scanner(System.in);
-        do{
-            properInt = scanner.nextInt();
-            scanner.nextLine();
-            if(!(temp.contains(properInt)))
-                System.out.println(errorMessage);
-        }while(!(temp.contains(properInt)));
-        return properInt;
-    }*/
 }
 

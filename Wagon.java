@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public abstract class Wagon {
+public abstract class Wagon implements Comparable<Wagon>{
     private static int nrIdentyfikacyjny = 0;
     private boolean wymagaElektr;
     private double dlugoscWagonu, wysokoscWagonu, wagaWagonuITowaru, maxUdzwig, wagaTowaru, wagaWagonu;
@@ -11,11 +11,6 @@ public abstract class Wagon {
     public static ArrayList<Wagon> wagony = new ArrayList<>();
     public static ArrayList<Wagon> wagonyWolnostojace = new ArrayList<>();
 
-    //delete default constructor later I think
-    public Wagon() {
-
-        this.nrIdentyfikacyjnyWagonu = nrIdentyfikacyjny++;
-    }
 
     public Wagon(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, boolean wymagaElektr) {
         this.dlugoscWagonu = dlugoscWagonu;
@@ -29,6 +24,22 @@ public abstract class Wagon {
         this.nrIdentyfikacyjnyWagonu = nrIdentyfikacyjny++;
         Wagon.wagony.add(this);
         Wagon.wagonyWolnostojace.add(this);
+    }
+    public static void wyswietlInfoOWagonie(){
+        System.out.println("Podaj numer identyfikacyjny wagonu o ktorym informacje chcialbys wyswietlic: ");
+        Wagon wagon = Funkcje.zwrocIstniejacyWagon();
+        System.out.println(wagon.toString());
+    }
+
+    public static void wyswietlWszystkieWagony(){
+        for(Wagon w: wagony){
+            System.out.println(w);
+        }
+    }
+    public static void wyswietlWszystkieWolneWagony(){
+        for(Wagon w: wagonyWolnostojace){
+            System.out.println(w);
+        }
     }
 
     public static double[] stworzWagon(){
@@ -56,6 +67,7 @@ public abstract class Wagon {
 
         Wagon.wagonyWolnostojace.remove(wagon);
         Wagon.wagony.remove(wagon);
+        System.out.println("Wagon z nr id " + wagon.getNrIdentyfikacyjnyWagonu() + " zostal usuniety.");
     }
     public static void wyladunekTowaru() {
         System.out.println("Podaj numer identyfikacyjny wagonu z ktorego chcialbys wyladowac towar: ");
@@ -75,6 +87,7 @@ public abstract class Wagon {
             }
             if(istnieje) {
                 wagon.getListaTowarow().remove(del);
+                Towar.listaTowarow.remove(del);
                 System.out.println("Usunieto towar z wagonu.");
             }else
                 System.out.println("W tym wagonie nie ma takiego towaru. ");
@@ -99,7 +112,20 @@ public abstract class Wagon {
 
             wagon.setWagaTowaru(wagon.getWagaTowaru() + wagaDoDodania);
             wagon.setWagaWagonuITowaru(wagon.getWagaWagonuITowaru() + wagaDoDodania);
+            System.out.println("Zaladowano towar.");
         }
+    }
+    public void wyswietlTowary(){
+        if(listaTowarow.isEmpty()){
+            System.out.println("     Brak towarow w wagonie.");
+        }else {
+            for (Towar t : listaTowarow) {
+                System.out.println("     [Towar nr " + t.getNumerIdTowar() + " , waga: " + t.getWaga() + " ,opis: " + t.getInformacje() + "]");
+            }
+        }
+    }
+    public void ileLudzi(){
+        System.out.println("     W wagonie (nr id " + this.getNrIdentyfikacyjnyWagonu() +") znajduje sie 0 ludzi.");
     }
 
 
@@ -161,5 +187,43 @@ public abstract class Wagon {
 
     public ArrayList<Towar> getListaTowarow() {
         return listaTowarow;
+    }
+
+    public double getDlugoscWagonu() {
+        return dlugoscWagonu;
+    }
+
+    public double getWysokoscWagonu() {
+        return wysokoscWagonu;
+    }
+
+    public double getWagaWagonu() {
+        return wagaWagonu;
+    }
+
+    @Override
+    public int compareTo(Wagon o) {
+        if(this.wagaWagonu > o.wagaWagonu){
+            return 1;
+        }else if(this.wagaWagonu < o.wagaWagonu){
+            return -1;
+        }else
+            return 0;
+    }
+
+    @Override
+    public String toString() {
+        return
+                "wymaga elektrycznosci: " + (wymagaElektr ? "tak" : "nie") +
+                ", dlugosc wagonu: " + dlugoscWagonu +
+                ", wysokosc wagonu: " + wysokoscWagonu +
+                ", waga wagonu i towaru lacznie: " + wagaWagonuITowaru +
+                ", maksymalny udzwig: " + maxUdzwig +
+                ", waga towaru: " + wagaTowaru +
+                ", waga wagonu: " + wagaWagonu +
+                ", numer identyfikacyjny: " + nrIdentyfikacyjnyWagonu +
+                ", przylaczony do skladu: " + (skladPrzylaczony== null ? "brak skladu" : skladPrzylaczony.getNrIdentyfikacyjnySkladu()) +
+                ", "
+                ;
     }
 }

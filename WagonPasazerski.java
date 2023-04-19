@@ -8,7 +8,7 @@ public class WagonPasazerski extends Wagon{
     private int liczbaMiejscSiedz, wolneMiejsca;
 
     public WagonPasazerski(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, Ogrzewanie ogrzewanie, boolean isToaleta, int liczbaMiejscSiedz) {
-        super(dlugoscWagonu, maxUdzwig, wagaWagonu, wysokoscWagonu, true);
+        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, true);
         this.ogrzewanie = ogrzewanie;
         this.isToaleta = isToaleta;
         this.liczbaMiejscSiedz = liczbaMiejscSiedz;
@@ -72,7 +72,7 @@ public class WagonPasazerski extends Wagon{
         }
     }
     public static void usuniecieLudzi(){
-        System.out.println("Podaj numer identyfikacyjny wagonu do ktorego chcesz zaladowac towar: ");
+        System.out.println("Podaj numer identyfikacyjny wagonu z ktorego chcesz usunac ludzi: ");
         Wagon wagon = Funkcje.zwrocIstniejacyWagon();
         if(wagon instanceof WagonPasazerski){
             if(((WagonPasazerski) wagon).getLiczbaMiejscSiedz() - ((WagonPasazerski) wagon).getWolneMiejsca() > 0){
@@ -90,6 +90,11 @@ public class WagonPasazerski extends Wagon{
         }
 
     }
+    @Override
+    public void ileLudzi(){
+        System.out.println("     W wagonie (nr id " + this.getNrIdentyfikacyjnyWagonu() + ") znajduje sie " + (liczbaMiejscSiedz - wolneMiejsca)  + " ludzi.");
+    }
+
 
     public int getWolneMiejsca() {
         return wolneMiejsca;
@@ -101,5 +106,33 @@ public class WagonPasazerski extends Wagon{
 
     public void setWolneMiejsca(int wolneMiejsca) {
         this.wolneMiejsca = wolneMiejsca;
+    }
+
+
+    /*private String info() {
+        return "WagonPasazerski:" +
+                "numer identyfikacyjny: " + getNrIdentyfikacyjnyWagonu() +
+                ",ogrzewanie: " + ogrzewanie +
+                ", Toaleta: " + (isToaleta ? "tak" : "nie") +
+                ", liczbaMiejscSiedz=" + liczbaMiejscSiedz +
+                ", wolne miejsca: " + wolneMiejsca +
+                "wymagaElektr=" + isWymagaElektr() +
+                ", dlugoscWagonu=" + getDlugoscWagonu() +
+                ", wysokoscWagonu=" + getWysokoscWagonu() +
+                ", wagaWagonuITowaru=" + getWagaWagonuITowaru() +
+                ", maxUdzwig=" + getMaxUdzwig() +
+                ", wagaTowaru=" + getWagaTowaru() +
+                ", wagaWagonu=" + getWagaWagonu() +
+                '}';
+    }*/
+
+    @Override
+    public String toString() {
+        return "Wagon Pasazerski:" + super.toString() +
+                "ogrzewanie: " + ogrzewanie +
+                ", czy jest toaleta: " + (isToaleta ? "tak" : "nie") +
+                ", liczba miejsc siedzacych: " + liczbaMiejscSiedz +
+                ", wolne miejsca: " + wolneMiejsca +
+                '.';
     }
 }

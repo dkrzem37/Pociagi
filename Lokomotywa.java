@@ -9,11 +9,53 @@ public
     private static int nrIdentyfikacyjny = 0;
 
     private int maxLiczbaWagonow, maxWagonowElektrycznych, nrIdentyfikacyjnyLokomotywy; //Czy jest potrzeba robic to za pomoca interfejsow?
-    private double maxUciag, predkosc;
+    private double maxUciag, predkosc, sredniaPredkosc;
     private String nazwa;
     private Stacja stacjaMacierzysta, stacjaZrodlowa, stacjaDocelowa; //Stacje moglyby byc zmienione na typ enumeryczny
+    //Konstruktor tylko na potrzeby symulacji
+    public Lokomotywa(String s){
+        this.maxLiczbaWagonow = 15 + (int)(Math.random() * ((33 - 15) + 1));
+        this.maxUciag = (Math.random() * 3000000 + 1000000);
+        this.maxWagonowElektrycznych = 14 + (int)(Math.random() * ((26 - 14) + 1));
+        this.nazwa = s;
+        Stacja stacja1 = Stacja.stacje.get((int) (Math.random()* (Stacja.stacje.size())));
+        Stacja stacja2 = Stacja.stacje.get((int) (Math.random()* (Stacja.stacje.size())));
+        Stacja stacja3;
+        do{
 
-    public Lokomotywa(int maxLiczbaWagonow, double maxUciag, int maxWagonowElektrycznych, String nazwa, Stacja stacjaMacierzysta, Stacja stacjaZrodlowa, Stacja stacjaDocelowa, double predkosc) {
+            stacja3 = Stacja.stacje.get((int) (Math.random()* (Stacja.stacje.size())));
+
+        }while(stacja2 == stacja3);
+        this.stacjaMacierzysta = stacja1;
+        this.stacjaZrodlowa = stacja2;
+        this.stacjaDocelowa = stacja3;
+        this.predkosc = 0;
+        this.sredniaPredkosc = (Math.random() * (155 - 100) + 100);
+        this.nalezyDoSkladu = null;
+        this.nrIdentyfikacyjnyLokomotywy = nrIdentyfikacyjny++;
+        listaLokomotyw.add(this);
+        listaLokomotywWolnych.add(this);
+
+    }
+
+    public static void zmianaTrasy(){
+        System.out.println("Podaj numer identyfikacyjny lokomotywy ktorej trase chcialbys zmienic. ");
+        Lokomotywa lokomotywa = Funkcje.zwrocIstniejacaLokomotywe();
+
+        if(Lokomotywa.listaLokomotywWolnych.contains(lokomotywa)){
+            System.out.println("Podaj numer identyfikacyjny stacji zrodlowej: ");
+            Stacja stacjaZrodlowa = Funkcje.zwrocIstniejacaStacje();
+            System.out.println("Podaj numer identyfikacyjny stacji docelowej: ");
+            Stacja stacjaDocelowa = Funkcje.zwrocIstniejacaStacje();
+            lokomotywa.setStacjaZrodlowa(stacjaZrodlowa);
+            lokomotywa.setStacjaDocelowa(stacjaDocelowa);
+            System.out.println("Zmieniono trase lokomotywy. ");
+        }else{
+            System.out.println("Lokomotywa ta znajduje sie w skladzie. Aby zmienic trase lokomotywy najpierw usun sklad o numerze identyfikacyjnym " + lokomotywa.getNalezyDoSkladu().getNrIdentyfikacyjnySkladu() + ".");
+        }
+    }
+
+    public Lokomotywa(int maxLiczbaWagonow, double maxUciag, int maxWagonowElektrycznych, String nazwa, Stacja stacjaMacierzysta, Stacja stacjaZrodlowa, Stacja stacjaDocelowa, double sredniaPredkosc) {
         this.maxLiczbaWagonow = maxLiczbaWagonow;
         this.maxUciag = maxUciag;
         this.maxWagonowElektrycznych = maxWagonowElektrycznych;
@@ -21,11 +63,29 @@ public
         this.stacjaMacierzysta = stacjaMacierzysta;
         this.stacjaZrodlowa = stacjaZrodlowa;
         this.stacjaDocelowa = stacjaDocelowa;
-        this.predkosc = predkosc;
+        this.predkosc = 0;
+        this.sredniaPredkosc = sredniaPredkosc;
         this.nalezyDoSkladu = null;
         this.nrIdentyfikacyjnyLokomotywy = nrIdentyfikacyjny++;
         listaLokomotyw.add(this);
         listaLokomotywWolnych.add(this);
+    }
+
+    public static void wyswietlInfoOLokomotywie(){
+        System.out.println("Podaj numer identyfikacyjny lokomotywy o ktorej informacje chcialbys wyswietlic: ");
+        Lokomotywa lokomotywa = Funkcje.zwrocIstniejacaLokomotywe();
+        System.out.println(lokomotywa.toString());
+    }
+
+    public static void wyswietlWszystkieLokomotywy(){
+        for(Lokomotywa l: listaLokomotyw){
+            System.out.println(l);
+        }
+    }
+    public static void wyswietlWszystkieWolneLokomotywy(){
+        for(Lokomotywa l: listaLokomotywWolnych){
+            System.out.println(l);
+        }
     }
 
     public static void stworzLokomotywe(){
@@ -76,10 +136,10 @@ public
         }while(!(Funkcje.czyStacjaIstnieje(numerIdentyfikacjiDocelowej)));
 
         System.out.println("Podaj predkosc lokomotywy (w km/h): ");
-        double predkosc = Funkcje.sprawdzCzyPoprawnyDouble(0, 400, "Niepoprawna predkosc. ");
+        double sredniaPredkosc = Funkcje.sprawdzCzyPoprawnyDouble(0, 400, "Niepoprawna predkosc. ");
 
 
-        Lokomotywa lokomotywa = new Lokomotywa(maxLiczbaWagonow, maxUciag, maxWagonowElektrycznych, nazwa, stacjaMacierzysta, stacjaZrodlowa, stacjaDocelowa, predkosc);
+        Lokomotywa lokomotywa = new Lokomotywa(maxLiczbaWagonow, maxUciag, maxWagonowElektrycznych, nazwa, stacjaMacierzysta, stacjaZrodlowa, stacjaDocelowa, sredniaPredkosc);
         System.out.println("Operacja zakonczona sukcesem. Numer identyfikacyjny nowej lokomotywy to " + lokomotywa.getNrIdentyfikacyjnyLokomotywy() + ".");
 
     }
@@ -94,6 +154,22 @@ public
             Lokomotywa.listaLokomotyw.remove(lokomotywa);
             System.out.println("Operacja zakonczona sukcesem.");
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Lokomotywa: " +
+                "nalezy do skladu: " + (nalezyDoSkladu == null ? "brak" : nalezyDoSkladu.getNrIdentyfikacyjnySkladu()) +
+                ", max liczba wagonow: " + maxLiczbaWagonow +
+                ", max liczba wagonow elektrycznych: " + maxWagonowElektrycznych +
+                ", nr identyfikacyjny lokomotywy: " + nrIdentyfikacyjnyLokomotywy +
+                ", max uciag: " + maxUciag +
+                ", predkosc: " + predkosc +
+                ", nazwa: '" + nazwa + '\'' +
+                ", stacjaMacierzysta: " + stacjaMacierzysta.getNazwaStacji() +
+                ", stacjaZrodlowa: " + stacjaZrodlowa.getNazwaStacji() +
+                ", stacjaDocelowa: " + stacjaDocelowa.getNazwaStacji() +
+                '.';
     }
 
     public int getMaxLiczbaWagonow() {
@@ -116,11 +192,11 @@ public
         return maxUciag;
     }
 
-    public double getPredkosc() {
+    public synchronized double getPredkosc() {
         return predkosc;
     }
 
-    public void setPredkosc(double predkosc) {
+    public synchronized void setPredkosc(double predkosc) {
         this.predkosc = predkosc;
     }
 
@@ -150,5 +226,13 @@ public
 
     public void setNalezyDoSkladu(Sklad nalezyDoSkladu) {
         this.nalezyDoSkladu = nalezyDoSkladu;
+    }
+
+    public double getSredniaPredkosc() {
+        return sredniaPredkosc;
+    }
+
+    public String getNazwa() {
+        return nazwa;
     }
 }

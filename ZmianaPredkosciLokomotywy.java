@@ -19,9 +19,9 @@ public class ZmianaPredkosciLokomotywy implements Runnable{
             else{
                 if (Math.random() < 0.5) {
                     this.lokomotywa.setPredkosc(this.lokomotywa.getPredkosc() * 103 / 100);
-                    /*this.lokomotywa.setPredkosc(this.lokomotywa.getPredkosc() + 10);
+                    //this.lokomotywa.setPredkosc(this.lokomotywa.getPredkosc() + 10);
 
-                    System.out.println("proba 103/100");
+                    /*System.out.println("proba 103/100");
                     System.out.println(this.lokomotywa.getPredkosc());*/
                 } else {
                     this.lokomotywa.setPredkosc(this.lokomotywa.getPredkosc() * 97 / 100);
