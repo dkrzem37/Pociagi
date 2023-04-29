@@ -4,7 +4,8 @@ public class Polaczenie extends Miejsce{
     private Stacja stacja1, stacja2;
     private double odleglosc;
     private Sklad skladPrzejezdzajacy;
-    private Stack<Sklad> skladyCzekajace = new Stack<>();
+    //private Stack<Sklad> skladyCzekajace = new Stack<>();
+    public static HashSet<Polaczenie> wszystkiePolaczenia = new HashSet<>();
 
     public Polaczenie(Stacja stacja1, Stacja stacja2, double odleglosc) {
         this.stacja1 = stacja1;
@@ -13,6 +14,7 @@ public class Polaczenie extends Miejsce{
         this.skladPrzejezdzajacy = null;
         stacja1.getPolaczenia().add(this);
         stacja2.getPolaczenia().add(this);
+        Polaczenie.wszystkiePolaczenia.add(this);
     }
 
     public static void stworzPolaczenie(){
@@ -48,9 +50,10 @@ public class Polaczenie extends Miejsce{
         else{
             double odleglosc;
             System.out.println("Podaj odleglosc: ");
-            odleglosc = Funkcje.sprawdzCzyPoprawnyDouble(0, 10000, "Zla odleglosc.");
+            odleglosc = Funkcje.sprawdzCzyPoprawnyDouble(0.0, 10000.0, "Zla odleglosc.");
 
             new Polaczenie(stacja1, stacja2, odleglosc);
+            System.out.println("Stworzono polaczenie.");
         }
     }
 
@@ -69,6 +72,8 @@ public class Polaczenie extends Miejsce{
         if(polaczenieDoUsuniecia != null){
             stacja1.getPolaczenia().remove(polaczenieDoUsuniecia);
             stacja2.getPolaczenia().remove(polaczenieDoUsuniecia);
+            Polaczenie.wszystkiePolaczenia.remove(polaczenieDoUsuniecia);
+            System.out.println("Polaczenie usunieto");
         }
         else{
             System.out.println("Takie polaczenie nie istnieje. ");
@@ -91,12 +96,16 @@ public class Polaczenie extends Miejsce{
         this.skladPrzejezdzajacy = skladPrzejezdzajacy;
     }
 
-    public Stack<Sklad> getSkladyCzekajace() {
+    /*public Stack<Sklad> getSkladyCzekajace() {
         return skladyCzekajace;
-    }
+    }*/
 
     public double getOdleglosc() {
         return odleglosc;
+    }
+    @Override
+    public String getNazwa(){
+        return "polaczenie miedzy " + this.stacja1.getNazwa() + " oraz " + this.stacja2.getNazwa();
     }
 
     @Override

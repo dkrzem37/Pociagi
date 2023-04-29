@@ -8,7 +8,7 @@ public class WagonPasazerski extends Wagon{
     private int liczbaMiejscSiedz, wolneMiejsca;
 
     public WagonPasazerski(double dlugoscWagonu, double wysokoscWagonu, double maxUdzwig, double wagaWagonu, Ogrzewanie ogrzewanie, boolean isToaleta, int liczbaMiejscSiedz) {
-        super(dlugoscWagonu, maxUdzwig, wagaWagonu, wysokoscWagonu, true);
+        super(dlugoscWagonu, wysokoscWagonu, maxUdzwig, wagaWagonu, true);
         this.ogrzewanie = ogrzewanie;
         this.isToaleta = isToaleta;
         this.liczbaMiejscSiedz = liczbaMiejscSiedz;
@@ -102,4 +102,35 @@ public class WagonPasazerski extends Wagon{
     public void setWolneMiejsca(int wolneMiejsca) {
         this.wolneMiejsca = wolneMiejsca;
     }
+
+
+    private String info() {
+        return "WagonPasazerski:" +
+                "numer identyfikacyjny: " + getNrIdentyfikacyjnyWagonu() +
+                ",ogrzewanie: " + ogrzewanie +
+                ", Toaleta: " + (isToaleta ? "tak" : "nie") +
+                ", liczbaMiejscSiedz=" + liczbaMiejscSiedz +
+                ", wolne miejsca: " + wolneMiejsca +
+                "wymagaElektr=" + isWymagaElektr() +
+                ", dlugoscWagonu=" + getDlugoscWagonu() +
+                ", wysokoscWagonu=" + getWysokoscWagonu() +
+                ", wagaWagonuITowaru=" + getWagaWagonuITowaru() +
+                ", maxUdzwig=" + getMaxUdzwig() +
+                ", wagaTowaru=" + getWagaTowaru() +
+                ", wagaWagonu=" + getWagaWagonu() +
+                '}';
+    }
+
+    @Override
+    public String toString() {
+        return "WagonPasazerski:" +
+                "numer identyfikacyjny: " + getNrIdentyfikacyjnyWagonu() +
+                ",ogrzewanie: " + ogrzewanie +
+                ", Toaleta: " + (isToaleta ? "tak" : "nie") +
+                ", liczbaMiejscSiedz=" + liczbaMiejscSiedz +
+                ", wolne miejsca: " + wolneMiejsca +
+                "waga wagonu: " + getWagaWagonu()
+               ;
+    }
+
 }

@@ -1,56 +1,261 @@
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
-import java.util.Stack;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
+
+
+        Stacja proba0 = new Stacja("sda");
+        Stacja proba1 = new Stacja("sda");
+        Stacja proba2 = new Stacja("agd");
+        Stacja proba3 = new Stacja("sda");
+        Stacja proba4 = new Stacja("agd");
+        Stacja proba5 = new Stacja("sda");
+        Stacja proba6 = new Stacja("agd");
+        Stacja proba7 = new Stacja("sda");
+        Stacja proba8 = new Stacja("agd");
+        Stacja proba9 = new Stacja("sda");
+        Stacja proba10 = new Stacja("agd");
+        new Polaczenie(proba1, proba2, 0.1);
+        new Polaczenie(proba1, proba3, 0.1);
+        new Polaczenie(proba1, proba4, 0.1);
+        new Polaczenie(proba1, proba5, 0.1);
+        new Polaczenie(proba1, proba6, 0.1);
+        new Polaczenie(proba3, proba2, 0.1);
+        new Polaczenie(proba5, proba2, 0.1);
+        new Polaczenie(proba6, proba2, 0.1);
+        new Polaczenie(proba7, proba2, 0.1);
+        new Polaczenie(proba3, proba4, 0.1);
+        new Polaczenie(proba1, proba8, 0.1);
+        new Polaczenie(proba8, proba9, 0.1);
+        new Polaczenie(proba9, proba10, 0.1);
+        /*Lokomotywa lok = new Lokomotywa(134,1233,12,"fs",proba1, proba1, proba10,150);
+        new Sklad(lok);
+        Stack<Stacja> temp= Sklad.zwrocTrase(lok.getStacjaDocelowa(), lok.getStacjaZrodlowa());
+        for(Stacja s: temp){
+            System.out.print(s.getNrIdentyfikacyjnyStacji() + " + ");
+        }*/
+        /*Polaczenie.usunPolaczenie();
+        Polaczenie.stworzPolaczenie();
+        Polaczenie.usunPolaczenie();*/
+        /*for(int i = 0; i< 20; i++) {
+            System.out.println((Math.random() * (155- 100) ) + 100);
+        }*/
+        /*for(int i = 0; i< 20; i++){
+            System.out.println(15 + (int)(Math.random() * ((33 - 15) + 1)));
+        }*/
+        //region imiona dla lokomotyw
+        String[] imionaDlaLokomotyw = {"Jeniffer",
+                "Rollins",
+                "Kourtney",
+                "Irvine",
+                "Danielle",
+                "Crouch",
+                "Obed",
+                "Little",
+                "Jericho",
+                "Pyle",
+                "Dahlia",
+                "Regalado",
+                "Candice",
+                "Lake",
+                "Brayan",
+                "Burnett",
+                "Tonya",
+                "Carlos",
+                "Makena",
+                "Monkey",
+                "Barista",
+                "Polo",
+                "Panto",
+                "Perot",
+                "Randyy",
+                "Franco"};
+        //endregion
+
+
         /*System.out.println("wybierz boolean");
         boolean aaa = Funkcje.wyborBoolean();
         System.out.println(aaa);
         WagonPasazerski.stworzWagonPasazerski();*/
 
+        //region tablica miast
+        String[] miasta = {
+                "Abilene",
+                "Akron",
+                "Albany",
+                "Albuquerque",
+                "Alexandria",
+                "Allentown",
+                "Amarillo",
+                "Anaheim",
+                "Anchorage",
+                "Ann Arbor",
+                "Antioch",
+                "Apple Valley",
+                "Appleton",
+                "Arlington",
+                "Arvada",
+                "Asheville",
+                "Athens",
+                "Atlanta",
+                "Atlantic City",
+                "Augusta",
+                "Aurora",
+                "Austin",
+                "Bakersfield",
+                "Baltimore",
+                "Barnstable",
+                "Baton Rouge",
+                "Beaumont",
+                "Bel Air",
+                "Bellevue",
+                "Berkeley",
+                "Bethlehem",
+                "Billings",
+                "Birmingham",
+                "Bloomington",
+                "Boise",
+                "Boise City",
+                "Bonita Springs",
+                "Boston",
+                "Boulder",
+                "Bradenton",
+                "Bremerton",
+                "Bridgeport",
+                "Brighton",
+                "Brownsville",
+                "Bryan",
+                "Buffalo",
+                "Burbank",
+                "Burlington",
+                "Cambridge",
+                "Canton",
+                "Cape Coral",
+                "Carrollton",
+                "Cary",
+                "Cathedral City",
+                "Cedar Rapids",
+                "Champaign",
+                "Chandler",
+                "Charleston",
+                "Charlotte",
+                "Chattanooga",
+                "Chesapeake",
+                "Chicago",
+                "Chula Vista",
+                "Cincinnati",
+                "Clarke County",
+                "Clarksville",
+                "Clearwater",
+                "Cleveland",
+                "College Station",
+                "Colorado Springs",
+                "Columbia",
+                "Columbus",
+                "Concord",
+                "Coral Springs",
+                "Corona",
+                "Corpus Christi",
+                "Costa Mesa",
+                "Dallas",
+                "Daly City",
+                "Danbury",
+                "Davenport",
+                "Davidson County",
+                "Dayton",
+                "Daytona Beach",
+                "Deltona",
+                "Denton",
+                "Denver",
+                "Des Moines",
+                "Detroit",
+                "Downey",
+                "Duluth",
+                "Durham",
+                "El Monte",
+                "El Paso",
+                "Elizabeth",
+                "Elk Grove",
+                "Elkhart",
+                "Erie",
+                "Escondido",
+                "Eugene"};
+        //endregion
+        for(String s: miasta){
+            new Stacja(s);
+        }
+        //System.out.println(Stacja.stacje.size());
+        /*for(Stacja s: Stacja.stacje){
+            System.out.println(s.toString());
+        }*/
+        //TWORZENIE POLACZEN
+        for(int i = 0; i < 1500; i++){
+            Stacja stacja1 = Stacja.stacje.get((int) (Math.random()* (Stacja.stacje.size())));
+            Stacja stacja2;
+            do{
+                stacja2 = Stacja.stacje.get((int) (Math.random()* (Stacja.stacje.size())));
+
+            }while((stacja1 == stacja2) || Funkcje.czyIstniejePolaczenie(stacja1, stacja2));
+            new Polaczenie(stacja1, stacja2, Math.random());
+        }
+        //TWORZENIE 25 LOKOMOTYW
+        for(int i = 0; i < 25; i++){
+            new Lokomotywa(imionaDlaLokomotyw[i]);
+        }
+        Sklad[] tablicaSkladow = new Sklad[25];
+        int i = 0;
+        //Tworzenie skladow
+        for(Lokomotywa l: Lokomotywa.listaLokomotywWolnych){
+            tablicaSkladow[i] = new Sklad(l);
+            i++;
+        }
+        List<Sklad> sortedSklady = new ArrayList<>(Sklad.sklady);
+        for(Sklad s: sortedSklady){
+            System.out.println(s.toString());
+        }
+        Collections.sort(sortedSklady);
+        for(Sklad s: sortedSklady){
+            System.out.println(s.toString());
+        }
+        WagonPasazerski test1 = new WagonPasazerski(14,13,14444,133, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
+        WagonPasazerski test2 = new WagonPasazerski(14,13,14444,5000, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
+        WagonPasazerski test3 = new WagonPasazerski(14,13,14444,1003, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
+        WagonPasazerski test4 = new WagonPasazerski(14,13,14444,25000, WagonPasazerski.Ogrzewanie.POWIETRZNE,true,12);
+        tablicaSkladow[0].getWagony().add(test1);
+        tablicaSkladow[0].getWagony().add(test2);
+        tablicaSkladow[0].getWagony().add(test3);
+        tablicaSkladow[0].getWagony().add(test4);
+
         ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
         Thread zapisywanie1 = new Thread(zapis1);
         zapisywanie1.start();
 
+        Polaczenie.stworzPolaczenie();
 
 
-        Stacja stacja0 = new Stacja("sfhvcn");
-        Stacja stacja1 = new Stacja("gasa");
-        Stacja stacja2 = new Stacja("adgsd");
-        Stacja stacja3 = new Stacja("part");
-        Stacja stacja4 = new Stacja("afaw");
-        Stacja stacja5 = new Stacja("awrar");
-        Stacja stacja6 = new Stacja("asfas");
-        Stacja stacja7 = new Stacja("asfas");
+        /*for(Polaczenie p : Polaczenie.wszystkiePolaczenia){
+            System.out.println(p.toString());
+        }
+        System.out.println(Polaczenie.wszystkiePolaczenia.size());*/
 
 
-        Polaczenie p1 = new Polaczenie(stacja1, stacja0, 0.1);
-        Polaczenie p2 = new Polaczenie(stacja1, stacja2, 0.1);
-        Polaczenie p3 = new Polaczenie(stacja2, stacja0, 0.1);
-        Polaczenie p4 = new Polaczenie(stacja4, stacja0, 0.1);
-        Polaczenie p5 = new Polaczenie(stacja4, stacja5, 0.1);
-        Polaczenie p6 = new Polaczenie(stacja5, stacja3, 0.1);
-        Polaczenie p7 = new Polaczenie(stacja3, stacja6, 0.1);
 
-        Lokomotywa lokomotywa0 = new Lokomotywa(133,14444,145, " fafa", stacja0,stacja5,stacja1,150);
-        Sklad sklad = new Sklad(lokomotywa0);
+
+
         //Sklad.usunSklad();
-        System.out.println(sklad.getMiejsce());
+        /*System.out.println(sklad0.getMiejsce());
 
         for(Stacja s: Sklad.zwrocTrase(stacja5, stacja1)){
             System.out.print(s.getNrIdentyfikacyjnyStacji() + " - ");
         }
         System.out.println();
 
-        stacja0.wyswietlPolaczenia();
+        stacja0.wyswietlPolaczenia();*/
 
         Sklad.usunSklad();
-        Lokomotywa lokomotywa1 = new Lokomotywa(133,14444,145, " fafa", stacja0,stacja1,stacja2,150);
-        Lokomotywa lokomotywa2 = new Lokomotywa(133,14444,145, " fafa", stacja0,stacja1,stacja2,150);
+
         for(Lokomotywa l : Lokomotywa.listaLokomotyw){
             System.out.println(l.getNrIdentyfikacyjnyLokomotywy());
         }
@@ -67,9 +272,7 @@ public class Main {
 
         Stacja.usunStacje();
 
-        stacja0.wyswietlPolaczenia();
-        stacja1.wyswietlPolaczenia();
-        stacja2.wyswietlPolaczenia();
+
 
         Polaczenie.usunPolaczenie();
 
@@ -131,6 +334,10 @@ public class Main {
         //////////////////////////////////////////////////
         //PROPER PROGRAM
         /////////////////////////////////////////////////
+
+        /*ZapisywanieSkladowDoPliku zapis1 = new ZapisywanieSkladowDoPliku();
+        Thread zapisywanie1 = new Thread(zapis1);
+        zapisywanie1.start();*/
         //Menu 0 MENU GLOWNE
         ArrayList<String> menuGlowne = new ArrayList<>(Arrays.asList(
                 "0. Zakoncz dzialanie programu.",

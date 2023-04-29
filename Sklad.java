@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Sklad{
+public class Sklad implements Comparable<Sklad>{
     private static int nrIdentyfikacyjny = 0;
     public static ArrayList<Sklad> sklady = new ArrayList<>();
     private Lokomotywa lokomotywa;
@@ -13,6 +13,7 @@ public class Sklad{
     public Sklad(Lokomotywa lokomotywa) {
         this.lokomotywa = lokomotywa;
         this.miejsce = lokomotywa.getStacjaZrodlowa();
+        lokomotywa.setPredkosc(lokomotywa.getSredniaPredkosc());
 
         this.wagony = new ArrayList<Wagon>();
         this.nrIdentyfikacyjnySkladu = nrIdentyfikacyjny++;
@@ -214,8 +215,13 @@ public class Sklad{
         return false;
     }*/
 
+
     public int getNrIdentyfikacyjnySkladu() {
         return nrIdentyfikacyjnySkladu;
+    }
+
+    public static int getNrIdentyfikacyjny() {
+        return nrIdentyfikacyjny;
     }
 
     public double obliczWageWagonow(){
@@ -265,5 +271,24 @@ public class Sklad{
 
     public Thread getRuchSkladu() {
         return ruchSkladu;
+    }
+
+    @Override
+    public int compareTo(Sklad o) {
+        if(this.getDrogaMiedzyStacjami() - o.getDrogaMiedzyStacjami() > 0){
+            return -1;
+        }else if(this.getDrogaMiedzyStacjami() - o.getDrogaMiedzyStacjami() < 0){
+            return 1;
+        }else
+            return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Sklad o numerze identyfikacyjnym " + nrIdentyfikacyjnySkladu +
+                ": lokomotywa : " + lokomotywa.getNazwa() +
+                ", aktualne miejsce : " + miejsce.getNazwa() +
+                ", droga pozostala do stacji : " + this.drogaMiedzyStacjami +
+                '.';
     }
 }

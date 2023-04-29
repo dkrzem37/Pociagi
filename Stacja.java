@@ -63,6 +63,14 @@ public class Stacja extends Miejsce{
         return polaczenia;
     }
 
+    public String getNazwaStacji() {
+        return nazwaStacji;
+    }
+    @Override
+    public String getNazwa(){
+        return nazwaStacji;
+    }
+
     @Override
     public String toString() {
         return "Nazwa stacji: " + nazwaStacji + '\'' + ", nr identyfikacyjny stacji: " + nrIdentyfikacyjnyStacji + '.';

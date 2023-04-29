@@ -3,6 +3,13 @@ import java.util.Scanner;
 
 
 public abstract class Funkcje {
+    public static boolean czyIstniejePolaczenie(Stacja s1, Stacja s2){
+        for(Polaczenie p: Polaczenie.wszystkiePolaczenia){
+            if((s1 == p.getStacja1() && s2 == p.getStacja2()) || (s1 == p.getStacja2() && s2 == p.getStacja1()))
+                return true;
+        }
+        return false;
+    }
     public static boolean wyborBoolean(){
         System.out.println("0. Tak.");
         System.out.println("1. Nie. ");
@@ -33,9 +40,9 @@ public abstract class Funkcje {
         int numerIdSkladu;
         Sklad sklad;
         do {
-            numerIdSkladu = Funkcje.sprawdzCzyPoprawnyInt(0, Wagon.getNrIdentyfikacyjny(), "Zly numer.");
+            numerIdSkladu = Funkcje.sprawdzCzyPoprawnyInt(0, Sklad.getNrIdentyfikacyjny(), "Zly numer.");
             if ((sklad = Funkcje.zwrocSkladONumerze(numerIdSkladu)) == null)
-                System.out.println("Nie ma takiego wagonu. ");
+                System.out.println("Nie ma takiego skladu. ");
         } while (sklad == null);
         return sklad;
     }
